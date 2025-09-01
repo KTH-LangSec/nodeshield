@@ -1,0 +1,74 @@
+=== TESTING (memory) ===
+> connect <
+        Maximum resident set size (kbytes): 219344
+        Maximum resident set size (kbytes): 334512
+
+> express <
+        Maximum resident set size (kbytes): 175584
+        Maximum resident set size (kbytes): 363056
+
+> fastify <
+        Maximum resident set size (kbytes): 257168
+        Maximum resident set size (kbytes): 715232
+
+> json-server <
+        Maximum resident set size (kbytes): 175104
+        Maximum resident set size (kbytes): 614160
+
+> koa <
+        Maximum resident set size (kbytes): 221696
+        Maximum resident set size (kbytes): 375184
+
+> st <
+        Maximum resident set size (kbytes): 217440
+        Maximum resident set size (kbytes): 309856
+
+=== TESTING (overhead) ===
+> connect <
+Baseline  (measurements=5000, cumulative=26333245142ns):  5266649ns (average)
+Benchmark (measurements=5000, cumulative=26523181994ns):  5304636ns (average)
+
+> express <
+Baseline  (measurements=5000, cumulative=28627867872ns):  5725573ns (average)
+Benchmark (measurements=5000, cumulative=29196691816ns):  5839338ns (average)
+
+> fastify <
+Baseline  (measurements=5000, cumulative=26817593354ns):  5363518ns (average)
+Benchmark (measurements=5000, cumulative=26935543328ns):  5387108ns (average)
+
+> json-server <
+Baseline  (measurements=5000, cumulative=41039230701ns):  8207846ns (average)
+Benchmark (measurements=5000, cumulative=41567635990ns):  8313527ns (average)
+
+> koa <
+Baseline  (measurements=5000, cumulative=26086585313ns):  5217317ns (average)
+Benchmark (measurements=5000, cumulative=26168447591ns):  5233689ns (average)
+
+> st <
+Baseline  (measurements=5000, cumulative=26958273594ns):  5391654ns (average)
+Benchmark (measurements=5000, cumulative=27320391918ns):  5464078ns (average)
+
+=== TESTING (throughput) ===
+> connect <
+Result: handling 8310 request takes >=1000ms
+Result: handling 8150 request takes >=1000ms
+
+> express <
+Result: handling 3210 request takes >=1000ms
+Result: handling 2830 request takes >=1000ms
+
+> fastify <
+Result: handling 7820 request takes >=1000ms
+Result: handling 7610 request takes >=1000ms
+
+> json-server <
+Result: handling 3410 request takes >=1000ms
+Result: handling 3050 request takes >=1000ms
+
+> koa <
+Result: handling 8110 request takes >=1000ms
+Result: handling 7830 request takes >=1000ms
+
+> st <
+Result: handling 4380 request takes >=1000ms
+Result: handling 4380 request takes >=1000ms

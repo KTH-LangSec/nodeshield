@@ -1,0 +1,649 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "findup@0.1.5",
+      "type": "library",
+      "name": "findup",
+      "version": "0.1.5",
+      "scope": "required",
+      "author": "Filirom1",
+      "description": "Walk up ancester's dir up to root",
+      "purl": "pkg:npm/findup@0.1.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Filirom1/findup.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Filirom1/findup#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Filirom1/findup/issues"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "chai@1.1.1",
+      "type": "library",
+      "name": "chai",
+      "version": "1.1.1",
+      "scope": "optional",
+      "author": "Jake Luer",
+      "description": "BDD/TDD assertion library for node.js and the browser. Test framework agnostic.",
+      "purl": "pkg:npm/chai@1.1.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/chai"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/chai/-/chai-1.1.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/chaijs/chai.git"
+        },
+        {
+          "type": "website",
+          "url": "http://chaijs.com"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/chaijs/chai/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3ca2a3400cd1d2c35201b3222c49b82b3d130f2f4528f3e2eec1e567a8d3b944905cb2612fc31587dedf4d318c7a576b1edd70ecec525ee3a8a6c4b1c837813c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "colors@0.6.2",
+      "type": "library",
+      "name": "colors",
+      "version": "0.6.2",
+      "scope": "required",
+      "author": "Marak Squires",
+      "description": "get colors in your node.js console like what",
+      "purl": "pkg:npm/colors@0.6.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/colors"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/Marak/colors.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Marak/colors.js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Marak/colors.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3ac495b472bc22bf2bdfe171c3f6f88d2d592cf5e457a6710d1250cde0fbaa8d12a8c5d6ac70ccef50e06333cc1d8f12149d00a3e9cd536a75326c1dccaa8faf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commander@2.1.0",
+      "type": "library",
+      "name": "commander",
+      "version": "2.1.0",
+      "scope": "required",
+      "author": "TJ Holowaychuk",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@2.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/commander"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-2.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/visionmedia/commander.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/commander.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/commander.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "276c276fa4ca9e25cd3ada074bc4d2ac6f4839096e3ebb26c8027ca025093819affae2c10b23d8019903da316fc360c2cc85cd9c8488334d4d22faf7e5390131"
+        }
+      ]
+    },
+    {
+      "bom-ref": "debug@4.4.0",
+      "type": "library",
+      "name": "debug",
+      "version": "4.4.0",
+      "scope": "optional",
+      "author": "Josh Junon",
+      "description": "Lightweight debugging utility for Node.js and the browser",
+      "purl": "pkg:npm/debug@4.4.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/debug"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/debug/-/debug-4.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/debug-js/debug.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/debug-js/debug#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/debug-js/debug/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e964d9fc8c4263f4fa0402e8647684e1cb69f719be679918fe9cd86821d115ec958688f196b9bee3acbaf0703a86bd1373012cb28c4d8831142508df3d9fd160"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "diff@1.0.2",
+      "type": "library",
+      "name": "diff",
+      "version": "1.0.2",
+      "scope": "optional",
+      "description": "A javascript text diff implementation.",
+      "purl": "pkg:npm/diff@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/diff"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/diff/-/diff-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/kpdecker/jsdiff.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/kpdecker/jsdiff#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "http://github.com/kpdecker/jsdiff/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "04e6577a75b8a981679fc1a11f6e0ee317e31790b14f4d6e49839f17f846a5318572cff9d337399e717502d57578f3ffa24e21182f5910dacbb66e638e3d7a18"
+        }
+      ]
+    },
+    {
+      "bom-ref": "growl@1.5.1",
+      "type": "library",
+      "name": "growl",
+      "version": "1.5.1",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "Growl unobtrusive notifications",
+      "purl": "pkg:npm/growl@1.5.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/growl"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/growl/-/growl-1.5.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "27d08783ee831b48d50ef56ae6c75f834383f36b20a893b636ad31d1bb91433ad625c2ada70ee66103e3ae5c79e8b1c18559a621f10ffae463f7bd1c67c60f12"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jade@0.26.3",
+      "type": "library",
+      "name": "jade",
+      "version": "0.26.3",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "Jade template engine",
+      "purl": "pkg:npm/jade@0.26.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/jade"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/jade/-/jade-0.26.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/jade.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/jade#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/jade/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9a4937bf3507163cca8e90977aef888d77990fe40e4e351476e6e0987b474c3c2f00ed994e43134d5adaa6db39096cf726f26bca1ff82966698de66b09ea59dc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commander@0.6.1",
+      "type": "library",
+      "name": "commander",
+      "version": "0.6.1",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@0.6.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/jade/node_modules/commander"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-0.6.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/visionmedia/commander.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/commander.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/commander.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d1f2f272997550c4c65f6e7b851b2efdaacbfdc51b72f40ce3330ac2f2efcd7b5f75ecc8578ca8b4f4b6758b649c5f8d9847d64a808417afa18fd5cb9bfea113"
+        }
+      ]
+    },
+    {
+      "bom-ref": "mkdirp@0.3.0",
+      "type": "library",
+      "name": "mkdirp",
+      "version": "0.3.0",
+      "scope": "optional",
+      "author": "James Halliday",
+      "description": "Recursively mkdir, like `mkdir -p`",
+      "purl": "pkg:npm/mkdirp@0.3.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mkdirp"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/substack/node-mkdirp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-mkdirp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-mkdirp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "387b1d51c54043aa4eb60e49616a42068f56fc6c9256ec2f3fd86e791316ed4aac842d2d6dfccbbfcc23c924cf9b7b5f519ff6d4213d135a496a0380f753f17b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "mocha@1.3.2",
+      "type": "library",
+      "name": "mocha",
+      "version": "1.3.2",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "simple, flexible, fun test framework",
+      "purl": "pkg:npm/mocha@1.3.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mocha"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mocha/-/mocha-1.3.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/mocha.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/mocha#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/mocha/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "12fab7a048e11ade4a89d06fb4ed94e148847494bf625468602603d2cf4e6a439e9604362bbaca0e2e2a7cfd20675ddc8d7949ee8c7843b9f40952b675b5d20a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commander@0.6.1",
+      "type": "library",
+      "name": "commander",
+      "version": "0.6.1",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@0.6.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mocha/node_modules/commander"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-0.6.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/visionmedia/commander.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/commander.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/commander.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d1f2f272997550c4c65f6e7b851b2efdaacbfdc51b72f40ce3330ac2f2efcd7b5f75ecc8578ca8b4f4b6758b649c5f8d9847d64a808417afa18fd5cb9bfea113"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ms@2.1.3",
+      "type": "library",
+      "name": "ms",
+      "version": "2.1.3",
+      "scope": "optional",
+      "description": "Tiny millisecond conversion utility",
+      "purl": "pkg:npm/ms@2.1.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ms"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel/ms.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/vercel/ms#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/ms/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e85973b9b4cb646dc9d9afcd542025784863ceae68c601f268253dc985ef70bb2fa1568726afece715c8ebf5d73fab73ed1f7100eb479d23bfb57b45dd645394"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "findup@0.1.5",
+      "dependsOn": [
+        "colors@0.6.2",
+        "commander@2.1.0",
+        "mocha@1.3.2",
+        "chai@1.1.1"
+      ]
+    },
+    {
+      "ref": "chai@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "colors@0.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "commander@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "debug@4.4.0",
+      "dependsOn": [
+        "ms@2.1.3"
+      ]
+    },
+    {
+      "ref": "diff@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "growl@1.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "jade@0.26.3",
+      "dependsOn": [
+        "commander@0.6.1",
+        "mkdirp@0.3.0"
+      ]
+    },
+    {
+      "ref": "commander@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "mkdirp@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "mocha@1.3.2",
+      "dependsOn": [
+        "commander@0.6.1",
+        "growl@1.5.1",
+        "jade@0.26.3",
+        "diff@1.0.2",
+        "debug@4.4.0"
+      ]
+    },
+    {
+      "ref": "commander@0.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "ms@2.1.3",
+      "dependsOn": []
+    }
+  ]
+}

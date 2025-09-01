@@ -1,0 +1,883 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "serialize-to-js",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "abbrev@1.1.1",
+      "type": "library",
+      "name": "abbrev",
+      "version": "1.1.1",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "Like ruby's abbrev module, but in js",
+      "purl": "pkg:npm/abbrev@1.1.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/abbrev"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/isaacs/abbrev-js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/abbrev-js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/abbrev-js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9e77bdfc8890fe1cc8858ea97439db06dcfb0e33d32ab634d0fff3bcf4a6e69385925eb1b86ac69d79ff56d4cd35f36d01f67dff546d7a192ccd4f6a7138a2d1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bluebird@3.7.2",
+      "type": "library",
+      "name": "bluebird",
+      "version": "3.7.2",
+      "scope": "required",
+      "author": "Petka Antonov",
+      "description": "Full featured Promises/A+ implementation with exceptionally good performance",
+      "purl": "pkg:npm/bluebird@3.7.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/bluebird"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/petkaantonov/bluebird.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/petkaantonov/bluebird"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "http://github.com/petkaantonov/bluebird/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5e9363e860d0cdd7d6fabd969e7ef189201ded33378f39311970464ed58ab925efd71515f9acf1026f2375664dd3a413424fb63765c1f6344392f6e6426711b6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "commander@2.20.3",
+      "type": "library",
+      "name": "commander",
+      "version": "2.20.3",
+      "scope": "required",
+      "author": "TJ Holowaychuk",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@2.20.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/commander"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/tj/commander.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tj/commander.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/tj/commander.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1a956498cf2f176bd05248f62ef6660f7e49c5e24e2c2c09f5c524ba0ca4da7ba16efdfe989be92d862dfb4f9448cc44fa88fe7b2fe52449e1670ef9c7f38c71"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "config-chain@1.1.13",
+      "type": "library",
+      "name": "config-chain",
+      "version": "1.1.13",
+      "scope": "required",
+      "author": "Dominic Tarr",
+      "description": "HANDLE CONFIGURATION ONCE AND FOR ALL",
+      "purl": "pkg:npm/config-chain@1.1.13",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/config-chain"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/config-chain/-/config-chain-1.1.13.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/dominictarr/config-chain.git"
+        },
+        {
+          "type": "website",
+          "url": "http://github.com/dominictarr/config-chain"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/dominictarr/config-chain/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "aa3f9ff003c04571eb33486b6aa5d86f6fdb395495e0fbc9425359fc3563d10ae634cdaad9eba2ce47ae55c910e7b27e5b49911fa1ef8be939d0ce09ba5d9545"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "editorconfig@0.13.3",
+      "type": "library",
+      "name": "editorconfig",
+      "version": "0.13.3",
+      "scope": "required",
+      "author": "EditorConfig Team",
+      "description": "EditorConfig File Locator and Interpreter for Node.js",
+      "purl": "pkg:npm/editorconfig@0.13.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/editorconfig"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/editorconfig/-/editorconfig-0.13.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/editorconfig/editorconfig-core-js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/editorconfig/editorconfig-core-js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/editorconfig/editorconfig-core-js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5a48ec50d542bbe2132838fbdd00ef8b4b6bbe974359d903c87c9b0c64973df7a42c2ab09a90fb08fee23dbbc1828b0db8b708f7a5d30f035aef9272165eed11"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ini@1.3.8",
+      "type": "library",
+      "name": "ini",
+      "version": "1.3.8",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "An ini encoder/decoder for node",
+      "purl": "pkg:npm/ini@1.3.8",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ini"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/ini.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/ini#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/ini/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "255ff2ba0576bb35b988c4528990320ed41dfa7c6d5278de2edd1a70d770f7c90a2ebbee455c81f34b6c444384ef2bc65606a5859e913570a61079142812b17b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "js-beautify@1.6.14",
+      "type": "library",
+      "name": "js-beautify",
+      "version": "1.6.14",
+      "scope": "required",
+      "author": "Einar Lielmanis",
+      "description": "jsbeautifier.org for node",
+      "purl": "pkg:npm/js-beautify@1.6.14",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/js-beautify"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/js-beautify/-/js-beautify-1.6.14.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/beautify-web/js-beautify.git"
+        },
+        {
+          "type": "website",
+          "url": "http://jsbeautifier.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/beautify-web/js-beautify/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "14c046f29e22ce9ec44f424f675614a02f92784e2141e6cd7501f8d9d1f1d766395ef2a1c91a8472d80312a5e3c9721868db30f80153555bec67742360974b41"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lru-cache@3.2.0",
+      "type": "library",
+      "name": "lru-cache",
+      "version": "3.2.0",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "A cache object that deletes the least-recently-used items.",
+      "purl": "pkg:npm/lru-cache@3.2.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lru-cache"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-3.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/node-lru-cache.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/node-lru-cache#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/node-lru-cache/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f7583238a4dcda4eba506ea41e21f88774b67a5b5c3f013549355f3180bf346fa76707fc208ba26a67e6a46663a5b6f1cd2c8425a2c2d2d3529a18e54144c9a3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "minimist@1.2.8",
+      "type": "library",
+      "name": "minimist",
+      "version": "1.2.8",
+      "scope": "required",
+      "author": "James Halliday",
+      "description": "parse argument options",
+      "purl": "pkg:npm/minimist@1.2.8",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/minimist"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/minimistjs/minimist.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/minimistjs/minimist"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/minimistjs/minimist/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "db2c8047ca8190ddd8ba17896a7529582e54ddb6f9a2c0f2c0d07c4730d5943c031dba1c009bdeaaa8f5bbcf92543ee39164f8cafb070a95aaa96a80c5bd3308"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mkdirp@0.5.6",
+      "type": "library",
+      "name": "mkdirp",
+      "version": "0.5.6",
+      "scope": "required",
+      "author": "James Halliday",
+      "description": "Recursively mkdir, like `mkdir -p`",
+      "purl": "pkg:npm/mkdirp@0.5.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mkdirp"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/substack/node-mkdirp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-mkdirp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-mkdirp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "14ffa9f1107c396a45dd86410ab3f982d0039ad5c0a41e4030b9febddc80f8fcb10a3ac2b34d268f2528cecb0edf77300de4f7c0d19d2f127933ffd8aad1c027"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "nopt@3.0.6",
+      "type": "library",
+      "name": "nopt",
+      "version": "3.0.6",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "Option parsing for Node, supporting types, shorthands, etc. Used by npm.",
+      "purl": "pkg:npm/nopt@3.0.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/nopt"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/nopt.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/npm/nopt#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/npm/nopt/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e0652dde4484626938213c7307f6fdbda2037d455637f325d45c25d752259c81b689a27d3ba59767d4ab60cf4d2c8f0e08189e37663c4960b6a09574450eea62"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "proto-list@1.2.4",
+      "type": "library",
+      "name": "proto-list",
+      "version": "1.2.4",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "A utility for managing a prototype chain",
+      "purl": "pkg:npm/proto-list@1.2.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/proto-list"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/proto-list/-/proto-list-1.2.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/proto-list.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/proto-list#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/proto-list/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bed2bff786a4c6c4cc85ed3f71b7e947eb323eeb3372ec21a958c9ab6e82b8d0e01468faf36a1105738fe4c269bf6afb26d13c32c89ea4622abef3930709f6bc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pseudomap@1.0.2",
+      "type": "library",
+      "name": "pseudomap",
+      "version": "1.0.2",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "A thing that is a lot like ES6 `Map`, but without iterators, for use in environments where `for..of` syntax and `Map` are not available.",
+      "purl": "pkg:npm/pseudomap@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/pseudomap"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/pseudomap.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/pseudomap#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/pseudomap/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6ff6303616fc964d59cf6f9b5d7a52fcb2bd3a2b22659d5236c48bc4dd71d8e5d51215b60a4affee6584e6fac2d594e22650fd835f635accd3989b01fa812915"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "semver@5.7.2",
+      "type": "library",
+      "name": "semver",
+      "version": "5.7.2",
+      "scope": "required",
+      "author": "GitHub Inc.",
+      "description": "The semantic version parser used by npm.",
+      "purl": "pkg:npm/semver@5.7.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/semver"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/node-semver.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/npm/node-semver#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/npm/node-semver/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "701ce79d0f4a8c9a94ebb079d91302eb908c6ab2b6eb4d161676e471a8b05aadf1cbfe61685265b21827a63a2f31527e1df7f8f5df06127d1bf3b0b9a43435d2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "serialize-to-js@0.5.0",
+      "type": "library",
+      "name": "serialize-to-js",
+      "version": "0.5.0",
+      "scope": "required",
+      "author": "commenthol",
+      "description": "serialize objects to javascript",
+      "purl": "pkg:npm/serialize-to-js@0.5.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/serialize-to-js"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/serialize-to-js/-/serialize-to-js-0.5.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/commenthol/serialize-to-js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/commenthol/serialize-to-js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/commenthol/serialize-to-js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1c54d4b98686aa469bb4a4dc36256f56e7b9c456b0d979c8acb1efd773ea71b93aa4e993cb9aaf3dc7b108f787c6e86cf4971f902977505f5c0065fb331f6d73"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "sigmund@1.0.1",
+      "type": "library",
+      "name": "sigmund",
+      "version": "1.0.1",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "Quick and dirty signatures for Objects.",
+      "purl": "pkg:npm/sigmund@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/sigmund"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/sigmund.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/sigmund#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/sigmund/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7c2bc45df87a356a66f984ae6366e95dbfd522286a580ea12ec81ba02fb49e5ef543b37ba3679a096f2625afcd2ef421b3a8e9777559578522510955ebe95cf2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "serialize-to-js@0.5.0"
+      ]
+    },
+    {
+      "ref": "abbrev@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "bluebird@3.7.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "commander@2.20.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "config-chain@1.1.13",
+      "dependsOn": [
+        "proto-list@1.2.4",
+        "ini@1.3.8"
+      ]
+    },
+    {
+      "ref": "editorconfig@0.13.3",
+      "dependsOn": [
+        "bluebird@3.7.2",
+        "commander@2.20.3",
+        "lru-cache@3.2.0",
+        "semver@5.7.2",
+        "sigmund@1.0.1"
+      ]
+    },
+    {
+      "ref": "ini@1.3.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "js-beautify@1.6.14",
+      "dependsOn": [
+        "config-chain@1.1.13",
+        "editorconfig@0.13.3",
+        "mkdirp@0.5.6",
+        "nopt@3.0.6"
+      ]
+    },
+    {
+      "ref": "lru-cache@3.2.0",
+      "dependsOn": [
+        "pseudomap@1.0.2"
+      ]
+    },
+    {
+      "ref": "minimist@1.2.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "mkdirp@0.5.6",
+      "dependsOn": [
+        "minimist@1.2.8"
+      ]
+    },
+    {
+      "ref": "nopt@3.0.6",
+      "dependsOn": [
+        "abbrev@1.1.1"
+      ]
+    },
+    {
+      "ref": "proto-list@1.2.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pseudomap@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "semver@5.7.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "serialize-to-js@0.5.0",
+      "dependsOn": [
+        "js-beautify@1.6.14"
+      ]
+    },
+    {
+      "ref": "sigmund@1.0.1",
+      "dependsOn": []
+    }
+  ]
+}

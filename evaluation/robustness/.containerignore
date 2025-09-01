@@ -1,0 +1,9 @@
+# Ignore file for OCI containers (https://docs.docker.com/reference/dockerfile/)
+
+.containerignore
+.dockerignore
+Containerfile
+README.md
+SNAPSHOT
+container.sh
+node_policy.json

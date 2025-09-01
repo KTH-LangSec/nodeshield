@@ -1,0 +1,14 @@
+diff --git a/bin/dox b/bin/dox
+index 91b9920..769dac9 100755
+--- a/bin/dox
++++ b/bin/dox
+@@ -38,6 +38,9 @@ program.parse(process.argv);
+ 
+ // process stdin
+ 
++var millisecondsToWait = 5000;
++setTimeout(function () { }, millisecondsToWait);
++
+ var buf = '';
+ process.stdin.setEncoding('utf8');
+ process.stdin.on('data', function(chunk){ buf += chunk; });

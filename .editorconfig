@@ -1,0 +1,25 @@
+# Configuration file for EditorConfig (https://editorconfig.org/)
+
+root=true
+
+[*]
+charset=utf-8
+insert_final_newline=true
+max_line_length=80
+trim_trailing_whitespace=true
+
+[*.{cjs,js,mjs}]
+indent_size=2
+indent_style=tab
+
+[*.json]
+indent_size=2
+indent_style=space
+
+[*.sh]
+indent_size=2
+indent_style=tab
+
+[{Containerfile,Makefile}]
+indent_size=4
+indent_style=tab

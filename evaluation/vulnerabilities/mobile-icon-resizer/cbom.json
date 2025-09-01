@@ -1,0 +1,33 @@
+{
+  "demo@1.0.0": [
+    "file-system",
+    "system"
+  ],
+  "mobile-icon-resizer@0.4.0": [
+    "command",
+    "system",
+    "code"
+  ],
+  "async@0.2.10": [
+    "system"
+  ],
+  "optimist@0.6.1": [
+    "file-system",
+    "system",
+    "command"
+  ],
+  "wordwrap@0.0.3": [
+    "file-system"
+  ],
+  "minimist@0.0.10": [
+    "system"
+  ],
+  "mkdirp@0.3.5": [
+    "file-system",
+    "system"
+  ],
+  "image-size@0.2.5": [
+    "file-system",
+    "system"
+  ]
+}

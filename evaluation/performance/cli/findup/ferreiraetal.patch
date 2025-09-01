@@ -1,0 +1,24 @@
+diff --git a/bin/findup.js b/bin/findup.js
+index c9073c4..27e1885 100755
+--- a/bin/findup.js
++++ b/bin/findup.js
+@@ -7,7 +7,7 @@ var findup = require('..'),
+   options = {},
+   optionKeys = ['name', 'dir', 'verbose'],
+   EXIT_FAILURE = -1;
+-  
++
+   program
+     .version(pkg.version)
+     .option('--name <name>', 'The name of the file to find', String)
+@@ -30,6 +30,10 @@ if(!options.name) {
+ 
+ var file = options.name;
+ 
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
+ findup(process.cwd(), file, options, function(err, dir){
+   if(err) return console.error(err.message ? err.message : err);
+   console.log(path.join(dir, file));

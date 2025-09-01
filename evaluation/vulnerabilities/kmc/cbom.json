@@ -1,0 +1,60 @@
+{
+  "demo@1.0.0": [
+    "file-system",
+    "system"
+  ],
+  "kmc@1.2.2": [
+    "file-system",
+    "system",
+    "code"
+  ],
+  "iconv-lite@0.6.3": [
+    "system"
+  ],
+  "safer-buffer@2.1.2": [
+    "system"
+  ],
+  "colors@1.4.0": [
+    "system"
+  ],
+  "lodash@4.17.21": [
+    "system",
+    "code"
+  ],
+  "uglify-js@2.8.29": [
+    "file-system",
+    "addon",
+    "system",
+    "code",
+    "network"
+  ],
+  "source-map@0.5.7": [
+    "addon"
+  ],
+  "yargs@3.10.0": [
+    "system",
+    "file-system"
+  ],
+  "camelcase@1.2.1": [],
+  "cliui@2.1.0": [],
+  "center-align@0.1.3": [],
+  "align-text@0.1.4": [],
+  "kind-of@3.2.2": [],
+  "is-buffer@1.1.6": [],
+  "longest@1.0.1": [],
+  "repeat-string@1.6.1": [],
+  "lazy-cache@1.0.4": [
+    "system"
+  ],
+  "right-align@0.1.3": [],
+  "wordwrap@0.0.2": [
+    "file-system"
+  ],
+  "decamelize@1.2.0": [],
+  "window-size@0.1.0": [
+    "system"
+  ],
+  "uglify-to-browserify@1.0.2": [
+    "file-system"
+  ]
+}

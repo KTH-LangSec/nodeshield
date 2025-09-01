@@ -1,0 +1,8 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "node-rules": "3.0.0"
+  }
+}

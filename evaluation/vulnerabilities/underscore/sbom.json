@@ -1,0 +1,96 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "underscore",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "underscore@1.13.0-0",
+      "type": "library",
+      "name": "underscore",
+      "version": "1.13.0-0",
+      "scope": "required",
+      "author": "Jeremy Ashkenas",
+      "description": "JavaScript's functional programming helper library.",
+      "purl": "pkg:npm/underscore@1.13.0-0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/underscore"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.0-0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jashkenas/underscore.git"
+        },
+        {
+          "type": "website",
+          "url": "https://underscorejs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jashkenas/underscore/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "873331d07214fea7728332178d105e5a4986313b939584eb0a2a81c24781013645be7b4e0f54969b0dd9ec2916584a302060c8c5cfb5b96145c1f2bf7b1bc80f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "underscore@1.13.0-0"
+      ]
+    },
+    {
+      "ref": "underscore@1.13.0-0",
+      "dependsOn": []
+    }
+  ]
+}

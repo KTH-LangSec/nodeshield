@@ -1,0 +1,8 @@
+# Ignore file for OCI containers (https://docs.docker.com/reference/dockerfile/)
+
+**/node_modules/
+**/.cli/
+**/*.tar
+**/*.tgz
+
+.dockerignore

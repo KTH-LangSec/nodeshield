@@ -1,0 +1,1 @@
+./bin/json2csv.js -i ../input.json -o ../output.csv

@@ -1,0 +1,193 @@
+{
+  "cfb@1.1.0": [
+    "file-system",
+    "system"
+  ],
+  "adler-32@1.2.0": [
+    "file-system",
+    "system"
+  ],
+  "printj@1.1.2": [
+    "system",
+    "code"
+  ],
+  "exit-on-epipe@1.0.1": [
+    "system"
+  ],
+  "commander@2.20.3": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "crc-32@1.2.2": [
+    "file-system",
+    "system"
+  ],
+  "@sheetjs/uglify-js@2.7.4": [
+    "file-system",
+    "addon",
+    "system",
+    "code",
+    "network"
+  ],
+  "async@0.2.10": [
+    "system"
+  ],
+  "source-map@0.5.7": [
+    "addon"
+  ],
+  "uglify-to-browserify@1.0.2": [
+    "file-system"
+  ],
+  "yargs@3.10.0": [
+    "system",
+    "file-system"
+  ],
+  "camelcase@1.2.1": [],
+  "cliui@2.1.0": [],
+  "center-align@0.1.3": [],
+  "align-text@0.1.4": [],
+  "kind-of@3.2.2": [],
+  "is-buffer@1.1.6": [],
+  "longest@1.0.1": [],
+  "repeat-string@1.6.1": [],
+  "lazy-cache@1.0.4": [
+    "system"
+  ],
+  "right-align@0.1.3": [],
+  "wordwrap@0.0.2": [
+    "file-system"
+  ],
+  "decamelize@1.2.0": [],
+  "window-size@0.1.0": [
+    "system"
+  ],
+  "@types/commander@2.12.0": [],
+  "@types/node@8.10.66": [],
+  "blanket@1.2.3": [
+    "network",
+    "system",
+    "code",
+    "file-system"
+  ],
+  "acorn@1.2.2": [
+    "file-system",
+    "system",
+    "code",
+    "network"
+  ],
+  "falafel@1.2.0": [
+    "code",
+    "system"
+  ],
+  "foreach@2.0.6": [],
+  "isarray@0.0.1": [],
+  "object-keys@1.1.1": [],
+  "xtend@4.0.2": [],
+  "dtslint@0.1.2": [
+    "command",
+    "system"
+  ],
+  "fs-promise@2.0.3": [
+    "file-system",
+    "system"
+  ],
+  "any-promise@1.3.0": [
+    "system"
+  ],
+  "fs-extra@2.1.2": [
+    "system",
+    "file-system"
+  ],
+  "graceful-fs@4.2.11": [
+    "file-system",
+    "system"
+  ],
+  "jsonfile@2.4.0": [
+    "file-system"
+  ],
+  "mz@2.7.0": [
+    "command",
+    "system",
+    "crypto",
+    "network",
+    "file-system"
+  ],
+  "object-assign@4.1.1": [],
+  "thenify-all@1.6.0": [],
+  "thenify@3.3.1": [],
+  "parsimmon@1.18.1": [],
+  "strip-json-comments@2.0.1": [],
+  "tsutils@1.9.1": [],
+  "typescript@2.2.0": [
+    "file-system",
+    "system",
+    "crypto",
+    "code",
+    "network",
+    "command"
+  ],
+  "mocha@2.5.3": [
+    "system",
+    "file-system",
+    "command"
+  ],
+  "commander@2.3.0": [
+    "command",
+    "system"
+  ],
+  "debug@2.2.0": [
+    "file-system",
+    "network",
+    "system"
+  ],
+  "ms@0.7.1": [],
+  "diff@1.4.0": [],
+  "escape-string-regexp@1.0.2": [],
+  "glob@3.2.11": [
+    "file-system",
+    "system",
+    "command",
+    "code"
+  ],
+  "inherits@2.0.4": [],
+  "minimatch@0.3.0": [
+    "system"
+  ],
+  "lru-cache@2.7.3": [
+    "system"
+  ],
+  "sigmund@1.0.1": [
+    "network"
+  ],
+  "growl@1.9.2": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "jade@0.26.3": [
+    "file-system",
+    "system",
+    "code",
+    "addon",
+    "network"
+  ],
+  "commander@0.6.1": [
+    "system"
+  ],
+  "mkdirp@0.3.0": [
+    "file-system",
+    "system"
+  ],
+  "mkdirp@0.5.1": [
+    "file-system",
+    "system"
+  ],
+  "minimist@0.0.8": [
+    "system"
+  ],
+  "supports-color@1.2.0": [
+    "system"
+  ],
+  "to-iso-string@0.0.2": []
+}

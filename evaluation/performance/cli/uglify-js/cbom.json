@@ -1,0 +1,28 @@
+{
+  "uglify-js@3.4.7": [
+    "file-system",
+    "addon",
+    "system",
+    "code",
+    "crypto",
+    "command",
+    "network"
+  ],
+  "commander@2.16.0": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "source-map@0.6.1": [
+    "addon"
+  ],
+  "acorn@5.7.4": [
+    "network",
+    "system",
+    "code",
+    "file-system"
+  ],
+  "semver@5.5.1": [
+    "system"
+  ]
+}

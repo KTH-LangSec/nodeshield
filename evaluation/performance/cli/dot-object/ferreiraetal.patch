@@ -1,0 +1,28 @@
+diff --git a/bin/dot-object b/bin/dot-object
+index 3211d5b..f8b16c2 100755
+--- a/bin/dot-object
++++ b/bin/dot-object
+@@ -88,9 +88,9 @@ function processFile(file) {
+         console.log(dotob.dot(json));
+         process.exit()
+       }
+-      
++
+       json = Array.isArray(json) ? json : [json];
+-      
++
+       if(program.remove) {
+         // support comma seperate list of removals
+         splim(program.remove)
+@@ -129,5 +129,9 @@ function processFile(file) {
+     }
+   });
+ }
+-
+-g.on('match', processFile);
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  g.on('match', processFile);
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
++//g.on('match', processFile);

@@ -1,0 +1,21 @@
+FROM docker.io/node:20.15.1-alpine3.20
+
+ENV NODE_SHIELD_CONTAINER=1 \
+	npm_package_description='A Secure Bitcoin Wallet'
+
+RUN apk update \
+ && apk upgrade \
+ && apk add --no-cache \
+	git tar
+
+WORKDIR /home/case-study
+COPY ./ ./
+RUN cd .cli/ \
+ && npm clean-install
+RUN git clone https://github.com/mysticatea/npm-run-all.git \
+ && cp ./package-lock.json npm-run-all/package-lock.json \
+ && cd npm-run-all/ \
+ && git checkout v4.1.2 \
+ && npm clean-install
+
+ENTRYPOINT ["/bin/sh"]

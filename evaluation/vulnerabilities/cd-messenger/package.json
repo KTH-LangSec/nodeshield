@@ -1,0 +1,8 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cd-messenger": "2.7.24"
+  }
+}

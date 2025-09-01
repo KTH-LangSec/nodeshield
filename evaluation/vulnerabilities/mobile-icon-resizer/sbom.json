@@ -1,0 +1,396 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "mobile-icon-resizer",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "async@0.2.10",
+      "type": "library",
+      "name": "async",
+      "version": "0.2.10",
+      "scope": "required",
+      "author": "Caolan McMahon",
+      "description": "Higher-order functions and common patterns for asynchronous code",
+      "purl": "pkg:npm/async@0.2.10",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/async"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/async/-/async-0.2.10.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/caolan/async.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/caolan/async#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/caolan/async/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "78091da0ac54ebf2e42830732e94feb7a15fe44b5f485e30c7559f2623c4115ed634b9c36915e4d28572b2210f9b6eb6ae869a72119ec7052ff785a14a03794d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "image-size@0.2.5",
+      "type": "library",
+      "name": "image-size",
+      "version": "0.2.5",
+      "scope": "required",
+      "author": "netroy",
+      "description": "get dimensions of any image file",
+      "purl": "pkg:npm/image-size@0.2.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/image-size"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/image-size/-/image-size-0.2.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/netroy/image-size.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/netroy/image-size#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/netroy/image-size/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9871dba00e173c9a0f2d3628729645f6afb6b031cca4c168c564ad02fb6f0f488137069b7ed31c77f90d2c6ea7e2cb5a7ac0cc5711d21bc8784792e1b9b8b0f3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "minimist@0.0.10",
+      "type": "library",
+      "name": "minimist",
+      "version": "0.0.10",
+      "scope": "required",
+      "author": "James Halliday",
+      "description": "parse argument options",
+      "purl": "pkg:npm/minimist@0.0.10",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/minimist"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/minimist.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/minimist"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/minimist/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8a8b644efc5cf93c0e9b921e8a6f159d236f0838c22bd4bc1b7b1c279d19b61b294b16bb8f1e748e485876eb80b408ef7c35304a03b07fcf887fdf4094e121cb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mkdirp@0.3.5",
+      "type": "library",
+      "name": "mkdirp",
+      "version": "0.3.5",
+      "scope": "required",
+      "author": "James Halliday",
+      "description": "Recursively mkdir, like `mkdir -p`",
+      "purl": "pkg:npm/mkdirp@0.3.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mkdirp"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/substack/node-mkdirp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-mkdirp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-mkdirp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f0e0aad037bf87d671b1eab3087f0ac3f16295fe6917fbcc23af811fb2eed235f3da9a980a34c0411a254b14488be031fa80828e5c6824c3f4610e1796b40d1e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mobile-icon-resizer@0.4.0",
+      "type": "library",
+      "name": "mobile-icon-resizer",
+      "version": "0.4.0",
+      "scope": "required",
+      "author": "Tiago Alves",
+      "description": "Batch iOS and Android icon resizing tool.",
+      "purl": "pkg:npm/mobile-icon-resizer@0.4.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mobile-icon-resizer"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mobile-icon-resizer/-/mobile-icon-resizer-0.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/muzzley/mobile-icon-resizer.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/muzzley/mobile-icon-resizer#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/muzzley/mobile-icon-resizer/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "07fee3b5a5868f046ee231453836cef66f43bee3bfbf141609981074d36056bfc6200f84d1fe58bf77e75e06a700c8f8860c64b693256c829161586ee3ea1b74"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "optimist@0.6.1",
+      "type": "library",
+      "name": "optimist",
+      "version": "0.6.1",
+      "scope": "required",
+      "author": "James Halliday",
+      "description": "Light-weight option parsing with an argv hash. No optstrings attached.",
+      "purl": "pkg:npm/optimist@0.6.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/optimist"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/substack/node-optimist.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-optimist#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-optimist/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b273783b84e48a0ba36698562cdd04fff9d09a6efbf74458684e770dd2fb658c1e7b60fc0c3a3dfc4c9888a51f377ae77965238499ee7a28dadc6f48da2d21de"
+        }
+      ]
+    },
+    {
+      "bom-ref": "wordwrap@0.0.3",
+      "type": "library",
+      "name": "wordwrap",
+      "version": "0.0.3",
+      "scope": "required",
+      "author": "James Halliday",
+      "description": "Wrap those words. Show them at what columns to start and stop.",
+      "purl": "pkg:npm/wordwrap@0.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/wordwrap"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/node-wordwrap.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-wordwrap#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-wordwrap/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d6d300f74efe578426c55edd6d1bdbe3ff0c69100b2baabd01b89dde774c6276f2a3ca628ac0a678e355a95497a9003729a3f848bb796fbb9de84daca8ff1317"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "mobile-icon-resizer@0.4.0"
+      ]
+    },
+    {
+      "ref": "async@0.2.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "image-size@0.2.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "minimist@0.0.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "mkdirp@0.3.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "mobile-icon-resizer@0.4.0",
+      "dependsOn": [
+        "async@0.2.10",
+        "optimist@0.6.1",
+        "mkdirp@0.3.5",
+        "image-size@0.2.5"
+      ]
+    },
+    {
+      "ref": "optimist@0.6.1",
+      "dependsOn": [
+        "wordwrap@0.0.3",
+        "minimist@0.0.10"
+      ]
+    },
+    {
+      "ref": "wordwrap@0.0.3",
+      "dependsOn": []
+    }
+  ]
+}

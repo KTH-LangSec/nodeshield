@@ -1,0 +1,280 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "uglify-js@3.4.7",
+      "type": "library",
+      "name": "uglify-js",
+      "version": "3.4.7",
+      "scope": "required",
+      "author": "Mihai Bazon",
+      "description": "JavaScript parser, mangler/compressor and beautifier toolkit",
+      "purl": "pkg:npm/uglify-js@3.4.7",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mishoo/UglifyJS2.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mishoo/UglifyJS2#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mishoo/UglifyJS2/issues"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "acorn@5.7.4",
+      "type": "library",
+      "name": "acorn",
+      "version": "5.7.4",
+      "scope": "optional",
+      "description": "ECMAScript parser",
+      "purl": "pkg:npm/acorn@5.7.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/acorn"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/acornjs/acorn.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/acornjs/acorn"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/acornjs/acorn/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d43fbe546ec186bb6f42935b073a2f28d73514b186104fe819eedbf71266fd11473017946941a996e57d44b8d96b8ed815d3dc0c07a7118baaf6940f70c74b26"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "commander@2.16.0",
+      "type": "library",
+      "name": "commander",
+      "version": "2.16.0",
+      "scope": "required",
+      "author": "TJ Holowaychuk",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@2.16.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/commander"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-2.16.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/tj/commander.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tj/commander.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/tj/commander.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b155ea92549aa2d2bd6ade37eec165169c8e709a27c5ed32493fc01bd0e440a51d204e88a8620cbf849f01048a6896d2755109608b40482ac1895407ab51d07b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "semver@5.5.1",
+      "type": "library",
+      "name": "semver",
+      "version": "5.5.1",
+      "scope": "optional",
+      "description": "The semantic version parser used by npm.",
+      "purl": "pkg:npm/semver@5.5.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/semver"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/semver/-/semver-5.5.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/node-semver.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/npm/node-semver#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/npm/node-semver/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3eaa40c5fac48654945a07bc770229e2d667436e4320eb61a62687348b61b23105403e84bea50a50333b2fc3b6ad286415c718a35563251d1ca167cd902b9b47"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "source-map@0.6.1",
+      "type": "library",
+      "name": "source-map",
+      "version": "0.6.1",
+      "scope": "required",
+      "author": "Nick Fitzgerald",
+      "description": "Generates and consumes source maps",
+      "purl": "pkg:npm/source-map@0.6.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/source-map"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/mozilla/source-map.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mozilla/source-map"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mozilla/source-map/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "52381aa6e99695b3219018334fb624739617513e3a17488abbc4865ead1b7303f9773fe1d0f963e9e9c9aa3cf565bab697959aa989eb55bc16396332177178ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "uglify-js@3.4.7",
+      "dependsOn": [
+        "commander@2.16.0",
+        "source-map@0.6.1",
+        "acorn@5.7.4",
+        "semver@5.5.1"
+      ]
+    },
+    {
+      "ref": "acorn@5.7.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "commander@2.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "semver@5.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "source-map@0.6.1",
+      "dependsOn": []
+    }
+  ]
+}

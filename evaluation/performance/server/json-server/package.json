@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npm run start-tool",
+    "start-coverage": "nyc --all --exclude-node-modules=false npm run start-vanilla",
+    "start-tool": "sh ./_tool_server.sh",
+    "start-vanilla": "node ./lib/cli/bin.js --watch db.json --port 3000 --host 0.0.0.0",
+    "generate-sbom": "npm sbom --sbom-format cyclonedx >./sbom.json",
+    "generate-cbom": "node .cli/src/cli.js --sbom sbom.json --strategy log --build-only --cbom-output cbom.json -- ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.2",
+    "compression": "^1.7.4",
+    "connect-pause": "^0.1.1",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-urlrewrite": "^1.4.0",
+    "json-parse-helpfulerror": "^1.0.3",
+    "lodash": "^4.17.21",
+    "lodash-id": "^0.14.1",
+    "lowdb": "^1.0.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.23",
+    "please-upgrade-node": "^3.2.0",
+    "pluralize": "^8.0.0",
+    "server-destroy": "^1.0.1",
+    "yargs": "^17.0.1"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}

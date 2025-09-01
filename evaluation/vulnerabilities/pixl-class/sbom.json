@@ -1,0 +1,96 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "pixl-class",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pixl-class@1.0.0",
+      "type": "library",
+      "name": "pixl-class",
+      "version": "1.0.0",
+      "scope": "required",
+      "author": "Joseph Huckaby",
+      "description": "A simple module for creating classes, with inheritance and mixins.",
+      "purl": "pkg:npm/pixl-class@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/pixl-class"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/pixl-class/-/pixl-class-1.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/jhuckaby/pixl-class.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jhuckaby/pixl-class"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jhuckaby/pixl-class/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "917cb617477eaf65cb9ca53d1972926a2bc465d0e093dbc11e9298ac1367437a05c6f9d52e9a6dc01363a4f980aaa7cbfd30c9c80891795c8726743211be0333"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "pixl-class@1.0.0"
+      ]
+    },
+    {
+      "ref": "pixl-class@1.0.0",
+      "dependsOn": []
+    }
+  ]
+}

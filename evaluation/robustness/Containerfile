@@ -1,0 +1,12 @@
+FROM docker.io/node:20.15.1-alpine3.20
+
+ENV NODE_SHIELD_CONTAINER=1 \
+    # Allow for running the vulnerabilities
+    DANGEROUS_RUN_VULN=1
+
+WORKDIR /home/robustness
+COPY ./ ./
+RUN cd .cli \
+ && npm clean-install
+
+ENTRYPOINT ["/bin/sh"]

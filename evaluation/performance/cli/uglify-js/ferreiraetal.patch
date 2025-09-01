@@ -1,0 +1,15 @@
+diff --git a/bin/uglifyjs b/bin/uglifyjs
+index 62c7beb3..dbff7ad6 100755
+--- a/bin/uglifyjs
++++ b/bin/uglifyjs
+@@ -206,6 +206,10 @@ function run() {
+     } catch (ex) {
+         fatal(ex);
+     }
++      var millisecondsToWait = 5000;
++  setTimeout(function() {
++  // Whatever you want to do after the wait
++  }, millisecondsToWait);
+     var result = UglifyJS.minify(files, options);
+     if (result.error) {
+         var ex = result.error;

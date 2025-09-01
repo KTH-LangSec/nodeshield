@@ -1,0 +1,80 @@
+# Configuration file for git (https://git-scm.com/docs/gitmodules)
+
+[submodule "evaluation/case-study/npm-run-all"]
+	path = evaluation/case-study/npm-run-all
+	url = https://github.com/mysticatea/npm-run-all.git
+[submodule "evaluation/performance/cli/d3-dsv/d3-dsv"]
+	path = evaluation/performance/cli/d3-dsv/d3-dsv
+	url = https://github.com/d3/d3-dsv.git
+[submodule "evaluation/performance/cli/docco/docco"]
+	path = evaluation/performance/cli/docco/docco
+	url = https://github.com/jashkenas/docco.git
+[submodule "evaluation/performance/cli/dot-object/dot-object"]
+	path = evaluation/performance/cli/dot-object/dot-object
+	url = https://github.com/rhalff/dot-object.git
+[submodule "evaluation/performance/cli/dox/dox"]
+	path = evaluation/performance/cli/dox/dox
+	url = https://github.com/tj/dox.git
+[submodule "evaluation/performance/cli/findup/findup"]
+	path = evaluation/performance/cli/findup/findup
+	url = https://github.com/Filirom1/findup.git
+[submodule "evaluation/performance/cli/html-minifier/html-minifier"]
+	path = evaluation/performance/cli/html-minifier/html-minifier
+	url = https://github.com/kangax/html-minifier.git
+[submodule "evaluation/performance/cli/js-cfb/js-cfb"]
+	path = evaluation/performance/cli/js-cfb/js-cfb
+	url = https://github.com/SheetJS/js-cfb.git
+[submodule "evaluation/performance/cli/json-refs/json-refs"]
+	path = evaluation/performance/cli/json-refs/json-refs
+	url = https://github.com/whitlockjc/json-refs.git
+[submodule "evaluation/performance/cli/json2csv/json2csv"]
+	path = evaluation/performance/cli/json2csv/json2csv
+	url = https://github.com/zemirco/json2csv.git
+[submodule "evaluation/performance/cli/juice/juice"]
+	path = evaluation/performance/cli/juice/juice
+	url = https://github.com/Automattic/juice.git
+[submodule "evaluation/performance/cli/metalsmith/metalsmith"]
+	path = evaluation/performance/cli/metalsmith/metalsmith
+	url = https://github.com/metalsmith/metalsmith.git
+[submodule "evaluation/performance/cli/mocha/mocha"]
+	path = evaluation/performance/cli/mocha/mocha
+	url = https://github.com/mochajs/mocha.git
+[submodule "evaluation/performance/cli/mockjs/mockjs"]
+	path = evaluation/performance/cli/mockjs/mockjs
+	url = https://github.com/nuysoft/Mock.git
+[submodule "evaluation/performance/cli/sails/sails"]
+	path = evaluation/performance/cli/sails/sails
+	url = https://github.com/balderdashy/sails.git
+[submodule "evaluation/performance/cli/svgicons2svgfont/svgicons2svgfont"]
+	path = evaluation/performance/cli/svgicons2svgfont/svgicons2svgfont
+	url = https://github.com/nfroidure/svgicons2svgfont.git
+[submodule "evaluation/performance/cli/traceur/traceur"]
+	path = evaluation/performance/cli/traceur/traceur
+	url = https://github.com/google/traceur-compiler.git
+[submodule "evaluation/performance/cli/uglify-js/uglify-js"]
+	path = evaluation/performance/cli/uglify-js/uglify-js
+	url = https://github.com/mishoo/UglifyJS.git
+[submodule "evaluation/performance/cli/xss/xss"]
+	path = evaluation/performance/cli/xss/xss
+	url = https://github.com/leizongmin/js-xss.git
+[submodule "evaluation/performance/cli/yaml-front-matter/yaml-front-matter"]
+	path = evaluation/performance/cli/yaml-front-matter/yaml-front-matter
+	url = https://github.com/dworthen/js-yaml-front-matter.git
+[submodule "evaluation/maintenance/connect"]
+	path = evaluation/maintenance/connect
+	url = https://github.com/senchalabs/connect.git
+[submodule "evaluation/maintenance/express"]
+	path = evaluation/maintenance/express
+	url = https://github.com/expressjs/express.git
+[submodule "evaluation/maintenance/fastify"]
+	path = evaluation/maintenance/fastify
+	url = https://github.com/fastify/fastify.git
+[submodule "evaluation/maintenance/json-server"]
+	path = evaluation/maintenance/json-server
+	url = https://github.com/typicode/json-server.git
+[submodule "evaluation/maintenance/koa"]
+	path = evaluation/maintenance/koa
+	url = https://github.com/koajs/koa.git
+[submodule "evaluation/maintenance/st"]
+	path = evaluation/maintenance/st
+	url = https://github.com/isaacs/st.git

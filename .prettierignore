@@ -1,0 +1,13 @@
+# Ignore file for Prettier (https://prettier.io/)
+
+node_modules/
+
+**/.cli/
+**/sbom*.json
+**/cbom*.json
+
+evaluation/performance/cli/*/*/
+evaluation/performance/cli/*/input.*
+evaluation/performance/cli/*/output.*
+evaluation/case-study/npm-run-all/
+evaluation/maintenance/*/**

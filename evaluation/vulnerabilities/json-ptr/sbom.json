@@ -1,0 +1,149 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "json-ptr",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "json-ptr@2.0.0",
+      "type": "library",
+      "name": "json-ptr",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Phillip Clark",
+      "description": "A complete implementation of JSON Pointer (RFC 6901) for nodejs and modern browsers.",
+      "purl": "pkg:npm/json-ptr@2.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/json-ptr"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/json-ptr/-/json-ptr-2.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/flitbit/json-ptr.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/flitbit/json-ptr#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/flitbit/json-ptr/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5463fbb9c43304b245502f2c591e7b00b5bffa2ba2f4d084da2eb54942ee9b84c17eef7aeb86c27568ee4648e085b835ae3d64fbcf8f72229b7c525d190952d7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "tslib@2.7.0",
+      "type": "library",
+      "name": "tslib",
+      "version": "2.7.0",
+      "scope": "required",
+      "author": "Microsoft Corp.",
+      "description": "Runtime library for TypeScript helper functions",
+      "purl": "pkg:npm/tslib@2.7.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/tslib"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Microsoft/tslib.git"
+        },
+        {
+          "type": "website",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Microsoft/TypeScript/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "80b5c229d375fe3e3b0221e23a424debd84999c6c64c72342262e66d82c7ca486078dd23546a256bdc958c5833094925b1940c5b9e68f9d5bb217bf74425c3cc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "0BSD"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "json-ptr@2.0.0"
+      ]
+    },
+    {
+      "ref": "json-ptr@2.0.0",
+      "dependsOn": [
+        "tslib@2.7.0"
+      ]
+    },
+    {
+      "ref": "tslib@2.7.0",
+      "dependsOn": []
+    }
+  ]
+}

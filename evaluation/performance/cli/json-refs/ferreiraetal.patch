@@ -1,0 +1,16 @@
+diff --git a/bin/json-refs b/bin/json-refs
+index 8dd01ad..6a4d7a1 100755
+--- a/bin/json-refs
++++ b/bin/json-refs
+@@ -155,6 +155,11 @@ program
+   });
+ 
+ // Default command (handles all unregistered commands)
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
++
+ program
+   .command('*', null, {noHelp: true}) // null is required to avoid the implicit 'help' command being added
+   .action(function (cmd) {

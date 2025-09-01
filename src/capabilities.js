@@ -1,0 +1,40 @@
+export const Names = Object.freeze({
+	ADDON: "addon",
+	CRYPTOGRAPHY: "crypto",
+	FILE_SYSTEM: "file-system",
+	EXECUTE_COMMAND: "command",
+	EXECUTE_CODE: "code",
+	NETWORK: "network",
+	SYSTEM: "system",
+});
+
+export const Map = Object.freeze({
+	[Names.CRYPTOGRAPHY]: ["crypto", "node:crypto"],
+	[Names.FILE_SYSTEM]: ["fs", "node:fs", "fs/promises", "node:fs/promises"],
+	[Names.EXECUTE_COMMAND]: [
+		"child_process",
+		"node:child_process",
+		"worker_threads",
+		"node:worker_threads",
+	],
+	[Names.EXECUTE_CODE]: ["vm", "node:vm"],
+	[Names.NETWORK]: [
+		"dgram",
+		"node:dgram",
+		"dns",
+		"node:dns",
+		"dns/promises",
+		"node:dns/promises",
+		"http",
+		"node:http",
+		"http2",
+		"node:http2",
+		"https",
+		"node:https",
+		"net",
+		"node:net",
+		"tls",
+		"node:tls",
+	],
+	[Names.SYSTEM]: ["os", "node:os", "process", "node:process"],
+});

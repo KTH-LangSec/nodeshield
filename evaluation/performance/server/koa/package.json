@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npm run start-tool",
+    "start-coverage": "nyc --all --exclude-node-modules=false npm run start-vanilla",
+    "start-tool": "sh ./_tool_server.sh",
+    "start-vanilla": "node ./server.js",
+    "generate-sbom": "npm sbom --sbom-format cyclonedx >./sbom.json",
+    "generate-cbom": "node .cli/src/cli.js --sbom sbom.json --strategy log --build-only --cbom-output cbom.json -- ./bin/www"
+  },
+  "dependencies": {
+    "koa": "^2.16.0"
+  }
+}

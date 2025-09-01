@@ -1,0 +1,142 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "node-rules",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "node-rules@3.0.0",
+      "type": "library",
+      "name": "node-rules",
+      "version": "3.0.0",
+      "scope": "required",
+      "author": "Mithun Satheesh",
+      "description": "Business Rules Engine for JavaScript",
+      "purl": "pkg:npm/node-rules@3.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/node-rules"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/node-rules/-/node-rules-3.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mithunsatheesh/node-rules.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mithunsatheesh/node-rules#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mithunsatheesh/node-rules/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "88ca443be9b5254f03d6eff6f33bb9c9dade43ceba7649c7f340db8306dadfabcad24d690bccf99fe0052ec2c14d2df2ed177f1951044f4527a9e344c6e60127"
+        }
+      ]
+    },
+    {
+      "bom-ref": "underscore@1.13.7",
+      "type": "library",
+      "name": "underscore",
+      "version": "1.13.7",
+      "scope": "required",
+      "author": "Jeremy Ashkenas",
+      "description": "JavaScript's functional programming helper library.",
+      "purl": "pkg:npm/underscore@1.13.7",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/underscore"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.7.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jashkenas/underscore.git"
+        },
+        {
+          "type": "website",
+          "url": "https://underscorejs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jashkenas/underscore/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "18c5f35adb1ce7b5c0b60b9981a4158943b3b34293924f288ebdffc40c572c84ea7ffdc4330c42d229f21137c31631ff2ab6e1b9ea741cd6db8c8f62feadc5de"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "node-rules@3.0.0"
+      ]
+    },
+    {
+      "ref": "node-rules@3.0.0",
+      "dependsOn": [
+        "underscore@1.13.7"
+      ]
+    },
+    {
+      "ref": "underscore@1.13.7",
+      "dependsOn": []
+    }
+  ]
+}

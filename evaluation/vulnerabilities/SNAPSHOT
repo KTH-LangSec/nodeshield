@@ -1,0 +1,50 @@
+== TESTING (NodeShield) ==
+access-policy                                           PREVENTED
+cd-messenger                                            PREVENTED
+hot-formula-parser                                      PREVENTED
+jsen                                                    PREVENTED
+json-ptr                                                PREVENTED
+kmc                                                     NOT PREVENTED
+m-log                                                   PREVENTED
+mathjs-3.10.3                                           PREVENTED
+mathjs-3.9.0                                            PREVENTED
+mixin-pro                                               PREVENTED
+mobile-icon-resizer                                     PREVENTED
+modjs                                                   NOT PREVENTED
+modulify                                                NOT PREVENTED
+mol-proto                                               PREVENTED
+mongo-parse                                             PREVENTED
+mongoosemask                                            PREVENTED
+node-extend                                             PREVENTED
+node-rules                                              PREVENTED
+node-serialize                                          PREVENTED
+pixl-class                                              PREVENTED
+reduce-css-calc                                         PREVENTED
+serialize-to-js                                         PREVENTED
+thenify                                                 PREVENTED
+underscore                                              PREVENTED
+== TESTING (Npm Dependency Guardian) ==
+access-policy                                           PREVENTED
+cd-messenger                                            PREVENTED
+hot-formula-parser                                      PREVENTED
+jsen                                                    NOT PREVENTED
+json-ptr                                                NOT PREVENTED
+kmc                                                     PREVENTED
+m-log                                                   UNEXPECTED (got '1')
+mathjs-3.10.3                                           UNEXPECTED (got '1')
+mathjs-3.9.0                                            UNEXPECTED (got '1')
+mixin-pro                                               PREVENTED
+mobile-icon-resizer                                     UNEXPECTED (got '1')
+modjs                                                   UNEXPECTED (got '1')
+modulify                                                PREVENTED
+mol-proto                                               PREVENTED
+mongo-parse                                             NOT PREVENTED
+mongoosemask                                            PREVENTED
+node-extend                                             PREVENTED
+node-rules                                              UNEXPECTED (got '1')
+node-serialize                                          PREVENTED
+pixl-class                                              PREVENTED
+reduce-css-calc                                         PREVENTED
+serialize-to-js                                         NOT PREVENTED
+thenify                                                 UNEXPECTED (got '1')
+underscore                                              UNEXPECTED (got '1')

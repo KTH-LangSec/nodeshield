@@ -1,0 +1,299 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "hot-formula-parser",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "@handsontable/formulajs@2.0.2",
+      "type": "library",
+      "name": "@handsontable/formulajs",
+      "version": "2.0.2",
+      "scope": "required",
+      "author": "Handsoncode",
+      "description": "JavaScript implementation of most Microsoft Excel formula functions",
+      "purl": "pkg:npm/%40handsontable/formulajs@2.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/@handsontable/formulajs"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@handsontable/formulajs/-/formulajs-2.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/handsontable/formula.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/handsontable/formula.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/handsontable/formula.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "99a232309b588c0e5efd1f67c80db641ded8c3bdcc052c42949be57b46bc5d6012ff997ab2173f385a50aab9b0332e085d40a6cb027d111d20386cff600ef6d3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bessel@1.0.2",
+      "type": "library",
+      "name": "bessel",
+      "version": "1.0.2",
+      "scope": "required",
+      "author": "SheetJS",
+      "description": "Pure-JS Bessel Functions",
+      "purl": "pkg:npm/bessel@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/bessel"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bessel/-/bessel-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/SheetJS/bessel.git"
+        },
+        {
+          "type": "website",
+          "url": "https://oss.sheetjs.com/bessel/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/SheetJS/bessel/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "025de71c6406a8362aaa29d7850ce6c267114e87bfdd6c81bf837c6997393de7fcc70da7799951f553e2f3849adb726d81672e72ed7c1f1559ae72347e7d9eb7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "hot-formula-parser@3.0.0",
+      "type": "library",
+      "name": "hot-formula-parser",
+      "version": "3.0.0",
+      "scope": "required",
+      "author": "Handsoncode",
+      "description": "Formula parser",
+      "purl": "pkg:npm/hot-formula-parser@3.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/hot-formula-parser"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/hot-formula-parser/-/hot-formula-parser-3.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/handsontable/formula-parser.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/handsontable/formula-parser"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/handsontable/formula-parser/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0872d3aecaefdbd8ade573dc1da94d3bc0a570918779fc1fe7df4c78f946e5d633c71b5b3eac7faadf0292baafc5078d0395ed90051cc54eb6385bf4cf62f8f4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "jstat@1.9.6",
+      "type": "library",
+      "name": "jstat",
+      "version": "1.9.6",
+      "scope": "required",
+      "author": "Trevor Norris",
+      "description": "Statistical Library for JavaScript",
+      "purl": "pkg:npm/jstat@1.9.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/jstat"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/jstat/-/jstat-1.9.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/jstat/jstat.git"
+        },
+        {
+          "type": "website",
+          "url": "http://github.com/jstat/jstat"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jstat/jstat/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "acf06425b2b64e703ca73b3ddd07030cf94a72bb595aeb82a367554744c52ce252c61a9f58e5424a9f1a577fe849b9fee2e638cb0d5446d2e91d079db665dfba"
+        }
+      ]
+    },
+    {
+      "bom-ref": "tiny-emitter@2.1.0",
+      "type": "library",
+      "name": "tiny-emitter",
+      "version": "2.1.0",
+      "scope": "required",
+      "author": "Scott Corgan",
+      "description": "A tiny (less than 1k) event emitter library",
+      "purl": "pkg:npm/tiny-emitter@2.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/tiny-emitter"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/scottcorgan/tiny-emitter.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/scottcorgan/tiny-emitter#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/scottcorgan/tiny-emitter/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "341e8393503dc6040f3281aa0b90955e7d76de05b2b5edb5e4e353e4fa796b4cade27944a0ed5959e0b0a6771a7a43c75ceeb48b8ee28459d93e244f8d132ae1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "hot-formula-parser@3.0.0"
+      ]
+    },
+    {
+      "ref": "@handsontable/formulajs@2.0.2",
+      "dependsOn": [
+        "bessel@1.0.2",
+        "jstat@1.9.6"
+      ]
+    },
+    {
+      "ref": "bessel@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "hot-formula-parser@3.0.0",
+      "dependsOn": [
+        "@handsontable/formulajs@2.0.2",
+        "tiny-emitter@2.1.0"
+      ]
+    },
+    {
+      "ref": "jstat@1.9.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "tiny-emitter@2.1.0",
+      "dependsOn": []
+    }
+  ]
+}

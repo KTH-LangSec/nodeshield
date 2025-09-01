@@ -1,0 +1,254 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "reduce-css-calc",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "balanced-match@0.1.0",
+      "type": "library",
+      "name": "balanced-match",
+      "version": "0.1.0",
+      "scope": "required",
+      "author": "Julian Gruber",
+      "description": "Match balanced character pairs, like \"{\" and \"}\"",
+      "purl": "pkg:npm/balanced-match@0.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/balanced-match"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/juliangruber/balanced-match.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/juliangruber/balanced-match"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/juliangruber/balanced-match/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e316fa5ea004a3767ee69103273df747c0595c8f0544953e70334b74a803a669f3fa928a45560ba5dbfe56f5000bbc94841323e22ce6cadd7d7821afd50195ec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "reduce-css-calc@1.2.0",
+      "type": "library",
+      "name": "reduce-css-calc",
+      "version": "1.2.0",
+      "scope": "required",
+      "author": "Maxime Thirouin",
+      "description": "Reduce CSS calc() function to the maximum",
+      "purl": "pkg:npm/reduce-css-calc@1.2.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/reduce-css-calc"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/reduce-css-calc/-/reduce-css-calc-1.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/MoOx/reduce-css-calc.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/MoOx/reduce-css-calc#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/MoOx/reduce-css-calc/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "56dd8efb2aa4b5b9362c3b2eb20a4d5be8bf2757942ef461c053ce8ce96f42e1563c83e8ce2ea7536a02ff1c05151978dd33e661c9103f1c3cb7a28b5d08796a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "reduce-function-call@1.0.3",
+      "type": "library",
+      "name": "reduce-function-call",
+      "version": "1.0.3",
+      "scope": "required",
+      "author": "MoOx",
+      "description": "Reduce function calls in a string, using a callback",
+      "purl": "pkg:npm/reduce-function-call@1.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/reduce-function-call"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/reduce-function-call/-/reduce-function-call-1.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/MoOx/reduce-function-call.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/MoOx/reduce-function-call#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/MoOx/reduce-function-call/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1e5fedb95d950e05a009211e58c2f0c4b66a5fb38ae7d794d60bb15ec44a4c0c9e6229a2bec29db5c5787eedebef5d2da46e46983283850d074992c4c67366c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "balanced-match@1.0.2",
+      "type": "library",
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "scope": "required",
+      "author": "Julian Gruber",
+      "description": "Match balanced character pairs, like \"{\" and \"}\"",
+      "purl": "pkg:npm/balanced-match@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/reduce-function-call/node_modules/balanced-match"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/juliangruber/balanced-match.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/juliangruber/balanced-match"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/juliangruber/balanced-match/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "de849e50ed13315ebb84dd4099b5ec2b8c9aa94eed8e21e56f144364ea47d0a5bdf82797e1b440697d009f1b74b71d8cae94695b041a3f02252121098585393f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "reduce-css-calc@1.2.0"
+      ]
+    },
+    {
+      "ref": "balanced-match@0.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "reduce-css-calc@1.2.0",
+      "dependsOn": [
+        "balanced-match@0.1.0",
+        "reduce-function-call@1.0.3"
+      ]
+    },
+    {
+      "ref": "reduce-function-call@1.0.3",
+      "dependsOn": [
+        "balanced-match@1.0.2"
+      ]
+    },
+    {
+      "ref": "balanced-match@1.0.2",
+      "dependsOn": []
+    }
+  ]
+}

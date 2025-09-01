@@ -1,0 +1,16 @@
+diff --git a/bin/_metalsmith b/bin/_metalsmith
+index 98c33cb..115c812 100755
+--- a/bin/_metalsmith
++++ b/bin/_metalsmith
+@@ -58,6 +58,11 @@ try {
+  * Metalsmith.
+  */
+ 
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
++
+ var metalsmith = new Metalsmith(dir);
+ if (json.source) metalsmith.source(json.source);
+ if (json.destination) metalsmith.destination(json.destination);

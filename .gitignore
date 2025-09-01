@@ -1,0 +1,11 @@
+# Ignore file for git (https://git-scm.com/docs/gitignore)
+
+.cli/
+.results/
+node_modules/
+.dockerignore
+
+*.bkp
+*.log
+*.tar
+*.zip

@@ -1,0 +1,16 @@
+diff --git a/bin/mocha b/bin/mocha
+index 38d09fb8..034d2055 100755
+--- a/bin/mocha
++++ b/bin/mocha
+@@ -69,6 +69,11 @@ process.argv.slice(2).forEach(arg => {
+   }
+ });
+ 
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
++
+ const proc = spawn(process.execPath, args, {
+   stdio: 'inherit'
+ });

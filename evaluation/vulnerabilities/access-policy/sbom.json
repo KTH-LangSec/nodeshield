@@ -1,0 +1,89 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "access-policy",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "access-policy@3.1.0",
+      "type": "library",
+      "name": "access-policy",
+      "version": "3.1.0",
+      "scope": "required",
+      "author": "Tuple Labs, LLC",
+      "description": "Encodes and decodes policy JSON files for use with web applications.",
+      "purl": "pkg:npm/access-policy@3.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/access-policy"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/access-policy/-/access-policy-3.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/TupleAustin/access-policy.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/TupleAustin/access-policy#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TupleAustin/access-policy/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0a18e8eaa0b4295584751d2c495ebed3e8d5467695acf04d8cdb0f305230b7f837eac4656a2c0d1886ac1edab4aa7fa1ee4d1dc3325ea2fb510431e6fab8cd24"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "access-policy@3.1.0"
+      ]
+    },
+    {
+      "ref": "access-policy@3.1.0",
+      "dependsOn": []
+    }
+  ]
+}

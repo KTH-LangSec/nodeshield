@@ -1,0 +1,2766 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "dox@0.9.0",
+      "type": "library",
+      "name": "dox",
+      "version": "0.9.0",
+      "scope": "required",
+      "author": "TJ Holowaychuk",
+      "description": "Markdown / JSdoc documentation generator",
+      "purl": "pkg:npm/dox@0.9.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/dox.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tj/dox"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/dox/issues"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "argparse@1.0.10",
+      "type": "library",
+      "name": "argparse",
+      "version": "1.0.10",
+      "scope": "required",
+      "description": "Very powerful CLI arguments parser. Native port of argparse - python's options parsing library",
+      "purl": "pkg:npm/argparse@1.0.10",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/argparse"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/nodeca/argparse.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/nodeca/argparse#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodeca/argparse/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a39468cbab4d1b848bfc53a408037a4738e26a4652db944b605adc32db49a9b75df015ab9c0f9f1b3e7b88de4f6f4ea9bc11af979810d01e3c74996c957be84e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "balanced-match@1.0.2",
+      "type": "library",
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "scope": "optional",
+      "author": "Julian Gruber",
+      "description": "Match balanced character pairs, like \"{\" and \"}\"",
+      "purl": "pkg:npm/balanced-match@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/balanced-match"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/juliangruber/balanced-match.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/juliangruber/balanced-match"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/juliangruber/balanced-match/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "de849e50ed13315ebb84dd4099b5ec2b8c9aa94eed8e21e56f144364ea47d0a5bdf82797e1b440697d009f1b74b71d8cae94695b041a3f02252121098585393f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "brace-expansion@1.1.11",
+      "type": "library",
+      "name": "brace-expansion",
+      "version": "1.1.11",
+      "scope": "optional",
+      "author": "Julian Gruber",
+      "description": "Brace expansion as known from sh/bash",
+      "purl": "pkg:npm/brace-expansion@1.1.11",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/brace-expansion"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/juliangruber/brace-expansion.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/juliangruber/brace-expansion"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/juliangruber/brace-expansion/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "882b8f1c3160ac75fb1f6bc423fe71a73d3bcd21c1d344e9ba0aa1998b5598c3bae75f260ae44ca0e60595d101974835f3bb9fa3375a1e058a71815beb5a8688"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "browser-stdout@1.3.0",
+      "type": "library",
+      "name": "browser-stdout",
+      "version": "1.3.0",
+      "scope": "optional",
+      "author": "kumavis",
+      "purl": "pkg:npm/browser-stdout@1.3.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/browser-stdout"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/browser-stdout/-/browser-stdout-1.3.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/kumavis/browser-stdout.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/kumavis/browser-stdout#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/kumavis/browser-stdout/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ed17e4dfbeeda5233d4d6044787b341650d91a80087a2d95ff831d649a053011402ba06a2e9c402147a91911c674f1601ac2dbd363d7a2f0b8a9d7721ef42a4e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "commander@2.9.0",
+      "type": "library",
+      "name": "commander",
+      "version": "2.9.0",
+      "scope": "required",
+      "author": "TJ Holowaychuk",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@2.9.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/commander"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-2.9.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/tj/commander.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tj/commander.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/tj/commander.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6e6914ba45fcc003a31dd376eb18f973872d115db64d0edd4188529ae7242a14e85eb9149f48886a8947748c5862a0f9e6786948f03dccf435c8fe7b19d5cfd8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "concat-map@0.0.1",
+      "type": "library",
+      "name": "concat-map",
+      "version": "0.0.1",
+      "scope": "optional",
+      "author": "James Halliday",
+      "description": "concatenative mapdashery",
+      "purl": "pkg:npm/concat-map@0.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/concat-map"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/node-concat-map.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-concat-map#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-concat-map/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fd2aefe1db30c903417e8846a73f68e986f71b3dd2ad40ea047e6b4ee84647b6a1b656d82a7571c366c214c4658da03b1171da5d9f30b07768745bdb9212a6aa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "debug@2.2.0",
+      "type": "library",
+      "name": "debug",
+      "version": "2.2.0",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "small debugging utility",
+      "purl": "pkg:npm/debug@2.2.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/debug"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/debug.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/debug#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/debug/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5f4ac6bc972c906d5cdd381208fa872745c983095cbce0bb7a5279634858b8a059a15a96a4031f2ce788876508fc3090e6bba87488efb2e819b63518530da953"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "diff@1.4.0",
+      "type": "library",
+      "name": "diff",
+      "version": "1.4.0",
+      "scope": "optional",
+      "description": "A javascript text diff implementation.",
+      "purl": "pkg:npm/diff@1.4.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/diff"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/diff/-/diff-1.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/kpdecker/jsdiff.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/kpdecker/jsdiff#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "http://github.com/kpdecker/jsdiff/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "57355ce3684c65b614f52c7f96d6fb298b90ea9a80c3e71b156572e1729d92e10bd8215a44b1849c848fb3b61dcda506a62f82a48aaf466bbb84f4384fb110e7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "entities@1.1.2",
+      "type": "library",
+      "name": "entities",
+      "version": "1.1.2",
+      "scope": "required",
+      "author": "Felix Boehm",
+      "description": "Encode & decode XML/HTML entities with ease",
+      "purl": "pkg:npm/entities@1.1.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/entities"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/entities/-/entities-1.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/fb55/entities.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fb55/entities#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/fb55/entities/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7f62d9318975173bbb61204a83e46844e7a5a4e68dadc1a613d019b9b7837eb08489ae3cde85b8308e15c8577954d1c8810ffbaa6d48d305072b57899e7db2db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "escape-string-regexp@1.0.5",
+      "type": "library",
+      "name": "escape-string-regexp",
+      "version": "1.0.5",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Escape RegExp special characters",
+      "purl": "pkg:npm/escape-string-regexp@1.0.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/escape-string-regexp"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/escape-string-regexp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/escape-string-regexp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/escape-string-regexp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bdb468ac1e455105af95ad7a53c47faa06852326b6a86cf00eb366099b982ab6dd494306e88d5908641179f911561b8e9081959deec1437e4349fa35aaf26a16"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "fs.realpath@1.0.0",
+      "type": "library",
+      "name": "fs.realpath",
+      "version": "1.0.0",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter",
+      "description": "Use node's fs.realpath, but fall back to the JS implementation if the native one fails",
+      "purl": "pkg:npm/fs.realpath@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/fs.realpath"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/fs.realpath.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/fs.realpath#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/fs.realpath/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "38ed291f694ae9ad2166701d6aee48b731cf23aa5496f23b8cc567c54411b70e28c05db093c94e49a6ed1830933f81a0ae0d8c6c69d63bd5fc2b5b78f9f18c0f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "glob@7.0.5",
+      "type": "library",
+      "name": "glob",
+      "version": "7.0.5",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter",
+      "description": "a little globber",
+      "purl": "pkg:npm/glob@7.0.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/glob"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/glob/-/glob-7.0.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/node-glob.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/node-glob#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/node-glob/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e7a3f5a1f74e997cf4893274026ad32ba0a847719fe3d568dd23da5fce6dac012148856c55cf681102243d685c2d9fc6e0364d838c255f11bd242cf42db68b8c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "graceful-readlink@1.0.1",
+      "type": "library",
+      "name": "graceful-readlink",
+      "version": "1.0.1",
+      "scope": "required",
+      "author": "zhiyelee",
+      "description": "graceful fs.readlink",
+      "purl": "pkg:npm/graceful-readlink@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/graceful-readlink"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/zhiyelee/graceful-readlink.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/zhiyelee/graceful-readlink"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/zhiyelee/graceful-readlink/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f2d2eeeb42e0c45e97a5d6caf0e5b7140f887d33419f5647187285e0a41b11e4a46a3630e4f95825c2a5ba7b607a00cf4e0f149078e97add53f36be4e9343af3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "growl@1.9.2",
+      "type": "library",
+      "name": "growl",
+      "version": "1.9.2",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "Growl unobtrusive notifications",
+      "purl": "pkg:npm/growl@1.9.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/growl"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/growl/-/growl-1.9.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/tj/node-growl.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tj/node-growl#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/tj/node-growl/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4530700c784db8ec7817486acc8b5cfec89709ab067c2e037967016a672559dfba8d6b4169e07f4866cc9067f47a24285bb89bf09a6f3a09d4b2680c1c8dcc7f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "has-flag@1.0.0",
+      "type": "library",
+      "name": "has-flag",
+      "version": "1.0.0",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Check if argv has a specific flag",
+      "purl": "pkg:npm/has-flag@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/has-flag"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/has-flag.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/has-flag#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/has-flag/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0f26077c86300099a30234923ca00dc48f1b158f58b45ae09007e29c1a2343c6094ceb8eb9abfae2d31426fe7ce12112e3197be0f9ae69ebc8c9a2c448775300"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "inflight@1.0.6",
+      "type": "library",
+      "name": "inflight",
+      "version": "1.0.6",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter",
+      "description": "Add callbacks to requests in flight to avoid async duplication",
+      "purl": "pkg:npm/inflight@1.0.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/inflight"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/inflight.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/inflight"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/inflight/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "93dd88fdbd3cab8c2f16c71708bbea7ec1c2ae3ac5ef2897b10b8856f544ecdf365b7f9aaa9cee51d05b7e159ccbf159477ff82207e532028b3acbcf0eb18224"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "inherits@2.0.4",
+      "type": "library",
+      "name": "inherits",
+      "version": "2.0.4",
+      "scope": "optional",
+      "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "purl": "pkg:npm/inherits@2.0.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/inherits"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/inherits.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/inherits#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/inherits/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "jsdoctypeparser@1.2.0",
+      "type": "library",
+      "name": "jsdoctypeparser",
+      "version": "1.2.0",
+      "scope": "required",
+      "author": "Kuniwak",
+      "description": "Strict JsDoc type expression parser.",
+      "purl": "pkg:npm/jsdoctypeparser@1.2.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/jsdoctypeparser"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/jsdoctypeparser/-/jsdoctypeparser-1.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/Kuniwak/jsdoctypeparser.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Kuniwak/jsdoctypeparser#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Kuniwak/jsdoctypeparser/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a2c5e6e05af5a3f25cd18c1433b0c7525898b5aba72d0c61e329d982d374da64d437556c35b332ef90c54a42919def3113c8e219157d34a56161861af192075d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "json3@3.3.2",
+      "type": "library",
+      "name": "json3",
+      "version": "3.3.2",
+      "scope": "optional",
+      "author": "Kit Cambridge",
+      "description": "A modern JSON implementation compatible with nearly all JavaScript platforms.",
+      "purl": "pkg:npm/json3@3.3.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/json3"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/json3/-/json3-3.3.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/bestiejs/json3.git"
+        },
+        {
+          "type": "website",
+          "url": "http://bestiejs.github.io/json3"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/bestiejs/json3/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "23960b79ab87deb21a13df4413ef94787d8cda0498a3cff64ea0da73ba19107e83fc3490e16a1aeb6f10adf8f55fdfce639324e55bc80d068a0837215da2ab98"
+        }
+      ]
+    },
+    {
+      "bom-ref": "linkify-it@2.2.0",
+      "type": "library",
+      "name": "linkify-it",
+      "version": "2.2.0",
+      "scope": "required",
+      "description": "Links recognition library with FULL unicode support",
+      "purl": "pkg:npm/linkify-it@2.2.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/linkify-it"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/linkify-it/-/linkify-it-2.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/markdown-it/linkify-it.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/markdown-it/linkify-it#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/markdown-it/linkify-it/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1a7025fe49c69fe8b553fc23073dda933dacb73f87ac72ecc4cc07406a1f0837cfbe57fe80328de7c52d7e652ab93638fcc5de136c7b935f4a4267a8662f7823"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash@3.10.1",
+      "type": "library",
+      "name": "lodash",
+      "version": "3.10.1",
+      "scope": "required",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash modular utilities.",
+      "purl": "pkg:npm/lodash@3.10.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f660c3c2a54899ae8e657efd6650c009997cb019b44c49e47fdf7357788c0381b39084fff618aa3f9998d07a13d6234b0ab29cfd1d4707257ec897d159526bc9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash._baseassign@3.2.0",
+      "type": "library",
+      "name": "lodash._baseassign",
+      "version": "3.2.0",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s internal `baseAssign` as a module.",
+      "purl": "pkg:npm/lodash._baseassign@3.2.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash._baseassign"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash._baseassign/-/lodash._baseassign-3.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b77376e9047621d48dfa0a92cbd0ecf6906efc9d4400512c84a9541e9246debbf224e6207042c8c5c21e28a7d993bb233b3d757057f3251b3216bcbf27269b25"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash._basecopy@3.0.1",
+      "type": "library",
+      "name": "lodash._basecopy",
+      "version": "3.0.1",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s internal `baseCopy` as a module.",
+      "purl": "pkg:npm/lodash._basecopy@3.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash._basecopy"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash._basecopy/-/lodash._basecopy-3.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ac547a5699b81de08ad563c6be365227eef28a4f1df0f554742271e6b4f6a68806e157bfd994bb91f98ee65e53da8e55da6aa53487d217931996bd7ec4ea1841"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash._basecreate@3.0.3",
+      "type": "library",
+      "name": "lodash._basecreate",
+      "version": "3.0.3",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s internal `baseCreate` as a module.",
+      "purl": "pkg:npm/lodash._basecreate@3.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash._basecreate"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash._basecreate/-/lodash._basecreate-3.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1037a6e82f624299fb7f19c67668579aa6068c2912b660d74f801ec81d8f87c58a6e0960e1a259733364420963fb359770e10491588af131ee57626fba05b8ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash._getnative@3.9.1",
+      "type": "library",
+      "name": "lodash._getnative",
+      "version": "3.9.1",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s internal `getNative` as a module.",
+      "purl": "pkg:npm/lodash._getnative@3.9.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash._getnative"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash._getnative/-/lodash._getnative-3.9.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "46b2fd5713043f20cc1ce77db856ef31ef17e795f5ebf70633922038a811125419bada57f3d892eafc25eb876e4d5d7fd7ac39258eedb85357aa87a49a1d4498"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash._isiterateecall@3.0.9",
+      "type": "library",
+      "name": "lodash._isiterateecall",
+      "version": "3.0.9",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s internal `isIterateeCall` as a module.",
+      "purl": "pkg:npm/lodash._isiterateecall@3.0.9",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash._isiterateecall"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash._isiterateecall/-/lodash._isiterateecall-3.0.9.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0def996eb32ee9e4e116d8bf092ce146f4ca320413a0bc5b8a3e7c2cc7ccf099d80cd48e8e48d308869af22c6094e7868769f23e56a46ede5b25627b82fa5895"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash.create@3.1.1",
+      "type": "library",
+      "name": "lodash.create",
+      "version": "3.1.1",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s `_.create` as a module.",
+      "purl": "pkg:npm/lodash.create@3.1.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash.create"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash.create/-/lodash.create-3.1.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2147ce6300c46c8f096e15baa6c5be220d3504e54aebb7534825006d2e7c3341c190f700bff8c7bb10fea0954fdad502a371fd2fa7fff0633aaf1c18fa873bff"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash.isarguments@3.1.0",
+      "type": "library",
+      "name": "lodash.isarguments",
+      "version": "3.1.0",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The lodash method `_.isArguments` exported as a module.",
+      "purl": "pkg:npm/lodash.isarguments@3.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash.isarguments"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7218b834766566a643d7c6b48a60c79d93eb0de05b4ed54dec65ccc2e19d447f6aa2dc408d8b376952ca73bccd386f5e75d4792ac77caef14405cf52b2080fa6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash.isarray@3.0.4",
+      "type": "library",
+      "name": "lodash.isarray",
+      "version": "3.0.4",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s `_.isArray` as a module.",
+      "purl": "pkg:npm/lodash.isarray@3.0.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash.isarray"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "27039b0ab349b93d0d9dbb9e726aabe4382db81a69b82bc60fd9718c5a40cf09d5b5d1a80d0d738a0fb95bc939ffa19c9f4819dfddfa1c302519ddbc8bbb0e19"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lodash.keys@3.1.2",
+      "type": "library",
+      "name": "lodash.keys",
+      "version": "3.1.2",
+      "scope": "optional",
+      "author": "John-David Dalton",
+      "description": "The modern build of lodash’s `_.keys` as a module.",
+      "purl": "pkg:npm/lodash.keys@3.1.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash.keys"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash.keys/-/lodash.keys-3.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0ae06c6a916372e6ce18c9f7543fb6e073803f133bf6d1fe57a8af24bdc21d88edadac1ab83247524fff61ec3d1ef73a7bdadb0ab5111a4f33e8f0bef162417d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "markdown-it@7.0.1",
+      "type": "library",
+      "name": "markdown-it",
+      "version": "7.0.1",
+      "scope": "required",
+      "description": "Markdown-it - modern pluggable markdown parser.",
+      "purl": "pkg:npm/markdown-it@7.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/markdown-it"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/markdown-it/-/markdown-it-7.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/markdown-it/markdown-it.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/markdown-it/markdown-it#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/markdown-it/markdown-it/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7ad773471fe9314b482f2b5ab07028e3ef7108f8ddb0d16fc01afec9edde76a35cd76f30866fdd278ee955ce67839f38bfb2a8df95fc98c33d45ce5389c2972a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mdurl@1.0.1",
+      "type": "library",
+      "name": "mdurl",
+      "version": "1.0.1",
+      "scope": "required",
+      "description": "URL utilities for markdown-it",
+      "purl": "pkg:npm/mdurl@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mdurl"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mdurl/-/mdurl-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/markdown-it/mdurl.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/markdown-it/mdurl#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/markdown-it/mdurl/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fec2a540908161563d12bb3d86accaa2ee07e95e5459cfcce7d4c7d9dbe4b7ef388ad7e7abbb8538c2e93a2392e2e8ef1cfe1eb659f5f1f988c40e51e5f965d2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "minimatch@3.1.2",
+      "type": "library",
+      "name": "minimatch",
+      "version": "3.1.2",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter",
+      "description": "a glob matcher in javascript",
+      "purl": "pkg:npm/minimatch@3.1.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/minimatch"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/minimatch.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/minimatch#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/minimatch/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "27ba7ade1462023c35343130c355bb8b7efe07222b3963b95d0400cd9dd539c2f43cdc9bc297e657f374e73140cf043d512c84717eaddd43be2b96aa0503881f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "minimist@0.0.8",
+      "type": "library",
+      "name": "minimist",
+      "version": "0.0.8",
+      "scope": "optional",
+      "author": "James Halliday",
+      "description": "parse argument options",
+      "purl": "pkg:npm/minimist@0.0.8",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/minimist"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/minimist.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/minimist"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/minimist/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9a240ac391efe0d4b53ec836e75ee65787b875835a3b7fbe86302f2ce0332aa67ad6b1fc352d522bebdb7c1599e4f63f31efdb116854c2a3208445b915bf53ed"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mkdirp@0.5.1",
+      "type": "library",
+      "name": "mkdirp",
+      "version": "0.5.1",
+      "scope": "optional",
+      "author": "James Halliday",
+      "description": "Recursively mkdir, like `mkdir -p`",
+      "purl": "pkg:npm/mkdirp@0.5.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mkdirp"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/substack/node-mkdirp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-mkdirp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-mkdirp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4a49c90b9da86cf7c640f9e32245db980ebee47d7913e7d1f84e22476a10df3cc22db77bfce36e6baf51fc6c3b0209132ec446fabe5fce4b18c167b50204f258"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mocha@3.0.2",
+      "type": "library",
+      "name": "mocha",
+      "version": "3.0.2",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "simple, flexible, fun test framework",
+      "purl": "pkg:npm/mocha@3.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mocha"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mocha/-/mocha-3.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mochajs/mocha.git"
+        },
+        {
+          "type": "website",
+          "url": "https://mochajs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mochajs/mocha/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8c4100e73c4a09ec19032df754bf868a0d4175f83a4bdfcd24a7073bf42a00ba950992bd768375813fd1ab27cd005fe21b50e45e3e1b9dc9f2805518e5ac7cfe"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ms@0.7.1",
+      "type": "library",
+      "name": "ms",
+      "version": "0.7.1",
+      "scope": "optional",
+      "description": "Tiny ms conversion utility",
+      "purl": "pkg:npm/ms@0.7.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ms"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/guille/ms.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/guille/ms.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/guille/ms.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9512e2211f5f48da673fa4c2e2ff3ee0e53ba12b42d357acb8da30750df82fe1a4f1ee4fba873cf08a89f97018fc1dcc9f664a8acf25f075fdd2853c8afcd41e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "once@1.4.0",
+      "type": "library",
+      "name": "once",
+      "version": "1.4.0",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter",
+      "description": "Run a function exactly one time",
+      "purl": "pkg:npm/once@1.4.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/once"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/once.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/once#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/once/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "94d689808fb643951140191c7042874d038f697754c67659125413658d0c15402e684a9ed44f8dcaf81dcff688c8d8ba67d3333b976fd47f27e7cfc610ba77fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "path-is-absolute@1.0.1",
+      "type": "library",
+      "name": "path-is-absolute",
+      "version": "1.0.1",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Node.js 0.12 path.isAbsolute() ponyfill",
+      "purl": "pkg:npm/path-is-absolute@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/path-is-absolute"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/path-is-absolute.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/path-is-absolute#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/path-is-absolute/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0156f0dd42767bd6eaeb8bd2692f409b47e37b53daf296c6a934ec9977da2223299ebe4394385f24eb8b8fd49ff7964f5430147ab0df124f3c30f98f7bb50242"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "should@11.0.0",
+      "type": "library",
+      "name": "should",
+      "version": "11.0.0",
+      "scope": "optional",
+      "author": "TJ Holowaychuk",
+      "description": "test framework agnostic BDD-style assertions",
+      "purl": "pkg:npm/should@11.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/should"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/should/-/should-11.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/shouldjs/should.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/shouldjs/should.js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/shouldjs/should.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "97dbd74220c8dee8d9026a91bf1ec41d6446b382318c3a8f7eb510ba4342425e9e3e05ca4e5db8c5ab4c282c1ef7df3df966de1c6dda6b6f416112071ce242b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "should-equal@1.0.1",
+      "type": "library",
+      "name": "should-equal",
+      "version": "1.0.1",
+      "scope": "optional",
+      "author": "Denis Bardadym",
+      "description": "Deep comparison of 2 instances for should.js",
+      "purl": "pkg:npm/should-equal@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/should-equal"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/should-equal/-/should-equal-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/shouldjs/equal.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/shouldjs/equal"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/shouldjs/equal/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "57bf0129d06af764dbbc41e3549470588b57b55e86f35ddd301be2259d35b27e7bb1d3aa6fca4950f1d986cf6f51af1eeb040e1f33d6ed14d6bf9c0517225899"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "should-format@3.0.3",
+      "type": "library",
+      "name": "should-format",
+      "version": "3.0.3",
+      "scope": "optional",
+      "author": "Denis Bardadym",
+      "description": "Formatting of objects for should.js",
+      "purl": "pkg:npm/should-format@3.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/should-format"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/should-format/-/should-format-3.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/shouldjs/format.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/shouldjs/format#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/shouldjs/format/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "859e7c69db6e94093480ab6e6bb4317af8146974d35f1222f2de352f7ce8f401ef8d73b5ffbb1d2c40ae1de20dd9246d617a4d92686850fda975e5a0ae2710f9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "should-type@1.4.0",
+      "type": "library",
+      "name": "should-type",
+      "version": "1.4.0",
+      "scope": "optional",
+      "author": "Denis Bardadym",
+      "description": "Simple module to get instance type. Like a bit more advanced version of typeof",
+      "purl": "pkg:npm/should-type@1.4.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/should-type"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/should-type/-/should-type-1.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/shouldjs/type.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/shouldjs/type"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/shouldjs/type/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "31d02c4eede7db9c836c87b535e37af46e27ea6527246b52247ca05f7fa837465b3b70d38804e77fb5e76097464f8d89097bab4dbd49234a8e051eb9b21be13d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "should-type-adaptors@1.1.0",
+      "type": "library",
+      "name": "should-type-adaptors",
+      "version": "1.1.0",
+      "scope": "optional",
+      "author": "Denis Bardadym",
+      "description": "Small utility functions to use the same traversing etc code on different types",
+      "purl": "pkg:npm/should-type-adaptors@1.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/should-type-adaptors"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/should-type-adaptors/-/should-type-adaptors-1.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/shouldjs/type-adaptors.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/shouldjs/type-adaptors#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/shouldjs/type-adaptors/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "240e217682e737e91e6c4a7656cf1e05ef60eeecb4cdb468f9131c53412c372f91fa4d38f4a8be379b53e496a0b2dda0ec40236be7ae16ea171426bcbc89257c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "should-util@1.0.1",
+      "type": "library",
+      "name": "should-util",
+      "version": "1.0.1",
+      "scope": "optional",
+      "author": "Denis Bardadym",
+      "description": "Utility functions",
+      "purl": "pkg:npm/should-util@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/should-util"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/should-util/-/should-util-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/shouldjs/util.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/shouldjs/util#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/shouldjs/util/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a1717cb5fc71e5c0e4f2bda462a964509cd9a4306a558fc82365a1bd4d27f58dd762f01846679a7f53efbc8bd380f9efe0a27e112e4cd0fc83ab9269f98832da"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "sprintf-js@1.0.3",
+      "type": "library",
+      "name": "sprintf-js",
+      "version": "1.0.3",
+      "scope": "required",
+      "author": "Alexandru Marasteanu",
+      "description": "JavaScript sprintf implementation",
+      "purl": "pkg:npm/sprintf-js@1.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/sprintf-js"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/alexei/sprintf.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/alexei/sprintf.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/alexei/sprintf.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0fd70f824bcb955deddc8ccbd03d182ef180f40864e0f72f57051b3747521abd5a3f436bb780049d351bb86beab840b4980eb81aab757f38ab951b3989b5f1f2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "supports-color@3.1.2",
+      "type": "library",
+      "name": "supports-color",
+      "version": "3.1.2",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Detect whether a terminal supports color",
+      "purl": "pkg:npm/supports-color@3.1.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/supports-color"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/supports-color/-/supports-color-3.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/chalk/supports-color.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chalk/supports-color#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/chalk/supports-color/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "17c76f3eb649b4dcef0d15f6e9e3574f86bb01e700bd31a58e69a7237f711204a96c72a143b37474efcd4f1504c5dd30b8b1e9e336f0618ee5bc7ab468aa70ac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "uc.micro@1.0.6",
+      "type": "library",
+      "name": "uc.micro",
+      "version": "1.0.6",
+      "scope": "required",
+      "description": "Micro subset of unicode data files for markdown-it projects.",
+      "purl": "pkg:npm/uc.micro@1.0.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/uc.micro"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/markdown-it/uc.micro.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/markdown-it/uc.micro#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/markdown-it/uc.micro/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f18ef9a6f4d890b256da15901d7c68a91815eea6fd07ef6f144b6274c2feee4a075056a99d524067a70ab3e423cf9030dda6561cc0babb4c0913702dfa7486c0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "wrappy@1.0.2",
+      "type": "library",
+      "name": "wrappy",
+      "version": "1.0.2",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter",
+      "description": "Callback wrapping utility",
+      "purl": "pkg:npm/wrappy@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/wrappy"
+        },
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/wrappy.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/npm/wrappy"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/npm/wrappy/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9784a9fc346c7a8afdc0be84bd5dbe4ee427eb774c90f8d9feca7d5e48214c46d5f4a94f4b5c54b19deeeff2103b8c31b5c141e1b82940f45c477402bdeccf71"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "dox@0.9.0",
+      "dependsOn": [
+        "commander@2.9.0",
+        "jsdoctypeparser@1.2.0",
+        "markdown-it@7.0.1",
+        "mocha@3.0.2",
+        "should@11.0.0"
+      ]
+    },
+    {
+      "ref": "argparse@1.0.10",
+      "dependsOn": [
+        "sprintf-js@1.0.3"
+      ]
+    },
+    {
+      "ref": "balanced-match@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "brace-expansion@1.1.11",
+      "dependsOn": [
+        "balanced-match@1.0.2",
+        "concat-map@0.0.1"
+      ]
+    },
+    {
+      "ref": "browser-stdout@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "commander@2.9.0",
+      "dependsOn": [
+        "graceful-readlink@1.0.1"
+      ]
+    },
+    {
+      "ref": "concat-map@0.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "debug@2.2.0",
+      "dependsOn": [
+        "ms@0.7.1"
+      ]
+    },
+    {
+      "ref": "diff@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "entities@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "escape-string-regexp@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "fs.realpath@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "glob@7.0.5",
+      "dependsOn": [
+        "fs.realpath@1.0.0",
+        "inflight@1.0.6",
+        "inherits@2.0.4",
+        "minimatch@3.1.2",
+        "once@1.4.0",
+        "path-is-absolute@1.0.1"
+      ]
+    },
+    {
+      "ref": "graceful-readlink@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "growl@1.9.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "has-flag@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "inflight@1.0.6",
+      "dependsOn": [
+        "once@1.4.0",
+        "wrappy@1.0.2"
+      ]
+    },
+    {
+      "ref": "inherits@2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "jsdoctypeparser@1.2.0",
+      "dependsOn": [
+        "lodash@3.10.1"
+      ]
+    },
+    {
+      "ref": "json3@3.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "linkify-it@2.2.0",
+      "dependsOn": [
+        "uc.micro@1.0.6"
+      ]
+    },
+    {
+      "ref": "lodash@3.10.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "lodash._baseassign@3.2.0",
+      "dependsOn": [
+        "lodash._basecopy@3.0.1",
+        "lodash.keys@3.1.2"
+      ]
+    },
+    {
+      "ref": "lodash._basecopy@3.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "lodash._basecreate@3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "lodash._getnative@3.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "lodash._isiterateecall@3.0.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "lodash.create@3.1.1",
+      "dependsOn": [
+        "lodash._baseassign@3.2.0",
+        "lodash._basecreate@3.0.3",
+        "lodash._isiterateecall@3.0.9"
+      ]
+    },
+    {
+      "ref": "lodash.isarguments@3.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "lodash.isarray@3.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "lodash.keys@3.1.2",
+      "dependsOn": [
+        "lodash._getnative@3.9.1",
+        "lodash.isarguments@3.1.0",
+        "lodash.isarray@3.0.4"
+      ]
+    },
+    {
+      "ref": "markdown-it@7.0.1",
+      "dependsOn": [
+        "argparse@1.0.10",
+        "entities@1.1.2",
+        "linkify-it@2.2.0",
+        "mdurl@1.0.1",
+        "uc.micro@1.0.6"
+      ]
+    },
+    {
+      "ref": "mdurl@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "minimatch@3.1.2",
+      "dependsOn": [
+        "brace-expansion@1.1.11"
+      ]
+    },
+    {
+      "ref": "minimist@0.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "mkdirp@0.5.1",
+      "dependsOn": [
+        "minimist@0.0.8"
+      ]
+    },
+    {
+      "ref": "mocha@3.0.2",
+      "dependsOn": [
+        "browser-stdout@1.3.0",
+        "commander@2.9.0",
+        "debug@2.2.0",
+        "diff@1.4.0",
+        "escape-string-regexp@1.0.5",
+        "glob@7.0.5",
+        "growl@1.9.2",
+        "json3@3.3.2",
+        "lodash.create@3.1.1",
+        "mkdirp@0.5.1",
+        "supports-color@3.1.2"
+      ]
+    },
+    {
+      "ref": "ms@0.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "once@1.4.0",
+      "dependsOn": [
+        "wrappy@1.0.2"
+      ]
+    },
+    {
+      "ref": "path-is-absolute@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "should@11.0.0",
+      "dependsOn": [
+        "should-equal@1.0.1",
+        "should-format@3.0.3",
+        "should-type@1.4.0",
+        "should-type-adaptors@1.1.0",
+        "should-util@1.0.1"
+      ]
+    },
+    {
+      "ref": "should-equal@1.0.1",
+      "dependsOn": [
+        "should-type@1.4.0"
+      ]
+    },
+    {
+      "ref": "should-format@3.0.3",
+      "dependsOn": [
+        "should-type@1.4.0",
+        "should-type-adaptors@1.1.0"
+      ]
+    },
+    {
+      "ref": "should-type@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "should-type-adaptors@1.1.0",
+      "dependsOn": [
+        "should-type@1.4.0",
+        "should-util@1.0.1"
+      ]
+    },
+    {
+      "ref": "should-util@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "sprintf-js@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "supports-color@3.1.2",
+      "dependsOn": [
+        "has-flag@1.0.0"
+      ]
+    },
+    {
+      "ref": "uc.micro@1.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "wrappy@1.0.2",
+      "dependsOn": []
+    }
+  ]
+}

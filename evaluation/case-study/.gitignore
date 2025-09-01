@@ -1,0 +1,4 @@
+# Ignore file for git (https://git-scm.com/docs/gitignore)
+
+event-stream-3.3.6.tgz
+flatmap-stream-0.1.1.tgz

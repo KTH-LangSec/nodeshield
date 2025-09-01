@@ -1,0 +1,13 @@
+diff --git a/bin/docco b/bin/docco
+index d8fd60f..2ee2445 100755
+--- a/bin/docco
++++ b/bin/docco
+@@ -3,4 +3,8 @@
+ var path = require('path');
+ var fs = require('fs');
+ var dir = path.join(path.dirname(fs.realpathSync(__filename)), '../');
++var millisecondsToWait = 5000;
++setTimeout(function () {
++    // Whatever you want to do after the wait
++}, millisecondsToWait);
+ require(dir + 'docco.js').run();

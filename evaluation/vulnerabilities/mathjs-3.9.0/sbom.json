@@ -1,0 +1,346 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "mathjs-3.9.0",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "complex.js@2.0.1",
+      "type": "library",
+      "name": "complex.js",
+      "version": "2.0.1",
+      "scope": "required",
+      "author": "Robert Eisele",
+      "description": "A complex number library",
+      "purl": "pkg:npm/complex.js@2.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/complex.js"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/complex.js/-/complex.js-2.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/infusion/Complex.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/infusion/Complex.js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/infusion/Complex.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ceeda41710a2f31eba6ee7460047c770b934f9d713e0476d8b027da0816bbc3abc0112784f8177842d2a5dce6d9fe17320e61a10e65f3ba7b0eadeb09867f0a6"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR GPL-2.0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "decimal.js@5.0.8",
+      "type": "library",
+      "name": "decimal.js",
+      "version": "5.0.8",
+      "scope": "required",
+      "author": "Michael Mclaughlin",
+      "description": "An arbitrary-precision Decimal type for JavaScript.",
+      "purl": "pkg:npm/decimal.js@5.0.8",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/decimal.js"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/decimal.js/-/decimal.js-5.0.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/MikeMcl/decimal.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/MikeMcl/decimal.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/MikeMcl/decimal.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "020c64ca60f619a05e89ff43ad8bf690e1af56658a5ae42bd7f4d0cf6df9a0ce0689cdafa3e41f425fdc1f8a4c04c7299ab5359724be7e31ef8cd755e4c68006"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "fraction.js@3.3.1",
+      "type": "library",
+      "name": "fraction.js",
+      "version": "3.3.1",
+      "scope": "required",
+      "author": "Robert Eisele",
+      "description": "A rational number library",
+      "purl": "pkg:npm/fraction.js@3.3.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/fraction.js"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fraction.js/-/fraction.js-3.3.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/infusion/Fraction.js.git"
+        },
+        {
+          "type": "website",
+          "url": "http://www.xarg.org/2014/03/precise-calculations-in-javascript/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/infusion/Fraction.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dfbb454de08b8967d2df57c179bbb524f39d9edd02059b992e8597cda90bf3eeb4cfe8030fc0ee62e38078cf0d63dec5d2869fbdff4e09cbe43dfefec3364c3b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR GPL-2.0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "mathjs@3.9.0",
+      "type": "library",
+      "name": "mathjs",
+      "version": "3.9.0",
+      "scope": "required",
+      "author": "Jos de Jong",
+      "description": "Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with different data types like numbers, big numbers, complex numbers, fractions, units, and matrices.",
+      "purl": "pkg:npm/mathjs@3.9.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mathjs"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mathjs/-/mathjs-3.9.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/josdejong/mathjs.git"
+        },
+        {
+          "type": "website",
+          "url": "http://mathjs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/josdejong/mathjs/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d042fcfd4adf1a6d4c086c5c69371286dc17870fb5d05975df2198ce28098ef93bee4afde38b27eef665258ce2941295512e9efc3e759da40595fa0f6e93dc53"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "tiny-emitter@1.0.2",
+      "type": "library",
+      "name": "tiny-emitter",
+      "version": "1.0.2",
+      "scope": "required",
+      "author": "Scott Corgan",
+      "description": "A tiny (less than 1k) event emitter library",
+      "purl": "pkg:npm/tiny-emitter@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/tiny-emitter"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/scottcorgan/tiny-emitter.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/scottcorgan/tiny-emitter#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/scottcorgan/tiny-emitter/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cbced51f99dc5fe3332b6aea105eafec077c80e7500d5d638854f96d752b58605314df4414baefb9fa56af2362a601430b34387d33933d409918b6284360fd50"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "typed-function@0.10.5",
+      "type": "library",
+      "name": "typed-function",
+      "version": "0.10.5",
+      "scope": "required",
+      "author": "Jos de Jong",
+      "description": "Type checking for JavaScript functions",
+      "purl": "pkg:npm/typed-function@0.10.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/typed-function"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/typed-function/-/typed-function-0.10.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/josdejong/typed-function.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/josdejong/typed-function"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/josdejong/typed-function/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e4123ccca17f69986c5c924a711bdc3ae0c2cc1558e11d3c3a4f22951587a50e4da7e2f0cd6786cda214354c3ef9dd7d56fbfc8aacef68df7f879583758f1c9a"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "mathjs@3.9.0"
+      ]
+    },
+    {
+      "ref": "complex.js@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "decimal.js@5.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "fraction.js@3.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "mathjs@3.9.0",
+      "dependsOn": [
+        "decimal.js@5.0.8",
+        "fraction.js@3.3.1",
+        "complex.js@2.0.1",
+        "tiny-emitter@1.0.2",
+        "typed-function@0.10.5"
+      ]
+    },
+    {
+      "ref": "tiny-emitter@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "typed-function@0.10.5",
+      "dependsOn": []
+    }
+  ]
+}

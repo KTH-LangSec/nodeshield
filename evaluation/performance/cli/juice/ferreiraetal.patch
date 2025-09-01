@@ -1,0 +1,16 @@
+diff --git a/bin/juice b/bin/juice
+index 2f1bf89..d3b6352 100755
+--- a/bin/juice
++++ b/bin/juice
+@@ -36,6 +36,11 @@ function doJuice() {
+   delete options.cssFile;
+   delete options.optionsFile;
+ 
++  var millisecondsToWait = 5000;
++  setTimeout(function () {
++    // Whatever you want to do after the wait
++  }, millisecondsToWait);
++
+   juice.juiceFile(inputFile, options, function(err, html) {
+     if (handleError(err)) { return; }
+     fs.writeFile(outputFile, html, handleError);

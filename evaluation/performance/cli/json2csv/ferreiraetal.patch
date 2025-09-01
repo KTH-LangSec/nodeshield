@@ -1,0 +1,20 @@
+diff --git a/bin/json2csv.js b/bin/json2csv.js
+index b7a4bab..80df0f6 100755
+--- a/bin/json2csv.js
++++ b/bin/json2csv.js
+@@ -175,10 +175,14 @@ Promise.resolve()
+         .then(processOutput);
+     }
+ 
++    var millisecondsToWait = 5000;
++    setTimeout(function () {
++      // Whatever you want to do after the wait
++    }, millisecondsToWait);
+     const transform = new Json2csvTransform(opts);
+     const input = getInputStream();
+     const stream = input.pipe(transform);
+-    
++
+     if (program.output) {
+       const outputStream = fs.createWriteStream(outputPath, { encoding: 'utf8' });
+       const output = stream.pipe(outputStream);

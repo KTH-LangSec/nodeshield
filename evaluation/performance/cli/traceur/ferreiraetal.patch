@@ -1,0 +1,16 @@
+diff --git a/src/node/command.js b/src/node/command.js
+index 2e37c8f2..96a224c8 100644
+--- a/src/node/command.js
++++ b/src/node/command.js
+@@ -27,6 +27,11 @@ try {
+ }
+ commandLine.setMaxListeners(100);
+ 
++var millisecondsToWait = 5000;
++setTimeout(function() {
++    // Whatever you want to do after the wait
++}, millisecondsToWait);
++
+ var traceurAPI = require('./api.js');
+ var interpret = require('./interpreter.js');
+ 

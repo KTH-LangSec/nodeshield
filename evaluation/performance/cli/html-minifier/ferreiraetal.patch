@@ -1,0 +1,17 @@
+diff --git a/cli.js b/cli.js
+index 84db90b..48d8196 100755
+--- a/cli.js
++++ b/cli.js
+@@ -190,6 +190,12 @@ program.option('--input-dir <dir>', 'Specify an input directory');
+ program.option('--output-dir <dir>', 'Specify an output directory');
+ program.option('--file-ext <text>', 'Specify an extension to be read, ex: html');
+ var content;
++
++var millisecondsToWait = 5000;
++setTimeout(function () {
++	// Whatever you want to do after the wait
++}, millisecondsToWait);
++
+ program.arguments('[files...]').action(function(files) {
+   content = files.map(readFile).join('');
+ }).parse(process.argv);

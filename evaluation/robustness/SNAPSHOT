@@ -1,0 +1,60 @@
+== TESTING (NodeShield) ==
+driller-01                                              PREVENTED
+driller-02                                              NOT PREVENTED
+driller-03                                              PREVENTED
+driller-04                                              PREVENTED
+driller-05                                              NOT PREVENTED
+driller-06                                              PREVENTED
+driller-07                                              PREVENTED
+driller-08                                              PREVENTED
+driller-09                                              PREVENTED
+driller-10                                              PREVENTED
+driller-11                                              PREVENTED
+driller-12                                              PREVENTED
+driller-13                                              PREVENTED
+driller-14                                              PREVENTED
+driller-15                                              PREVENTED
+driller-16                                              PREVENTED
+driller-17                                              PREVENTED
+driller-18                                              PREVENTED
+driller-19                                              PREVENTED
+driller-20                                              PREVENTED
+driller-21                                              PREVENTED
+driller-22                                              PREVENTED
+driller-23                                              PREVENTED
+driller-24                                              PREVENTED
+driller-25                                              PREVENTED
+driller-26                                              PREVENTED
+driller-27                                              PREVENTED
+driller-28                                              PREVENTED
+driller-29                                              PREVENTED
+== TESTING (Npm Dependency Guardian) ==
+driller-01                                              NOT PREVENTED
+driller-02                                              NOT PREVENTED
+driller-03                                              PREVENTED
+driller-04                                              PREVENTED
+driller-05                                              NOT PREVENTED
+driller-06                                              NOT PREVENTED
+driller-07                                              PREVENTED
+driller-08                                              PREVENTED
+driller-09                                              PREVENTED
+driller-10                                              NOT PREVENTED
+driller-11                                              PREVENTED
+driller-12                                              PREVENTED
+driller-13                                              PREVENTED
+driller-14                                              NOT PREVENTED
+driller-15                                              NOT PREVENTED
+driller-16                                              PREVENTED
+driller-17                                              PREVENTED
+driller-18                                              PREVENTED
+driller-19                                              PREVENTED
+driller-20                                              NOT PREVENTED
+driller-21                                              NOT PREVENTED
+driller-22                                              NOT PREVENTED
+driller-23                                              NOT PREVENTED
+driller-24                                              PREVENTED
+driller-25                                              PREVENTED
+driller-26                                              PREVENTED
+driller-27                                              PREVENTED
+driller-28                                              PREVENTED
+driller-29                                              PREVENTED

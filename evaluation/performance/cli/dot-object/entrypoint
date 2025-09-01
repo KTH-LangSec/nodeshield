@@ -1,0 +1,1 @@
+./bin/dot-object -p "../input.json" --dot

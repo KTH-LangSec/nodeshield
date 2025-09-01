@@ -1,0 +1,26 @@
+diff --git a/src/iconsdir.js b/src/iconsdir.js
+index 60048f3..8ed4a8d 100644
+--- a/src/iconsdir.js
++++ b/src/iconsdir.js
+@@ -17,7 +17,7 @@ class SVGIconsDirStream extends Readable {
+     this.gotFilesInfos = false;
+     this.dir = dir;
+ 
+-    if (dir instanceof Array) {
++    if (Array.isArray(dir)) {
+       const dirCopy = this.dir;
+ 
+       this.dir = '';
+diff --git a/src/index.js b/src/index.js
+index a95ad26..ed2da8d 100755
+--- a/src/index.js
++++ b/src/index.js
+@@ -171,7 +171,7 @@ class SVGIcons2SVGFontStream extends Transform {
+     }
+     if (
+       glyph.unicode &&
+-      glyph.unicode instanceof Array &&
++      Array.isArray(glyph.unicode) &&
+       glyph.unicode.length
+     ) {
+       if (

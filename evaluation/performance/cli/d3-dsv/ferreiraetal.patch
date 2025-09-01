@@ -1,0 +1,16 @@
+diff --git a/bin/json2dsv b/bin/json2dsv
+index ed6f2e0..5c73cac 100755
+--- a/bin/json2dsv
++++ b/bin/json2dsv
+@@ -21,7 +21,10 @@ commander
+     .parse(process.argv);
+
+ var outFormat = dsv.dsvFormat(commander.outputDelimiter);
+-
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
+ rw.readFile(commander.args[0] || "-", function(error, text) {
+   if (error) throw error;
+   text = iconv.decode(text, commander.inputEncoding);

@@ -1,0 +1,123 @@
+=== TESTING (fpr) ===
+> connect <
+#FP: 1
+#TN: 13
+FPR: 0.0714286
+
+> express <
+#FP: 1
+#TN: 22
+FPR: 0.0434783
+
+> fastify <
+#FP: 0
+#TN: 20
+FPR: 0
+
+> json-server <
+#FP: 2
+#TN: 45
+FPR: 0.0425532
+
+> koa <
+#FP: 1
+#TN: 11
+FPR: 0.0833333
+
+> st <
+#FP: 0
+#TN: 12
+FPR: 0
+
+=== TESTING (fpr) ===
+> d3-dsv <
+#FP: 0
+#TN: 9
+FPR: 0
+
+> docco <
+#FP: 1
+#TN: 15
+FPR: 0.0625
+
+> dot-object <
+#FP: 0
+#TN: 11
+FPR: 0
+
+> dox <
+#FP: 0
+#TN: 4
+FPR: 0
+
+> findup <
+#FP: 0
+#TN: 4
+FPR: 0
+
+> html-minifier <
+#FP: 0
+#TN: 15
+FPR: 0
+
+> js-cfb <
+#FP: 0
+#TN: 7
+FPR: 0
+
+> json-refs <
+#FP: 1
+#TN: 24
+FPR: 0.04
+
+> json2csv <
+#FP: 0
+#TN: 6
+FPR: 0
+
+> juice <
+#FP: 0
+#TN: 63
+FPR: 0
+
+> metalsmith <
+#FP: 0
+#TN: 4
+FPR: 0
+
+> mocha <
+#FP: 0
+#TN: 4
+FPR: 0
+
+> mockjs <
+#FP: 0
+#TN: 3
+FPR: 0
+
+> sails <
+#FP: 11
+#TN: 67
+FPR: 0.141026
+
+> svgicons2svgfont <
+#FP: 0
+#TN: 15
+FPR: 0
+
+> traceur <
+
+> uglify-js <
+#FP: 0
+#TN: 6
+FPR: 0
+
+> xss <
+#FP: 0
+#TN: 4
+FPR: 0
+
+> yaml-front-matter <
+#FP: 0
+#TN: 3
+FPR: 0

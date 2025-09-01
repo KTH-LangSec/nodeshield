@@ -1,0 +1,24 @@
+{
+  "demo@1.0.0": [
+    "file-system",
+    "command",
+    "system"
+  ],
+  "hot-formula-parser@3.0.0": [
+    "system",
+    "code"
+  ],
+  "@handsontable/formulajs@2.0.2": [
+    "system",
+    "code"
+  ],
+  "bessel@1.0.2": [],
+  "jstat@1.9.6": [
+    "file-system",
+    "system",
+    "code"
+  ],
+  "tiny-emitter@2.1.0": [
+    "system"
+  ]
+}

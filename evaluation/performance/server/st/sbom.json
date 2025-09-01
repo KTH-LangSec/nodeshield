@@ -1,0 +1,981 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "server@0.0.0",
+      "type": "library",
+      "name": "st",
+      "version": "0.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/server@0.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "async-cache@1.1.0",
+      "type": "library",
+      "name": "async-cache",
+      "version": "1.1.0",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "Cache your async lookups and don't fetch the same thing more than necessary.",
+      "purl": "pkg:npm/async-cache@1.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/async-cache"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/async-cache/-/async-cache-1.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/async-cache.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/async-cache#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/async-cache/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "60341ce2f067e4d16163a83a1e156c8728b7172f7e490e5e3e713b24b0c99f50e82fe8bb111faf330b5334e624f657999183273b0a41096ab22c33f0f008a0f2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "base64-js@1.5.1",
+      "type": "library",
+      "name": "base64-js",
+      "version": "1.5.1",
+      "scope": "required",
+      "author": "T. Jameson Little",
+      "description": "Base64 encoding/decoding in pure JS",
+      "purl": "pkg:npm/base64-js@1.5.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/base64-js"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/beatgammit/base64-js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/beatgammit/base64-js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/beatgammit/base64-js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "00aa5a6251e7f2de1255b3870b2f9be7e28a82f478bebb03f2f6efadb890269b3b7ca0d3923903af2ea38b4ad42630b49336cd78f2f0cf1abc8b2a68e35a9e58"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bl@5.1.0",
+      "type": "library",
+      "name": "bl",
+      "version": "5.1.0",
+      "scope": "required",
+      "description": "Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!",
+      "purl": "pkg:npm/bl@5.1.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/bl"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bl/-/bl-5.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/rvagg/bl.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/rvagg/bl"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rvagg/bl/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b6fd592472df4c39d713ab4c1efef7620489696476005b8fc0c9ed05eed72ff1811479d3d022e7b0732881f939f86cc20c2e5959aad20986881804d9b7d74db1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "buffer@6.0.3",
+      "type": "library",
+      "name": "buffer",
+      "version": "6.0.3",
+      "scope": "required",
+      "author": "Feross Aboukhadijeh",
+      "description": "Node.js Buffer API, for the browser",
+      "purl": "pkg:npm/buffer@6.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/buffer"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/buffer.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/feross/buffer"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/buffer/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "153882a4dc6dc226591c465b71b4c87198c44552029fdcaafe90c591397de7f031cc3d6768172d37b60eebcae233f80b48363bb1dacc6f2f21a1f00362ebaa38"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "fd@0.0.3",
+      "type": "library",
+      "name": "fd",
+      "version": "0.0.3",
+      "scope": "required",
+      "description": "File descriptor manager",
+      "purl": "pkg:npm/fd@0.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/fd"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fd/-/fd-0.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/rvagg/node-fd.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/rvagg/node-fd"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rvagg/node-fd/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8801eb22c9506f753af0e70c48fd2490d59a6e9eec48de9dd930526f624ede070b2550dde28c2bfe128ce12149a2f14e51e797788b63620a2e1034cc5a25409c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "graceful-fs@4.2.11",
+      "type": "library",
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "scope": "optional",
+      "description": "A drop-in replacement for fs, making various improvements.",
+      "purl": "pkg:npm/graceful-fs@4.2.11",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/graceful-fs"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/node-graceful-fs.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/node-graceful-fs#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/node-graceful-fs/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45b279fe398570d342703579a3d7939c12c9fc7b33595d0fef76dcf857f89d2feb263f98692e881b288e2f45680585fe9755ab97793ade1fcaac7fa7849d17bd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ieee754@1.2.1",
+      "type": "library",
+      "name": "ieee754",
+      "version": "1.2.1",
+      "scope": "required",
+      "author": "Feross Aboukhadijeh",
+      "description": "Read/write IEEE754 floating point numbers from/to a Buffer or array-like object",
+      "purl": "pkg:npm/ieee754@1.2.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ieee754"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/ieee754.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/feross/ieee754#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/ieee754/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "75ccaa843bd7d42e3a95765c56a0a92be16d31141574830debf0dfe63b36ce8b94b2a1bb23ab05c62b480beeca60adbd29d5ce2c776ef732f8b059e85509ea68"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "inherits@2.0.4",
+      "type": "library",
+      "name": "inherits",
+      "version": "2.0.4",
+      "scope": "required",
+      "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "purl": "pkg:npm/inherits@2.0.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/inherits"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/inherits.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/inherits#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/inherits/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "lru-cache@4.1.5",
+      "type": "library",
+      "name": "lru-cache",
+      "version": "4.1.5",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "A cache object that deletes the least-recently-used items.",
+      "purl": "pkg:npm/lru-cache@4.1.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lru-cache"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/node-lru-cache.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/node-lru-cache#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/node-lru-cache/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b166656c43f63ac1cd917acc97919893f8ca93bd0c06783a514e1823fa860d86e07fa61b3f812f9aa2126d70a826244ab3ed5b4a9147560431bc9d7b176962e6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mime@2.6.0",
+      "type": "library",
+      "name": "mime",
+      "version": "2.6.0",
+      "scope": "required",
+      "author": "Robert Kieffer",
+      "description": "A comprehensive library for mime-type mapping",
+      "purl": "pkg:npm/mime@2.6.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mime"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mime/-/mime-2.6.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/broofa/mime.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/broofa/mime#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/broofa/mime/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5123e431e113df5ace3226abb013481d928b1a0bca73f2eb8e87c09c194eb6d7f96a346faa2440f10b1e9db728a1cb4ae9de93b3a6aa657040f976e42ad86242"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "negotiator@0.6.4",
+      "type": "library",
+      "name": "negotiator",
+      "version": "0.6.4",
+      "scope": "required",
+      "description": "HTTP content negotiation",
+      "purl": "pkg:npm/negotiator@0.6.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/negotiator"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/jshttp/negotiator.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jshttp/negotiator#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jshttp/negotiator/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9b2453dc38963c7aa1a393eb25a211c9a32fda48187f499456004d39832e087e4a8b5c8489069ffd926e43ada7be9738e302f95836d35fbc86262d4d79ebf0f3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pseudomap@1.0.2",
+      "type": "library",
+      "name": "pseudomap",
+      "version": "1.0.2",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "A thing that is a lot like ES6 `Map`, but without iterators, for use in environments where `for..of` syntax and `Map` are not available.",
+      "purl": "pkg:npm/pseudomap@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/pseudomap"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/pseudomap.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/pseudomap#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/pseudomap/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6ff6303616fc964d59cf6f9b5d7a52fcb2bd3a2b22659d5236c48bc4dd71d8e5d51215b60a4affee6584e6fac2d594e22650fd835f635accd3989b01fa812915"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "readable-stream@3.6.2",
+      "type": "library",
+      "name": "readable-stream",
+      "version": "3.6.2",
+      "scope": "required",
+      "description": "Streams3, a user-land copy of the stream library from Node.js",
+      "purl": "pkg:npm/readable-stream@3.6.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/readable-stream"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/nodejs/readable-stream.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/nodejs/readable-stream#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/readable-stream/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f6efec9e20ab6370f959db04447cc71381b66025eaa06e454c7522082e1221bafa5dc2d9058d39c9af442a361e93d3b9c4e0308c6abed497460404bb43d49ca0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "safe-buffer@5.2.1",
+      "type": "library",
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "scope": "required",
+      "author": "Feross Aboukhadijeh",
+      "description": "Safer Node.js Buffer API",
+      "purl": "pkg:npm/safe-buffer@5.2.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/safe-buffer"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/safe-buffer.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/feross/safe-buffer"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/safe-buffer/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "st@3.0.1",
+      "type": "library",
+      "name": "st",
+      "version": "3.0.1",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "A module for serving static files.  Does etags, caching, etc.",
+      "purl": "pkg:npm/st@3.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/st"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/st/-/st-3.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/st.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/st#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/st/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "772dcbcb872c327cdb420621c6262a10d50d763ca520f97669e11fee7f9d2377979d5da6bc65a25fdef37a05576bda95007bd8f0cf475945eaa57716c09d9f48"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "string_decoder@1.3.0",
+      "type": "library",
+      "name": "string_decoder",
+      "version": "1.3.0",
+      "scope": "required",
+      "description": "The string_decoder module from Node core",
+      "purl": "pkg:npm/string_decoder@1.3.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/string_decoder"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/nodejs/string_decoder.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/nodejs/string_decoder"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/string_decoder/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "864457f14d568c915df0bb03276c90ff0596c5aa2912c0015355df90cf00fa3d3ef392401a9a6dd7a72bd56860e8a21b6f8a2453a32a97a04e8febaea7fc0a78"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "util-deprecate@1.0.2",
+      "type": "library",
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "scope": "required",
+      "author": "Nathan Rajlich",
+      "description": "The Node.js `util.deprecate()` function with browser support",
+      "purl": "pkg:npm/util-deprecate@1.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/util-deprecate"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/TooTallNate/util-deprecate.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/TooTallNate/util-deprecate"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TooTallNate/util-deprecate/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "10f0f9ab5b97c85c49a42acb9c27359c79eade039ae83641a1c008888d93692080ed5089d5424331a802cc891736c5187c3d5d68afff2d3110f318886eb1ed73"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "yallist@2.1.2",
+      "type": "library",
+      "name": "yallist",
+      "version": "2.1.2",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "Yet Another Linked List",
+      "purl": "pkg:npm/yallist@2.1.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/yallist"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/yallist.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/yallist#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/yallist/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9dc4f31d5ecdbec4199187b50d6edc6c32e6d18a731e6645e6bfe2c8fdd99d0b4c889fa98f38ac0a230d23e4a3fb1405e695e1487c52077b836ec053cd8fdcd8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "server@0.0.0",
+      "dependsOn": [
+        "st@3.0.1"
+      ]
+    },
+    {
+      "ref": "async-cache@1.1.0",
+      "dependsOn": [
+        "lru-cache@4.1.5"
+      ]
+    },
+    {
+      "ref": "base64-js@1.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "bl@5.1.0",
+      "dependsOn": [
+        "buffer@6.0.3",
+        "inherits@2.0.4",
+        "readable-stream@3.6.2"
+      ]
+    },
+    {
+      "ref": "buffer@6.0.3",
+      "dependsOn": [
+        "base64-js@1.5.1",
+        "ieee754@1.2.1"
+      ]
+    },
+    {
+      "ref": "fd@0.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "graceful-fs@4.2.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "ieee754@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "inherits@2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "lru-cache@4.1.5",
+      "dependsOn": [
+        "pseudomap@1.0.2",
+        "yallist@2.1.2"
+      ]
+    },
+    {
+      "ref": "mime@2.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "negotiator@0.6.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pseudomap@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "readable-stream@3.6.2",
+      "dependsOn": [
+        "inherits@2.0.4",
+        "string_decoder@1.3.0",
+        "util-deprecate@1.0.2"
+      ]
+    },
+    {
+      "ref": "safe-buffer@5.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "st@3.0.1",
+      "dependsOn": [
+        "async-cache@1.1.0",
+        "bl@5.1.0",
+        "fd@0.0.3",
+        "mime@2.6.0",
+        "negotiator@0.6.4",
+        "graceful-fs@4.2.11"
+      ]
+    },
+    {
+      "ref": "string_decoder@1.3.0",
+      "dependsOn": [
+        "safe-buffer@5.2.1"
+      ]
+    },
+    {
+      "ref": "util-deprecate@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "yallist@2.1.2",
+      "dependsOn": []
+    }
+  ]
+}

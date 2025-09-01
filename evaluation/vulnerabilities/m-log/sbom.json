@@ -1,0 +1,201 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "m-log",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "colors@1.4.0",
+      "type": "library",
+      "name": "colors",
+      "version": "1.4.0",
+      "scope": "required",
+      "author": "Marak Squires",
+      "description": "get colors in your node.js console",
+      "purl": "pkg:npm/colors@1.4.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/colors"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/Marak/colors.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Marak/colors.js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Marak/colors.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6be52a4e1e2481983f4a51af7dbcc31e9811bbb00040e9a6a911c99f185164808a1544fdd5bad584d36de7c08c594f4fb016efdcf0c26541db571b83887da6b4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "date-format@0.0.2",
+      "type": "library",
+      "name": "date-format",
+      "version": "0.0.2",
+      "scope": "required",
+      "author": "Gareth Jones",
+      "description": "formatting Date objects as strings since 2013",
+      "purl": "pkg:npm/date-format@0.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/date-format"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/date-format/-/date-format-0.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/nomiddlename/date-format.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/nomiddlename/date-format#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nomiddlename/date-format/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "338a1bb89c7c8d4e53f7595c6f08b4f903cd55a58e6350d0633e7152e29858ef77a2c57307664fab20d47394fe9838db0355fc54e6f824367ef2bd8cad23a9ed"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "m-log@0.0.1",
+      "type": "library",
+      "name": "m-log",
+      "version": "0.0.1",
+      "scope": "required",
+      "author": "Misaki Shibata",
+      "description": "Log Utility.",
+      "purl": "pkg:npm/m-log@0.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/m-log"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/m-log/-/m-log-0.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/misak1/m-log.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/misak1/m-log#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/misak1/m-log/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7d41654d6e2849911e5977201efc6bf54326212ce8810c72f99cd9ebf9fd6ab85f0513e08a4ddcd0697c0b16878ed7f0c04cf40e05960dfc41bc6b305304ff2f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "m-log@0.0.1"
+      ]
+    },
+    {
+      "ref": "colors@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "date-format@0.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "m-log@0.0.1",
+      "dependsOn": [
+        "colors@1.4.0",
+        "date-format@0.0.2"
+      ]
+    }
+  ]
+}

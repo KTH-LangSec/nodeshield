@@ -1,0 +1,9 @@
+# Ignore file for OCI containers (https://docs.docker.com/reference/dockerfile/)
+
+npm-run-all/
+.containerignore
+.dockerignore
+.gitignore
+Containerfile
+README.md
+container.sh

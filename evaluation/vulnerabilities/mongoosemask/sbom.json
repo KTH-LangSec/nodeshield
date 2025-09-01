@@ -1,0 +1,187 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "mongoosemask",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "lodash@1.3.1",
+      "type": "library",
+      "name": "lodash",
+      "version": "1.3.1",
+      "scope": "required",
+      "author": "John-David Dalton",
+      "description": "A utility library delivering consistency, customization, performance, and extras.",
+      "purl": "pkg:npm/lodash@1.3.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash/-/lodash-1.3.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "http://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "17b001f2efba774d020a09db8d6ceaf5f14ba7338c0a0aba98f8ce5b8fbcf9d61bae7734a1b46b0be20772dcdf67528a4d0c57d31a3fa6e9eb96939671fe20a7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mongoosemask@0.0.6",
+      "type": "library",
+      "name": "mongoosemask",
+      "version": "0.0.6",
+      "scope": "required",
+      "author": "Anthony McCormick",
+      "description": "mongoosemask",
+      "purl": "pkg:npm/mongoosemask@0.0.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mongoosemask"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mongoosemask/-/mongoosemask-0.0.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mccormicka/mongoosemask.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mccormicka/mongoosemask"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mccormicka/mongoosemask/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1c0f47c847a5255a8dbf1ff228aed1cbfb54cda5ef2e034bf1edcc4617d7e8a44d5d222e6fb5cc4625b4f1a3a2dcec874ce30071bdf9bcffd93353e6b28e15af"
+        }
+      ]
+    },
+    {
+      "bom-ref": "nodelogger@0.0.1",
+      "type": "library",
+      "name": "nodelogger",
+      "version": "0.0.1",
+      "scope": "required",
+      "author": "Anthony McCormick",
+      "description": "NodeLogger",
+      "purl": "pkg:npm/nodelogger@0.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/nodelogger"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://github.com/mccormicka/nodelogger/archive/master.tar.gz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mccormicka/nodelogger.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mccormicka/nodelogger"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mccormicka/nodelogger/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4d68d41fef01fa0104249cada92551e54d716b7affb5c8548747da42ce15dfa5d6c86f9c28b72ec113570ef50a4bf49719046e5d87f1dfae162333f501922049"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "mongoosemask@0.0.6"
+      ]
+    },
+    {
+      "ref": "lodash@1.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "mongoosemask@0.0.6",
+      "dependsOn": [
+        "nodelogger@0.0.1",
+        "lodash@1.3.1"
+      ]
+    },
+    {
+      "ref": "nodelogger@0.0.1",
+      "dependsOn": []
+    }
+  ]
+}

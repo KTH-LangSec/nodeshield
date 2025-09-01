@@ -1,0 +1,18 @@
+{
+  "memberAccessTracing": false,
+  "policyCoarse": {
+    "app": {
+      "globals": [
+        "Buffer",
+        "console",
+        "Error",
+        "Object",
+        "process",
+        "require",
+        "setTimeout"
+      ],
+      "modules": []
+    }
+  },
+  "policyFine": {}
+}

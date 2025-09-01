@@ -1,0 +1,8 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test-tool": "node ../.cli/src/cli.js --strategy throw --sbom ./sbom.json -- ./index.js"
+  }
+}

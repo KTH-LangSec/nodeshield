@@ -1,0 +1,11 @@
+# Ignore file for OCI containers (https://docs.docker.com/reference/dockerfile/)
+
+.results/
+node_modules/
+_container.sh
+_setup.sh
+.containerignore
+.dockerignore
+Containerfile
+README.txt
+server.sh

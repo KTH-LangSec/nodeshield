@@ -1,0 +1,26 @@
+diff --git a/bin/_metalsmith b/bin/_metalsmith
+index 98c33cb..6cb1c69 100755
+--- a/bin/_metalsmith
++++ b/bin/_metalsmith
+@@ -146,7 +146,7 @@ function log(message){
+  */
+
+ function normalize(obj){
+-  if (obj instanceof Array) return obj;
++  if (Array.isArray(obj)) return obj;
+   var ret = [];
+
+   for (var key in obj) {
+diff --git a/node_modules/ware/lib/index.js b/node_modules/ware/lib/index.js
+index 643a74b..7f2fbfe 100644
+--- a/node_modules/ware/lib/index.js
++++ b/node_modules/ware/lib/index.js
+@@ -45,7 +45,7 @@ Ware.prototype.use = function (fn) {
+     return this.use(fn.fns);
+   }
+
+-  if (fn instanceof Array) {
++  if (Array.isArray(fn)) {
+     for (var i = 0, f; f = fn[i++];) this.use(f);
+     return this;
+   }

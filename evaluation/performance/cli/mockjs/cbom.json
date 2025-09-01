@@ -1,0 +1,1478 @@
+{
+  "mockjs@1.0.0-beta2": [
+    "system",
+    "code",
+    "network",
+    "command"
+  ],
+  "commander@2.17.1": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "gulp@3.9.1": [
+    "system",
+    "code",
+    "file-system"
+  ],
+  "archy@1.0.0": [],
+  "chalk@1.1.3": [
+    "system"
+  ],
+  "ansi-styles@2.2.1": [],
+  "escape-string-regexp@1.0.5": [],
+  "has-ansi@2.0.0": [],
+  "ansi-regex@2.1.1": [],
+  "strip-ansi@3.0.1": [],
+  "supports-color@2.0.0": [
+    "system"
+  ],
+  "deprecated@0.0.1": [],
+  "gulp-util@3.0.8": [
+    "system"
+  ],
+  "through2@2.0.5": [
+    "system"
+  ],
+  "readable-stream@2.3.8": [
+    "system"
+  ],
+  "isarray@1.0.0": [],
+  "safe-buffer@5.1.2": [],
+  "string_decoder@1.1.1": [],
+  "array-differ@1.0.0": [],
+  "array-uniq@1.0.3": [],
+  "beeper@1.1.1": [
+    "system"
+  ],
+  "dateformat@2.2.0": [],
+  "fancy-log@1.3.3": [
+    "system"
+  ],
+  "ansi-gray@0.1.1": [],
+  "ansi-wrap@0.1.0": [],
+  "color-support@1.1.3": [
+    "system"
+  ],
+  "parse-node-version@1.0.1": [
+    "system"
+  ],
+  "time-stamp@1.1.0": [],
+  "gulplog@1.0.0": [],
+  "glogg@1.0.2": [],
+  "sparkles@1.0.1": [],
+  "has-gulplog@0.1.0": [],
+  "lodash._reescape@3.0.0": [],
+  "lodash._reevaluate@3.0.0": [],
+  "lodash._reinterpolate@3.0.0": [],
+  "lodash.template@3.6.2": [],
+  "lodash._basecopy@3.0.1": [],
+  "lodash._basetostring@3.0.1": [
+    "system"
+  ],
+  "lodash._basevalues@3.0.0": [],
+  "lodash._isiterateecall@3.0.9": [],
+  "lodash.escape@3.2.0": [
+    "system"
+  ],
+  "lodash._root@3.0.1": [],
+  "lodash.keys@3.1.2": [],
+  "lodash._getnative@3.9.1": [],
+  "lodash.isarguments@3.1.0": [],
+  "lodash.isarray@3.0.4": [],
+  "lodash.restparam@3.6.1": [],
+  "lodash.templatesettings@3.1.1": [],
+  "minimist@1.2.8": [
+    "system"
+  ],
+  "multipipe@0.1.2": [],
+  "duplexer2@0.0.2": [],
+  "readable-stream@1.1.14": [
+    "system"
+  ],
+  "core-util-is@1.0.3": [],
+  "isarray@0.0.1": [],
+  "string_decoder@0.10.31": [],
+  "inherits@2.0.4": [],
+  "object-assign@3.0.0": [],
+  "replace-ext@0.0.1": [],
+  "process-nextick-args@2.0.1": [
+    "system"
+  ],
+  "util-deprecate@1.0.2": [],
+  "xtend@4.0.2": [],
+  "vinyl@0.5.3": [
+    "system"
+  ],
+  "clone@1.0.4": [],
+  "clone-stats@0.0.1": [
+    "file-system"
+  ],
+  "interpret@1.4.0": [],
+  "liftoff@2.5.0": [
+    "system",
+    "file-system"
+  ],
+  "extend@3.0.2": [
+    "code"
+  ],
+  "findup-sync@2.0.0": [
+    "file-system"
+  ],
+  "detect-file@1.0.0": [
+    "file-system"
+  ],
+  "is-glob@3.1.0": [],
+  "is-extglob@2.1.1": [],
+  "micromatch@3.1.10": [
+    "system"
+  ],
+  "arr-diff@4.0.0": [],
+  "array-unique@0.3.2": [],
+  "braces@2.3.2": [
+    "addon"
+  ],
+  "extend-shallow@2.0.1": [],
+  "is-extendable@0.1.1": [],
+  "arr-flatten@1.1.0": [],
+  "fill-range@4.0.0": [],
+  "is-number@3.0.0": [],
+  "kind-of@3.2.2": [],
+  "is-buffer@1.1.6": [],
+  "repeat-string@1.6.1": [],
+  "to-regex-range@2.1.1": [],
+  "isobject@3.0.1": [],
+  "repeat-element@1.1.4": [],
+  "snapdragon@0.8.2": [
+    "file-system",
+    "system"
+  ],
+  "define-property@0.2.5": [],
+  "is-descriptor@0.1.7": [],
+  "source-map@0.5.7": [
+    "addon"
+  ],
+  "base@0.11.2": [
+    "system"
+  ],
+  "define-property@1.0.0": [],
+  "cache-base@1.0.1": [],
+  "collection-visit@1.0.0": [],
+  "map-visit@1.0.0": [],
+  "object-visit@1.0.1": [],
+  "component-emitter@1.3.1": [],
+  "get-value@2.0.6": [],
+  "has-value@1.0.0": [],
+  "has-values@1.0.0": [],
+  "kind-of@4.0.0": [],
+  "set-value@2.0.1": [],
+  "is-plain-object@2.0.4": [],
+  "split-string@3.1.0": [],
+  "extend-shallow@3.0.2": [],
+  "assign-symbols@1.0.0": [],
+  "is-extendable@1.0.1": [],
+  "to-object-path@0.3.0": [],
+  "union-value@1.0.1": [],
+  "arr-union@3.1.0": [],
+  "unset-value@1.0.0": [],
+  "has-value@0.3.1": [],
+  "isobject@2.1.0": [],
+  "has-values@0.1.4": [],
+  "class-utils@0.3.6": [],
+  "is-accessor-descriptor@1.0.1": [],
+  "hasown@2.0.2": [],
+  "function-bind@1.1.2": [],
+  "is-data-descriptor@1.0.1": [],
+  "static-extend@0.1.2": [],
+  "object-copy@0.1.0": [],
+  "copy-descriptor@0.1.1": [],
+  "is-descriptor@1.0.3": [],
+  "mixin-deep@1.3.2": [],
+  "for-in@1.0.2": [],
+  "pascalcase@0.1.1": [],
+  "debug@2.6.9": [
+    "addon",
+    "system",
+    "file-system",
+    "network"
+  ],
+  "ms@2.0.0": [],
+  "map-cache@0.2.2": [],
+  "source-map-resolve@0.5.3": [],
+  "atob@2.1.2": [
+    "system"
+  ],
+  "decode-uri-component@0.2.2": [],
+  "resolve-url@0.2.1": [],
+  "source-map-url@0.4.1": [],
+  "urix@0.1.0": [],
+  "use@3.1.1": [],
+  "snapdragon-node@2.1.1": [
+    "addon"
+  ],
+  "snapdragon-util@3.0.1": [
+    "addon"
+  ],
+  "to-regex@3.0.2": [],
+  "define-property@2.0.2": [],
+  "regex-not@1.0.2": [],
+  "safe-regex@1.1.0": [
+    "system"
+  ],
+  "ret@0.1.15": [],
+  "extglob@2.0.4": [],
+  "expand-brackets@2.1.4": [],
+  "posix-character-classes@0.1.1": [],
+  "fragment-cache@0.2.1": [],
+  "kind-of@6.0.3": [],
+  "nanomatch@1.2.13": [],
+  "is-windows@1.0.2": [
+    "system"
+  ],
+  "object.pick@1.3.0": [],
+  "resolve-dir@1.0.1": [],
+  "expand-tilde@2.0.2": [
+    "system"
+  ],
+  "homedir-polyfill@1.0.3": [
+    "system",
+    "file-system"
+  ],
+  "parse-passwd@1.0.0": [],
+  "global-modules@1.0.0": [],
+  "global-prefix@1.0.2": [
+    "file-system",
+    "system"
+  ],
+  "ini@1.3.8": [
+    "system"
+  ],
+  "which@1.3.1": [
+    "system"
+  ],
+  "isexe@2.0.0": [
+    "file-system",
+    "system"
+  ],
+  "fined@1.2.0": [
+    "file-system"
+  ],
+  "object.defaults@1.1.0": [],
+  "array-each@1.0.1": [],
+  "array-slice@1.1.0": [],
+  "for-own@1.0.0": [],
+  "parse-filepath@1.0.2": [],
+  "is-absolute@1.0.0": [],
+  "is-relative@1.0.0": [],
+  "is-unc-path@1.0.0": [],
+  "unc-path-regex@0.1.2": [],
+  "path-root@0.1.1": [],
+  "path-root-regex@0.1.2": [],
+  "flagged-respawn@1.0.1": [
+    "system",
+    "command"
+  ],
+  "object.map@1.0.1": [],
+  "make-iterator@1.0.1": [],
+  "rechoir@0.6.2": [],
+  "resolve@1.1.7": [
+    "file-system",
+    "system"
+  ],
+  "orchestrator@0.3.8": [
+    "system"
+  ],
+  "end-of-stream@0.1.5": [
+    "file-system",
+    "network",
+    "system"
+  ],
+  "once@1.3.3": [],
+  "wrappy@1.0.2": [],
+  "sequencify@0.0.7": [],
+  "stream-consume@0.1.1": [],
+  "pretty-hrtime@1.0.3": [
+    "system"
+  ],
+  "semver@4.3.6": [
+    "system",
+    "file-system",
+    "code"
+  ],
+  "tildify@1.2.0": [],
+  "os-homedir@1.0.2": [
+    "system"
+  ],
+  "v8flags@2.1.1": [
+    "system",
+    "file-system",
+    "crypto",
+    "command",
+    "network"
+  ],
+  "user-home@1.1.1": [
+    "system"
+  ],
+  "vinyl-fs@0.3.14": [
+    "system",
+    "file-system"
+  ],
+  "through2@0.6.5": [
+    "system"
+  ],
+  "readable-stream@1.0.34": [
+    "system"
+  ],
+  "vinyl@0.4.6": [
+    "system"
+  ],
+  "clone@0.2.0": [
+    "code"
+  ],
+  "defaults@1.0.4": [],
+  "glob-stream@3.1.18": [
+    "system"
+  ],
+  "glob@4.5.3": [
+    "system",
+    "file-system"
+  ],
+  "minimatch@2.0.10": [],
+  "inflight@1.0.6": [
+    "system"
+  ],
+  "once@1.4.0": [],
+  "brace-expansion@1.1.11": [],
+  "balanced-match@1.0.2": [],
+  "concat-map@0.0.1": [],
+  "ordered-read-streams@0.1.0": [],
+  "glob2base@0.0.12": [],
+  "find-index@0.1.1": [],
+  "unique-stream@1.0.0": [
+    "system"
+  ],
+  "glob-watcher@0.0.6": [
+    "file-system"
+  ],
+  "gaze@0.5.2": [
+    "file-system",
+    "system"
+  ],
+  "globule@0.1.0": [
+    "file-system",
+    "system"
+  ],
+  "lodash@1.0.2": [
+    "system"
+  ],
+  "glob@3.1.21": [
+    "system",
+    "file-system",
+    "command",
+    "code"
+  ],
+  "minimatch@0.2.14": [
+    "system"
+  ],
+  "graceful-fs@1.2.3": [
+    "file-system",
+    "system"
+  ],
+  "inherits@1.0.2": [],
+  "lru-cache@2.7.3": [
+    "system"
+  ],
+  "sigmund@1.0.1": [
+    "network"
+  ],
+  "graceful-fs@3.0.12": [
+    "system"
+  ],
+  "natives@1.1.6": [
+    "code",
+    "system"
+  ],
+  "mkdirp@0.5.6": [
+    "file-system",
+    "system"
+  ],
+  "strip-bom@1.0.0": [
+    "file-system",
+    "system"
+  ],
+  "first-chunk-stream@1.0.0": [],
+  "is-utf8@0.2.1": [],
+  "gulp-connect@5.7.0": [
+    "network",
+    "file-system",
+    "system"
+  ],
+  "ansi-colors@2.0.5": [
+    "system"
+  ],
+  "connect@3.7.0": [
+    "network",
+    "system"
+  ],
+  "finalhandler@1.1.2": [
+    "system"
+  ],
+  "encodeurl@1.0.2": [],
+  "escape-html@1.0.3": [],
+  "on-finished@2.3.0": [
+    "system"
+  ],
+  "ee-first@1.1.1": [],
+  "parseurl@1.3.3": [],
+  "statuses@1.5.0": [
+    "network"
+  ],
+  "unpipe@1.0.0": [],
+  "utils-merge@1.0.1": [],
+  "connect-livereload@0.6.1": [],
+  "map-stream@0.0.7": [
+    "system"
+  ],
+  "send@0.16.2": [
+    "file-system"
+  ],
+  "statuses@1.4.0": [
+    "network"
+  ],
+  "depd@1.1.2": [
+    "system",
+    "code"
+  ],
+  "destroy@1.0.4": [
+    "file-system"
+  ],
+  "etag@1.8.1": [
+    "crypto",
+    "file-system"
+  ],
+  "fresh@0.5.2": [],
+  "http-errors@1.6.3": [],
+  "inherits@2.0.3": [],
+  "setprototypeof@1.1.0": [],
+  "mime@1.4.1": [
+    "system",
+    "file-system"
+  ],
+  "range-parser@1.2.1": [],
+  "serve-index@1.9.1": [
+    "file-system",
+    "network"
+  ],
+  "accepts@1.3.8": [],
+  "mime-types@2.1.35": [],
+  "mime-db@1.52.0": [
+    "network"
+  ],
+  "negotiator@0.6.3": [],
+  "batch@0.6.1": [
+    "system"
+  ],
+  "serve-static@1.16.2": [],
+  "encodeurl@2.0.0": [],
+  "send@0.19.0": [
+    "file-system"
+  ],
+  "depd@2.0.0": [
+    "system"
+  ],
+  "destroy@1.2.0": [
+    "file-system"
+  ],
+  "http-errors@2.0.0": [],
+  "setprototypeof@1.2.0": [],
+  "statuses@2.0.1": [
+    "network"
+  ],
+  "mime@1.6.0": [
+    "system",
+    "file-system"
+  ],
+  "ms@2.1.3": [],
+  "on-finished@2.4.1": [
+    "system"
+  ],
+  "toidentifier@1.0.1": [],
+  "tiny-lr@1.1.1": [
+    "system",
+    "file-system",
+    "network"
+  ],
+  "debug@3.2.7": [
+    "addon",
+    "system"
+  ],
+  "object-assign@4.1.1": [],
+  "qs@6.14.0": [
+    "code"
+  ],
+  "body@5.1.0": [
+    "system"
+  ],
+  "continuable-cache@0.3.1": [
+    "system"
+  ],
+  "error@7.2.1": [
+    "network"
+  ],
+  "string-template@0.2.1": [],
+  "raw-body@1.1.7": [
+    "system"
+  ],
+  "bytes@1.0.0": [],
+  "safe-json-parse@1.0.1": [],
+  "faye-websocket@0.10.0": [
+    "system",
+    "file-system",
+    "network"
+  ],
+  "websocket-driver@0.7.4": [
+    "system",
+    "crypto"
+  ],
+  "http-parser-js@0.5.9": [],
+  "safe-buffer@5.2.1": [],
+  "websocket-extensions@0.1.4": [],
+  "livereload-js@2.4.0": [
+    "system"
+  ],
+  "side-channel@1.1.0": [],
+  "es-errors@1.3.0": [
+    "code"
+  ],
+  "object-inspect@1.13.4": [
+    "system"
+  ],
+  "side-channel-list@1.0.0": [],
+  "side-channel-map@1.0.1": [],
+  "call-bound@1.0.3": [],
+  "call-bind-apply-helpers@1.0.1": [],
+  "get-intrinsic@1.2.7": [
+    "code"
+  ],
+  "es-define-property@1.0.1": [],
+  "es-object-atoms@1.1.1": [],
+  "get-proto@1.0.1": [],
+  "dunder-proto@1.0.1": [],
+  "gopd@1.2.0": [],
+  "has-symbols@1.1.0": [],
+  "math-intrinsics@1.1.0": [],
+  "side-channel-weakmap@1.0.2": [],
+  "gulp-coveralls@0.1.4": [
+    "file-system"
+  ],
+  "coveralls@2.13.3": [
+    "system",
+    "file-system",
+    "command"
+  ],
+  "minimist@1.2.0": [
+    "system"
+  ],
+  "js-yaml@3.6.1": [
+    "file-system",
+    "system"
+  ],
+  "argparse@1.0.10": [
+    "file-system",
+    "system"
+  ],
+  "sprintf-js@1.0.3": [],
+  "esprima@2.7.3": [
+    "file-system",
+    "system",
+    "code"
+  ],
+  "lcov-parse@0.0.10": [
+    "code",
+    "file-system"
+  ],
+  "log-driver@1.2.5": [],
+  "request@2.79.0": [
+    "system",
+    "file-system",
+    "crypto",
+    "network"
+  ],
+  "aws-sign2@0.6.0": [
+    "crypto"
+  ],
+  "aws4@1.13.2": [
+    "crypto",
+    "network",
+    "system"
+  ],
+  "caseless@0.11.0": [],
+  "combined-stream@1.0.8": [],
+  "delayed-stream@1.0.0": [],
+  "forever-agent@0.6.1": [
+    "network"
+  ],
+  "form-data@2.1.4": [
+    "network",
+    "file-system",
+    "system"
+  ],
+  "asynckit@0.4.0": [
+    "system"
+  ],
+  "har-validator@2.0.6": [
+    "file-system",
+    "system"
+  ],
+  "is-my-json-valid@2.20.6": [
+    "file-system"
+  ],
+  "generate-function@2.3.1": [
+    "code"
+  ],
+  "is-property@1.0.2": [],
+  "generate-object-property@1.2.0": [],
+  "is-my-ip-valid@1.0.1": [],
+  "jsonpointer@5.0.1": [],
+  "pinkie-promise@2.0.1": [],
+  "pinkie@2.0.4": [
+    "system"
+  ],
+  "hawk@3.1.3": [
+    "network",
+    "system",
+    "crypto"
+  ],
+  "hoek@2.16.3": [
+    "crypto",
+    "system",
+    "file-system"
+  ],
+  "boom@2.10.1": [
+    "network"
+  ],
+  "cryptiles@2.0.5": [
+    "crypto"
+  ],
+  "sntp@1.0.9": [
+    "system",
+    "network"
+  ],
+  "http-signature@1.1.1": [
+    "crypto",
+    "network"
+  ],
+  "assert-plus@0.2.0": [
+    "system"
+  ],
+  "jsprim@1.4.2": [
+    "system"
+  ],
+  "assert-plus@1.0.0": [
+    "system"
+  ],
+  "extsprintf@1.3.0": [
+    "system"
+  ],
+  "json-schema@0.4.0": [],
+  "verror@1.10.0": [],
+  "core-util-is@1.0.2": [],
+  "sshpk@1.18.0": [
+    "file-system",
+    "system",
+    "crypto"
+  ],
+  "asn1@0.2.6": [],
+  "safer-buffer@2.1.2": [
+    "system"
+  ],
+  "dashdash@1.14.1": [
+    "file-system",
+    "system"
+  ],
+  "getpass@0.1.7": [
+    "file-system",
+    "system"
+  ],
+  "jsbn@0.1.1": [],
+  "tweetnacl@0.14.5": [
+    "crypto"
+  ],
+  "ecc-jsbn@0.1.2": [
+    "crypto"
+  ],
+  "bcrypt-pbkdf@1.0.2": [],
+  "is-typedarray@1.0.0": [],
+  "isstream@0.1.2": [],
+  "json-stringify-safe@5.0.1": [],
+  "oauth-sign@0.8.2": [
+    "crypto"
+  ],
+  "qs@6.3.3": [],
+  "stringstream@0.0.6": [
+    "file-system",
+    "system"
+  ],
+  "tough-cookie@2.3.4": [
+    "network",
+    "system"
+  ],
+  "punycode@1.4.1": [
+    "system"
+  ],
+  "tunnel-agent@0.4.3": [
+    "network",
+    "system"
+  ],
+  "uuid@3.4.0": [
+    "system",
+    "crypto"
+  ],
+  "through2@1.1.1": [
+    "system"
+  ],
+  "gulp-istanbul@0.10.4": [
+    "system"
+  ],
+  "istanbul@0.4.5": [
+    "system",
+    "code",
+    "file-system",
+    "crypto"
+  ],
+  "supports-color@3.2.3": [
+    "system"
+  ],
+  "abbrev@1.0.9": [],
+  "async@1.5.2": [
+    "system"
+  ],
+  "escodegen@1.8.1": [
+    "file-system",
+    "system"
+  ],
+  "estraverse@1.9.3": [],
+  "esutils@2.0.3": [
+    "code"
+  ],
+  "optionator@0.8.3": [
+    "system"
+  ],
+  "prelude-ls@1.1.2": [],
+  "deep-is@0.1.4": [],
+  "word-wrap@1.2.5": [],
+  "type-check@0.3.2": [],
+  "levn@0.3.0": [],
+  "fast-levenshtein@2.0.6": [],
+  "source-map@0.2.0": [
+    "file-system",
+    "addon",
+    "system"
+  ],
+  "amdefine@1.0.1": [
+    "system",
+    "file-system"
+  ],
+  "glob@5.0.15": [
+    "system",
+    "file-system"
+  ],
+  "minimatch@3.1.2": [],
+  "path-is-absolute@1.0.1": [
+    "system"
+  ],
+  "handlebars@4.7.8": [
+    "system",
+    "file-system"
+  ],
+  "source-map@0.6.1": [
+    "addon"
+  ],
+  "neo-async@2.6.2": [
+    "system"
+  ],
+  "wordwrap@1.0.0": [
+    "file-system"
+  ],
+  "uglify-js@3.19.3": [
+    "file-system",
+    "addon",
+    "system",
+    "code",
+    "network"
+  ],
+  "nopt@3.0.6": [
+    "system"
+  ],
+  "has-flag@1.0.0": [
+    "system"
+  ],
+  "istanbul-threshold-checker@0.1.0": [],
+  "istanbul@0.3.22": [
+    "system",
+    "code",
+    "file-system",
+    "crypto"
+  ],
+  "escodegen@1.7.1": [
+    "file-system",
+    "system"
+  ],
+  "esprima@1.2.5": [
+    "file-system",
+    "system",
+    "code",
+    "command"
+  ],
+  "optionator@0.5.0": [
+    "system"
+  ],
+  "wordwrap@0.0.3": [
+    "file-system"
+  ],
+  "levn@0.2.5": [],
+  "fast-levenshtein@1.0.7": [],
+  "esprima@2.5.0": [
+    "file-system",
+    "system",
+    "code"
+  ],
+  "lodash@3.6.0": [
+    "system",
+    "code"
+  ],
+  "fileset@0.2.1": [],
+  "lodash@4.17.21": [
+    "system",
+    "code"
+  ],
+  "gulp-jshint@2.1.0": [
+    "file-system",
+    "system"
+  ],
+  "jshint@2.13.6": [
+    "file-system",
+    "system",
+    "network",
+    "code"
+  ],
+  "minimatch@3.0.8": [],
+  "cli@1.0.1": [
+    "file-system",
+    "system"
+  ],
+  "glob@7.2.3": [
+    "file-system",
+    "system"
+  ],
+  "fs.realpath@1.0.0": [
+    "file-system",
+    "system"
+  ],
+  "exit@0.1.2": [
+    "system",
+    "file-system",
+    "command"
+  ],
+  "console-browserify@1.1.0": [],
+  "date-now@0.1.4": [],
+  "htmlparser2@3.8.3": [
+    "network",
+    "file-system"
+  ],
+  "domhandler@2.3.0": [
+    "addon",
+    "file-system"
+  ],
+  "domelementtype@1.3.1": [],
+  "domutils@1.5.1": [],
+  "dom-serializer@0.2.2": [],
+  "domelementtype@2.3.0": [],
+  "entities@2.2.0": [],
+  "entities@1.0.0": [],
+  "strip-json-comments@1.0.4": [
+    "file-system",
+    "system"
+  ],
+  "plugin-error@0.1.2": [],
+  "arr-diff@1.1.0": [],
+  "array-slice@0.2.3": [],
+  "extend-shallow@1.1.4": [],
+  "kind-of@1.1.0": [],
+  "ansi-cyan@0.1.1": [],
+  "ansi-red@0.1.1": [],
+  "arr-union@2.1.0": [],
+  "rcloader@0.2.2": [
+    "system",
+    "network",
+    "file-system"
+  ],
+  "lodash.assign@4.2.0": [],
+  "lodash.isobject@3.0.2": [],
+  "lodash.merge@4.6.2": [
+    "system"
+  ],
+  "rcfinder@0.1.9": [
+    "file-system",
+    "system"
+  ],
+  "lodash.clonedeep@4.5.0": [
+    "system"
+  ],
+  "gulp-mocha@2.2.0": [
+    "system"
+  ],
+  "mocha@2.5.3": [
+    "system",
+    "file-system",
+    "command"
+  ],
+  "commander@2.3.0": [
+    "command",
+    "system"
+  ],
+  "debug@2.2.0": [
+    "file-system",
+    "network",
+    "system"
+  ],
+  "ms@0.7.1": [],
+  "escape-string-regexp@1.0.2": [],
+  "glob@3.2.11": [
+    "file-system",
+    "system",
+    "command",
+    "code"
+  ],
+  "minimatch@0.3.0": [
+    "system"
+  ],
+  "mkdirp@0.5.1": [
+    "file-system",
+    "system"
+  ],
+  "minimist@0.0.8": [
+    "system"
+  ],
+  "supports-color@1.2.0": [
+    "system"
+  ],
+  "diff@1.4.0": [],
+  "growl@1.9.2": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "jade@0.26.3": [
+    "file-system",
+    "system",
+    "code",
+    "addon",
+    "network"
+  ],
+  "commander@0.6.1": [
+    "system"
+  ],
+  "mkdirp@0.3.0": [
+    "file-system",
+    "system"
+  ],
+  "to-iso-string@0.0.2": [],
+  "plur@2.1.2": [],
+  "irregular-plurals@1.4.0": [],
+  "resolve-from@1.0.1": [],
+  "temp@0.8.4": [
+    "file-system",
+    "system"
+  ],
+  "rimraf@2.6.3": [
+    "system",
+    "file-system"
+  ],
+  "through@2.3.8": [
+    "system"
+  ],
+  "gulp-mocha-phantomjs@0.10.1": [
+    "file-system",
+    "command",
+    "system"
+  ],
+  "gulp-util@2.2.20": [
+    "system"
+  ],
+  "through2@0.5.1": [],
+  "xtend@3.0.0": [],
+  "chalk@0.5.1": [],
+  "ansi-styles@1.1.0": [],
+  "has-ansi@0.1.0": [
+    "system"
+  ],
+  "ansi-regex@0.2.1": [],
+  "strip-ansi@0.3.0": [
+    "file-system",
+    "system"
+  ],
+  "supports-color@0.2.0": [
+    "system"
+  ],
+  "dateformat@1.0.12": [
+    "system"
+  ],
+  "lodash._reinterpolate@2.4.1": [],
+  "lodash.template@2.4.1": [
+    "system"
+  ],
+  "lodash.escape@2.4.1": [],
+  "lodash.keys@2.4.1": [],
+  "lodash.isobject@2.4.1": [],
+  "lodash.templatesettings@2.4.1": [],
+  "minimist@0.2.4": [
+    "system"
+  ],
+  "vinyl@0.2.3": [
+    "system",
+    "file-system"
+  ],
+  "through2@0.4.2": [],
+  "xtend@2.1.2": [],
+  "object-keys@0.4.0": [],
+  "get-stdin@4.0.1": [
+    "system"
+  ],
+  "meow@3.7.0": [
+    "system"
+  ],
+  "camelcase-keys@2.1.0": [],
+  "camelcase@2.1.1": [],
+  "map-obj@1.0.1": [],
+  "decamelize@1.2.0": [],
+  "loud-rejection@1.6.0": [
+    "system"
+  ],
+  "currently-unhandled@0.4.1": [
+    "system"
+  ],
+  "array-find-index@1.0.2": [],
+  "signal-exit@3.0.7": [
+    "system"
+  ],
+  "normalize-package-data@2.5.0": [],
+  "resolve@1.22.10": [
+    "system",
+    "file-system"
+  ],
+  "hosted-git-info@2.8.9": [],
+  "is-core-module@2.16.1": [
+    "system"
+  ],
+  "path-parse@1.0.7": [
+    "system"
+  ],
+  "supports-preserve-symlinks-flag@1.0.0": [
+    "system"
+  ],
+  "validate-npm-package-license@3.0.4": [],
+  "spdx-correct@3.2.0": [],
+  "spdx-expression-parse@3.0.1": [],
+  "spdx-exceptions@2.5.0": [],
+  "spdx-license-ids@3.0.21": [],
+  "read-pkg-up@1.0.1": [],
+  "find-up@1.1.2": [],
+  "path-exists@2.1.0": [
+    "file-system"
+  ],
+  "read-pkg@1.1.0": [],
+  "load-json-file@1.1.0": [
+    "system"
+  ],
+  "graceful-fs@4.2.11": [
+    "file-system",
+    "system"
+  ],
+  "strip-bom@2.0.0": [],
+  "parse-json@2.2.0": [],
+  "error-ex@1.3.2": [],
+  "is-arrayish@0.2.1": [],
+  "pify@2.3.0": [],
+  "path-type@1.1.0": [],
+  "redent@1.0.0": [],
+  "indent-string@2.1.0": [],
+  "repeating@2.0.1": [],
+  "is-finite@1.1.0": [],
+  "strip-indent@1.0.1": [
+    "file-system",
+    "system"
+  ],
+  "trim-newlines@1.0.0": [],
+  "lodash.defaults@2.4.1": [],
+  "lodash._isnative@2.4.1": [],
+  "lodash._objecttypes@2.4.1": [],
+  "lodash._shimkeys@2.4.1": [],
+  "lodash._escapehtmlchar@2.4.1": [],
+  "lodash._htmlescapes@2.4.1": [],
+  "lodash._reunescapedhtml@2.4.1": [],
+  "lodash._escapestringchar@2.4.1": [],
+  "lodash.values@2.4.1": [],
+  "mocha-phantomjs-core@1.3.1": [
+    "system",
+    "file-system"
+  ],
+  "phantomjs@1.9.7-15": [
+    "command",
+    "system",
+    "file-system"
+  ],
+  "mkdirp@0.3.5": [
+    "file-system",
+    "system"
+  ],
+  "request@2.36.0": [
+    "system",
+    "network",
+    "crypto"
+  ],
+  "qs@0.6.6": [],
+  "mime@1.2.11": [
+    "file-system",
+    "system"
+  ],
+  "forever-agent@0.5.2": [
+    "network"
+  ],
+  "form-data@0.1.4": [
+    "network",
+    "file-system",
+    "system"
+  ],
+  "combined-stream@0.0.7": [],
+  "delayed-stream@0.0.5": [
+    "network"
+  ],
+  "async@0.9.2": [
+    "system",
+    "file-system"
+  ],
+  "http-signature@0.10.1": [
+    "crypto",
+    "network"
+  ],
+  "assert-plus@0.1.5": [
+    "system"
+  ],
+  "asn1@0.1.11": [],
+  "oauth-sign@0.3.0": [
+    "crypto",
+    "system"
+  ],
+  "hawk@1.0.0": [
+    "network",
+    "system",
+    "crypto"
+  ],
+  "hoek@0.9.1": [
+    "file-system",
+    "system"
+  ],
+  "boom@0.4.2": [
+    "network"
+  ],
+  "cryptiles@0.2.2": [
+    "crypto"
+  ],
+  "sntp@0.2.4": [
+    "system",
+    "network"
+  ],
+  "aws-sign2@0.5.0": [
+    "crypto"
+  ],
+  "which@1.0.9": [
+    "system",
+    "file-system"
+  ],
+  "adm-zip@0.2.1": [
+    "file-system",
+    "system"
+  ],
+  "kew@0.1.7": [
+    "system"
+  ],
+  "ncp@0.4.2": [
+    "system",
+    "file-system"
+  ],
+  "npmconf@0.0.24": [
+    "network",
+    "system",
+    "file-system"
+  ],
+  "once@1.1.1": [],
+  "nopt@2.2.1": [
+    "system"
+  ],
+  "semver@1.1.4": [
+    "system"
+  ],
+  "config-chain@1.1.13": [
+    "file-system",
+    "network",
+    "system"
+  ],
+  "proto-list@1.2.4": [],
+  "osenv@0.0.3": [
+    "command",
+    "system"
+  ],
+  "ini@1.1.0": [
+    "system",
+    "file-system"
+  ],
+  "progress@1.1.8": [
+    "system"
+  ],
+  "node-uuid@1.4.8": [
+    "system",
+    "command",
+    "crypto"
+  ],
+  "ctype@0.5.3": [
+    "system"
+  ],
+  "request-progress@0.3.1": [],
+  "throttleit@0.0.2": [],
+  "rimraf@2.2.8": [
+    "system",
+    "file-system"
+  ],
+  "jshint-stylish@2.2.1": [],
+  "log-symbols@1.0.2": [
+    "system"
+  ],
+  "string-length@1.0.1": [],
+  "text-table@0.2.0": [],
+  "webpack@1.15.0": [
+    "file-system",
+    "system",
+    "crypto",
+    "code"
+  ],
+  "interpret@0.6.6": [],
+  "uglify-js@2.7.5": [
+    "file-system",
+    "addon",
+    "system",
+    "code",
+    "network"
+  ],
+  "async@0.2.10": [
+    "system"
+  ],
+  "acorn@3.3.0": [
+    "file-system",
+    "system",
+    "network",
+    "code"
+  ],
+  "enhanced-resolve@0.9.1": [],
+  "memory-fs@0.2.0": [],
+  "tapable@0.1.10": [],
+  "loader-utils@0.2.17": [
+    "system",
+    "crypto"
+  ],
+  "big.js@3.2.0": [],
+  "emojis-list@2.1.0": [],
+  "json5@0.5.1": [
+    "file-system",
+    "system",
+    "code"
+  ],
+  "memory-fs@0.3.0": [],
+  "errno@0.1.8": [
+    "file-system",
+    "system"
+  ],
+  "prr@1.0.1": [],
+  "node-libs-browser@0.7.0": [
+    "system"
+  ],
+  "assert@1.5.1": [
+    "system"
+  ],
+  "object.assign@4.1.7": [
+    "code"
+  ],
+  "call-bind@1.0.8": [],
+  "set-function-length@1.2.2": [],
+  "define-data-property@1.1.4": [],
+  "has-property-descriptors@1.0.2": [],
+  "define-properties@1.2.1": [],
+  "object-keys@1.1.1": [],
+  "util@0.10.4": [
+    "system"
+  ],
+  "browserify-zlib@0.1.4": [
+    "system",
+    "file-system",
+    "crypto"
+  ],
+  "pako@0.2.9": [
+    "system"
+  ],
+  "buffer@4.9.2": [
+    "command",
+    "file-system",
+    "system",
+    "crypto"
+  ],
+  "base64-js@1.5.1": [],
+  "ieee754@1.2.1": [],
+  "constants-browserify@1.0.0": [
+    "system"
+  ],
+  "crypto-browserify@3.3.0": [
+    "crypto",
+    "file-system",
+    "system",
+    "code"
+  ],
+  "pbkdf2-compat@2.0.1": [
+    "crypto"
+  ],
+  "ripemd160@0.2.0": [],
+  "sha.js@2.2.6": [
+    "file-system",
+    "system",
+    "crypto"
+  ],
+  "browserify-aes@0.4.0": [
+    "crypto",
+    "file-system"
+  ],
+  "domain-browser@1.2.0": [],
+  "events@1.1.1": [
+    "system"
+  ],
+  "https-browserify@0.0.1": [
+    "network"
+  ],
+  "os-browserify@0.2.1": [
+    "system"
+  ],
+  "path-browserify@0.0.0": [
+    "system"
+  ],
+  "process@0.11.10": [
+    "system",
+    "code",
+    "file-system"
+  ],
+  "querystring-es3@0.2.1": [],
+  "stream-browserify@2.0.2": [],
+  "stream-http@2.8.3": [
+    "network",
+    "system",
+    "file-system"
+  ],
+  "builtin-status-codes@3.0.0": [
+    "file-system",
+    "network"
+  ],
+  "to-arraybuffer@1.0.1": [],
+  "timers-browserify@2.0.12": [],
+  "setimmediate@1.0.5": [
+    "system"
+  ],
+  "tty-browserify@0.0.0": [],
+  "url@0.11.4": [],
+  "vm-browserify@0.0.4": [
+    "code",
+    "system",
+    "network"
+  ],
+  "indexof@0.0.1": [],
+  "optimist@0.6.1": [
+    "file-system",
+    "system",
+    "command"
+  ],
+  "minimist@0.0.10": [
+    "system"
+  ],
+  "uglify-to-browserify@1.0.2": [
+    "file-system"
+  ],
+  "yargs@3.10.0": [
+    "system",
+    "file-system"
+  ],
+  "camelcase@1.2.1": [],
+  "cliui@2.1.0": [],
+  "wordwrap@0.0.2": [
+    "file-system"
+  ],
+  "center-align@0.1.3": [],
+  "align-text@0.1.4": [],
+  "longest@1.0.1": [],
+  "lazy-cache@1.0.4": [
+    "system"
+  ],
+  "right-align@0.1.3": [],
+  "window-size@0.1.0": [
+    "system"
+  ],
+  "watchpack@0.2.9": [
+    "system",
+    "file-system"
+  ],
+  "chokidar@1.7.0": [
+    "file-system",
+    "system"
+  ],
+  "is-glob@2.0.1": [],
+  "is-extglob@1.0.0": [],
+  "anymatch@1.3.2": [],
+  "micromatch@2.3.11": [
+    "system"
+  ],
+  "arr-diff@2.0.0": [],
+  "array-unique@0.2.1": [],
+  "braces@1.8.5": [],
+  "expand-brackets@0.1.5": [],
+  "extglob@0.3.2": [],
+  "expand-range@1.8.2": [],
+  "fill-range@2.2.4": [],
+  "is-number@2.1.0": [],
+  "randomatic@3.1.1": [],
+  "is-number@4.0.0": [],
+  "math-random@1.0.4": [
+    "crypto"
+  ],
+  "preserve@0.2.0": [],
+  "is-posix-bracket@0.1.1": [],
+  "filename-regex@2.0.1": [],
+  "normalize-path@2.1.1": [],
+  "remove-trailing-separator@1.1.0": [
+    "system"
+  ],
+  "object.omit@2.0.1": [],
+  "for-own@0.1.5": [],
+  "parse-glob@3.0.4": [],
+  "glob-base@0.3.0": [],
+  "glob-parent@2.0.0": [],
+  "is-dotfile@1.0.3": [],
+  "regex-cache@0.4.4": [],
+  "is-equal-shallow@0.1.3": [],
+  "is-primitive@2.0.0": [],
+  "async-each@1.0.6": [],
+  "is-binary-path@1.0.1": [],
+  "binary-extensions@1.13.1": [],
+  "readdirp@2.2.1": [],
+  "webpack-core@0.6.9": [
+    "system"
+  ],
+  "source-map@0.4.4": [
+    "addon"
+  ],
+  "source-list-map@0.1.8": []
+}

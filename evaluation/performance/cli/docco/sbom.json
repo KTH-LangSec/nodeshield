@@ -1,0 +1,500 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "docco@0.7.0",
+      "type": "library",
+      "name": "docco",
+      "version": "0.7.0",
+      "scope": "required",
+      "author": "Jeremy Ashkenas",
+      "description": "The Quick and Dirty Literate Programming Documentation Generator",
+      "purl": "pkg:npm/docco@0.7.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/jashkenas/docco.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jashkenas/docco#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jashkenas/docco/issues"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "commander@0.5.2",
+      "type": "library",
+      "name": "commander",
+      "version": "0.5.2",
+      "scope": "required",
+      "author": "TJ Holowaychuk",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@0.5.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/commander"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-0.5.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/visionmedia/commander.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/commander.js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/commander.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fc82a8f3dfbe6f55210a51215af2a4d3480a830ea2c2fc03f1338f4eaa8df40caf8e03c29dff4eae39c3358ddd3c33a3f8af8e84df524636101f401f5f46d13b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fs-extra@0.6.4",
+      "type": "library",
+      "name": "fs-extra",
+      "version": "0.6.4",
+      "scope": "required",
+      "author": "JP Richardson",
+      "description": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.",
+      "purl": "pkg:npm/fs-extra@0.6.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/fs-extra"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fs-extra/-/fs-extra-0.6.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/jprichardson/node-fs-extra.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jprichardson/node-fs-extra"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jprichardson/node-fs-extra/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e6b53cf7cbe5fd9f78f0bfa490979d6e6a3f8a5b739a21796e7fde124d23fd282b3e923e61d6aef719493e2715ec0bf60876011b3e4b025c139c153cd23d733d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "highlight.js@8.9.1",
+      "type": "library",
+      "name": "highlight.js",
+      "version": "8.9.1",
+      "scope": "required",
+      "author": "Ivan Sagalaev",
+      "description": "Syntax highlighting with language autodetection.",
+      "purl": "pkg:npm/highlight.js@8.9.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/highlight.js"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/highlight.js/-/highlight.js-8.9.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isagalaev/highlight.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://highlightjs.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isagalaev/highlight.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b763c89dfc4396f1c4938c9138536fe30e770f60ed75100ef0ecfd19454e1c4fd6bbd20f48a8d92cee8f8ef977bc05fbeec0693ee040ba941ba85e9315f12b13"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "jsonfile@1.0.1",
+      "type": "library",
+      "name": "jsonfile",
+      "version": "1.0.1",
+      "scope": "required",
+      "author": "JP Richardson",
+      "description": "Easily read/write JSON files.",
+      "purl": "pkg:npm/jsonfile@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/jsonfile"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/jsonfile/-/jsonfile-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/jprichardson/node-jsonfile.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jprichardson/node-jsonfile#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jprichardson/node-jsonfile/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "29bb0324d45f44f179bf8f6d30d7fdb2acb21aa18b05ccf5bf99194f4d641b99ece6641296dc3108a56653354ab448a79149d30ed4aba7a9e05a957b5f0d1994"
+        }
+      ]
+    },
+    {
+      "bom-ref": "marked@0.2.10",
+      "type": "library",
+      "name": "marked",
+      "version": "0.2.10",
+      "scope": "required",
+      "author": "Christopher Jeffrey",
+      "description": "A markdown parser built for speed",
+      "purl": "pkg:npm/marked@0.2.10",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/marked"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/marked/-/marked-0.2.10.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/chjj/marked.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chjj/marked"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "http://github.com/chjj/marked/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2f2141e10bdd05a2457c4227df7a65af1b41b918de1e80c4d9025d3f9f22d8458c513a5ae862ba3278c98779ae0af5626c52689a9cabe88c5e70ad9f8e9e110f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "mkdirp@0.3.5",
+      "type": "library",
+      "name": "mkdirp",
+      "version": "0.3.5",
+      "scope": "required",
+      "author": "James Halliday",
+      "description": "Recursively mkdir, like `mkdir -p`",
+      "purl": "pkg:npm/mkdirp@0.3.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mkdirp"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/substack/node-mkdirp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-mkdirp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-mkdirp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f0e0aad037bf87d671b1eab3087f0ac3f16295fe6917fbcc23af811fb2eed235f3da9a980a34c0411a254b14488be031fa80828e5c6824c3f4610e1796b40d1e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ncp@0.4.2",
+      "type": "library",
+      "name": "ncp",
+      "version": "0.4.2",
+      "scope": "required",
+      "author": "AvianFlu",
+      "description": "Asynchronous recursive file copy utility.",
+      "purl": "pkg:npm/ncp@0.4.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ncp"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/AvianFlu/ncp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/AvianFlu/ncp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/AvianFlu/ncp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3df194f2361675197816a25f0b2d08cdb906c851e7b5f5b2819838ea7164fdd243fd746b936723d12b0a497f67e6ee6013413461f129296ac491f8e79594935c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "rimraf@2.2.8",
+      "type": "library",
+      "name": "rimraf",
+      "version": "2.2.8",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter",
+      "description": "A deep deletion module for node (like `rm -rf`)",
+      "purl": "pkg:npm/rimraf@2.2.8",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/rimraf"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/rimraf.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/rimraf#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/rimraf/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "47928c2879cf01069932a2ceb32bb25267088d27839beef77a8a90a5a5c0ec0676d812fee82fb599c52c7203ac35df1656526ebe58003ec7a0731ee98e55740e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "underscore@1.13.7",
+      "type": "library",
+      "name": "underscore",
+      "version": "1.13.7",
+      "scope": "required",
+      "author": "Jeremy Ashkenas",
+      "description": "JavaScript's functional programming helper library.",
+      "purl": "pkg:npm/underscore@1.13.7",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/underscore"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/underscore/-/underscore-1.13.7.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jashkenas/underscore.git"
+        },
+        {
+          "type": "website",
+          "url": "https://underscorejs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jashkenas/underscore/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "18c5f35adb1ce7b5c0b60b9981a4158943b3b34293924f288ebdffc40c572c84ea7ffdc4330c42d229f21137c31631ff2ab6e1b9ea741cd6db8c8f62feadc5de"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "docco@0.7.0",
+      "dependsOn": [
+        "commander@0.5.2",
+        "marked@0.2.10",
+        "fs-extra@0.6.4",
+        "underscore@1.13.7",
+        "highlight.js@8.9.1"
+      ]
+    },
+    {
+      "ref": "commander@0.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "fs-extra@0.6.4",
+      "dependsOn": [
+        "ncp@0.4.2",
+        "mkdirp@0.3.5",
+        "jsonfile@1.0.1",
+        "rimraf@2.2.8"
+      ]
+    },
+    {
+      "ref": "highlight.js@8.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "jsonfile@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "marked@0.2.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "mkdirp@0.3.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "ncp@0.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "rimraf@2.2.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "underscore@1.13.7",
+      "dependsOn": []
+    }
+  ]
+}

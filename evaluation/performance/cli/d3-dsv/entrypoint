@@ -1,0 +1,1 @@
+bin/json2dsv ../input.json -o ../output.dsv

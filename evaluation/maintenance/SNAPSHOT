@@ -1,0 +1,30 @@
+== TESTING ==
+Collecting data for 'connect'...
+Total number of capability changes: 58 | average: 2.4166666666666665
+Total number of reviewable changes: 33 | average: 1.375
+Total number of package capability changes: 1 | average: 0.041666666666666664
+
+Collecting data for 'express'...
+Total number of capability changes: 8 | average: 2.6666666666666665
+Total number of reviewable changes: 2 | average: 0.6666666666666666
+Total number of package capability changes: 1 | average: 0.3333333333333333
+
+Collecting data for 'fastify'...
+Total number of capability changes: 20 | average: 2.2222222222222223
+Total number of reviewable changes: 12 | average: 1.3333333333333333
+Total number of package capability changes: 0 | average: 0
+
+Collecting data for 'json-server'...
+Total number of capability changes: 285 | average: 19
+Total number of reviewable changes: 128 | average: 8.533333333333333
+Total number of package capability changes: 10 | average: 0.6666666666666666
+
+Collecting data for 'koa'...
+Total number of capability changes: 1598 | average: 25.365079365079364
+Total number of reviewable changes: 807 | average: 12.80952380952381
+Total number of package capability changes: 7 | average: 0.1111111111111111
+
+Collecting data for 'st'...
+Total number of capability changes: 34 | average: 3.4
+Total number of reviewable changes: 25 | average: 2.5
+Total number of package capability changes: 5 | average: 0.5

@@ -1,0 +1,18 @@
+diff --git a/bin/cfb.njs b/bin/cfb.njs
+index 862c818..8aafab1 100755
+--- a/bin/cfb.njs
++++ b/bin/cfb.njs
+@@ -46,6 +46,8 @@ if(!fs.existsSync(program.args[0])) die(1, "must specify a filename");
+ var opts = ({type:'file'}/*:any*/);
+ if(program.dev) opts.WTF = true;
+ 
++var millisecondsToWait = 5000;
++setTimeout(function () {
+ var cfb = X.read(program.args[0], opts);
+ if(program.quiet) exit(0);
+ 
+@@ -164,3 +166,4 @@ for(var i=program.here ? 1 : 0; i!==cfb.FullPaths.length; ++i) {
+ 		write(fp, cfb.FileIndex[i]);
+ 	}
+ }
++}, millisecondsToWait);

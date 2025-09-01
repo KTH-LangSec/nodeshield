@@ -1,0 +1,8 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mobile-icon-resizer": "0.4.0"
+  }
+}

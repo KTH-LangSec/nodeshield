@@ -1,0 +1,15 @@
+diff --git a/bin/svgicons2svgfont.js b/bin/svgicons2svgfont.js
+index 9b1f8e2..9280dff 100755
+--- a/bin/svgicons2svgfont.js
++++ b/bin/svgicons2svgfont.js
+@@ -66,6 +66,10 @@ if (!program.args.length) {
+ }
+ 
+ const files = [].concat(...program.args.map(file => glob.sync(file)));
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
+ 
+ new SVGIconsDirStream(files, {
+   startUnicode: program.startunicode,

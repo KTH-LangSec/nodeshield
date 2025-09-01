@@ -1,0 +1,107 @@
+{
+  "dox@0.9.0": [
+    "system",
+    "file-system"
+  ],
+  "commander@2.9.0": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "graceful-readlink@1.0.1": [
+    "file-system"
+  ],
+  "jsdoctypeparser@1.2.0": [
+    "system"
+  ],
+  "lodash@3.10.1": [
+    "system"
+  ],
+  "markdown-it@7.0.1": [
+    "file-system",
+    "system",
+    "network"
+  ],
+  "argparse@1.0.10": [
+    "file-system",
+    "system"
+  ],
+  "sprintf-js@1.0.3": [],
+  "entities@1.1.2": [],
+  "linkify-it@2.2.0": [
+    "network"
+  ],
+  "uc.micro@1.0.6": [],
+  "mdurl@1.0.1": [],
+  "mocha@3.0.2": [
+    "system",
+    "file-system",
+    "command"
+  ],
+  "browser-stdout@1.3.0": [
+    "system"
+  ],
+  "debug@2.2.0": [
+    "file-system",
+    "network",
+    "system"
+  ],
+  "ms@0.7.1": [],
+  "diff@1.4.0": [],
+  "escape-string-regexp@1.0.5": [],
+  "glob@7.0.5": [
+    "system",
+    "file-system"
+  ],
+  "fs.realpath@1.0.0": [
+    "file-system",
+    "system"
+  ],
+  "inflight@1.0.6": [
+    "system"
+  ],
+  "once@1.4.0": [],
+  "wrappy@1.0.2": [],
+  "inherits@2.0.4": [],
+  "minimatch@3.1.2": [],
+  "brace-expansion@1.1.11": [],
+  "balanced-match@1.0.2": [],
+  "concat-map@0.0.1": [],
+  "path-is-absolute@1.0.1": [
+    "system"
+  ],
+  "growl@1.9.2": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "json3@3.3.2": [],
+  "lodash.create@3.1.1": [],
+  "lodash._baseassign@3.2.0": [],
+  "lodash._basecopy@3.0.1": [],
+  "lodash.keys@3.1.2": [],
+  "lodash._getnative@3.9.1": [],
+  "lodash.isarguments@3.1.0": [],
+  "lodash.isarray@3.0.4": [],
+  "lodash._basecreate@3.0.3": [],
+  "lodash._isiterateecall@3.0.9": [],
+  "mkdirp@0.5.1": [
+    "file-system",
+    "system"
+  ],
+  "minimist@0.0.8": [
+    "system"
+  ],
+  "supports-color@3.1.2": [
+    "system"
+  ],
+  "has-flag@1.0.0": [
+    "system"
+  ],
+  "should@11.0.0": [],
+  "should-equal@1.0.1": [],
+  "should-type@1.4.0": [],
+  "should-format@3.0.3": [],
+  "should-type-adaptors@1.1.0": [],
+  "should-util@1.0.1": []
+}

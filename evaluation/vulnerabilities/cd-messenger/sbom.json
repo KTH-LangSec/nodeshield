@@ -1,0 +1,710 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "cd-messenger",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "ansi-regex@2.1.1",
+      "type": "library",
+      "name": "ansi-regex",
+      "version": "2.1.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Regular expression for matching ANSI escape codes",
+      "purl": "pkg:npm/ansi-regex@2.1.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ansi-regex"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/chalk/ansi-regex.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chalk/ansi-regex#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/chalk/ansi-regex/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4c81a74e9768f84dfea42c8096e66fb440f9a79c02a8b75ecc2ca13d9cca3dcc6f169944b788be5bb38e3422a0799153dfecb935965f38e4bf05d71a9e6d4c60"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ansi-styles@2.2.1",
+      "type": "library",
+      "name": "ansi-styles",
+      "version": "2.2.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "ANSI escape codes for styling strings in the terminal",
+      "purl": "pkg:npm/ansi-styles@2.2.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/ansi-styles"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/chalk/ansi-styles.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chalk/ansi-styles#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/chalk/ansi-styles/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "92609ebc582146258cec7079cd33d42e5e2bf5b5454968f3eb6321aa2cc3194aead8d5ae34c432bafe2d1c7a0a247b3af4cfcc17ae2511c1dd608a1cadd59060"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "cd-messenger@2.7.24",
+      "type": "library",
+      "name": "cd-messenger",
+      "version": "2.7.24",
+      "scope": "required",
+      "author": "Mike Erickson",
+      "description": "console log logger gulp notification browser node message",
+      "purl": "pkg:npm/cd-messenger@2.7.24",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/cd-messenger"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/cd-messenger/-/cd-messenger-2.7.24.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mikeerickson/cd-messenger.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mikeerickson/cd-messenger#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mikeerickson/cd-messenger/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ab6d0c1f51d2ab07a2f510e065e254bc89d687cdbdcc65686df8e4630d607610f0254afb41aa52c342285017e824879c379211730b8400b2f4a639414c4a5923"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "chalk@1.1.3",
+      "type": "library",
+      "name": "chalk",
+      "version": "1.1.3",
+      "scope": "required",
+      "description": "Terminal string styling done right. Much color.",
+      "purl": "pkg:npm/chalk@1.1.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/chalk"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/chalk/chalk.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chalk/chalk#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/chalk/chalk/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "53795154b31296c09f8ea60f6cbc95bf5d4cf423d6e08ef6f1de9308a300389b9e11e07dffca3e792b0c9f13c90fe43e2bdd3db1d11283b0beb489281faa27d4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "chalkline@0.0.5",
+      "type": "library",
+      "name": "chalkline",
+      "version": "0.0.5",
+      "scope": "required",
+      "author": "Nick Baugh",
+      "description": "chalkline draws a horizontal line in your console to help you easily debug and see what you're looking for",
+      "purl": "pkg:npm/chalkline@0.0.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/chalkline"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/chalkline/-/chalkline-0.0.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/niftylettuce/chalkline.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/niftylettuce/chalkline#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/niftylettuce/chalkline/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1587d979c699ebe786d80541cca9a2e71d5682a468ef8f751d9f557c9ced30c906158403121e21e1d054255d5351b5288b1d6d5940ffd100d276edd25b749722"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "cli-table@0.3.1",
+      "type": "library",
+      "name": "cli-table",
+      "version": "0.3.1",
+      "scope": "required",
+      "author": "Guillermo Rauch",
+      "description": "Pretty unicode tables for the CLI",
+      "purl": "pkg:npm/cli-table@0.3.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/cli-table"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Automattic/cli-table.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Automattic/cli-table#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Automattic/cli-table/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "87f4f326b830cd557e5ba95a2130590310167c18d7e13d31f8b1795c9752d40cc3917aa6ada30d9ca43f3bf7f700724a551f397ce825504752fc1d0fd704bb03"
+        }
+      ]
+    },
+    {
+      "bom-ref": "colors@1.0.3",
+      "type": "library",
+      "name": "colors",
+      "version": "1.0.3",
+      "scope": "required",
+      "author": "Marak Squires",
+      "description": "get colors in your node.js console",
+      "purl": "pkg:npm/colors@1.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/colors"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/colors/-/colors-1.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/Marak/colors.js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Marak/colors.js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Marak/colors.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a451abc5385671643632c033e91b607967b834ada4504d567ecaefbe572d74823be39116f48d327e5aa17bbfbe3392c473b6d5d9cffdff9cdcf2c15ca4bd03af"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "dateformat@2.0.0",
+      "type": "library",
+      "name": "dateformat",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Steven Levithan",
+      "description": "A node.js package for Steven Levithan's excellent dateFormat() function.",
+      "purl": "pkg:npm/dateformat@2.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/dateformat"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/dateformat/-/dateformat-2.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/felixge/node-dateformat.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/felixge/node-dateformat"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/felixge/node-dateformat/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "93af85b49f11a0dc7d574c87a3a9544505a516a73cc1ba34b7f928707bdf3094225d35be8b347a6ee6e607d1de5ae522645b6932b026fb03cc1a61a17cf6cd95"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "escape-string-regexp@1.0.5",
+      "type": "library",
+      "name": "escape-string-regexp",
+      "version": "1.0.5",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Escape RegExp special characters",
+      "purl": "pkg:npm/escape-string-regexp@1.0.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/escape-string-regexp"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/escape-string-regexp.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/escape-string-regexp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/escape-string-regexp/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bdb468ac1e455105af95ad7a53c47faa06852326b6a86cf00eb366099b982ab6dd494306e88d5908641179f911561b8e9081959deec1437e4349fa35aaf26a16"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "has-ansi@2.0.0",
+      "type": "library",
+      "name": "has-ansi",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Check if a string has ANSI escape codes",
+      "purl": "pkg:npm/has-ansi@2.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/has-ansi"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/has-ansi.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/has-ansi#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/has-ansi/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0bcbc127c0f0502c75f6f866eeeae14ee52caf8fc8c8fea5e15ccd403bfeaf21d039b5b74d34e9f7207af16a588117b66db686b99fec7bbe08a857959cc9cb66"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pretty-web-logger@1.0.7",
+      "type": "library",
+      "name": "pretty-web-logger",
+      "version": "1.0.7",
+      "scope": "required",
+      "author": "Jakub Dakowicz",
+      "description": "Lib with usefull console logs (with colors for chrome/safari/firefox browsers)",
+      "purl": "pkg:npm/pretty-web-logger@1.0.7",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/pretty-web-logger"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/pretty-web-logger/-/pretty-web-logger-1.0.7.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2cd947f345b681e3cab604032feed6e2396cd5f00220941d1e9c7f4b5c782bdfb71a0cba088f4a2cdc1f674265bff0b26080357d1b9f645a0abe516a1472cca2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "strip-ansi@3.0.1",
+      "type": "library",
+      "name": "strip-ansi",
+      "version": "3.0.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Strip ANSI escape codes",
+      "purl": "pkg:npm/strip-ansi@3.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/strip-ansi"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/chalk/strip-ansi.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chalk/strip-ansi#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/chalk/strip-ansi/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "561ba64926c1a834cff29d992ca8f8d148c1095e3ebfc6d4484a546f82a34605a4f696ea185e111058fa2846a089d6f67ff33a0330b41261720cd19ac3d382ce"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "supports-color@2.0.0",
+      "type": "library",
+      "name": "supports-color",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Detect whether a terminal supports color",
+      "purl": "pkg:npm/supports-color@2.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/supports-color"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/chalk/supports-color.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/chalk/supports-color#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/chalk/supports-color/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "28a355b5dea909880f20a538729dbbdf71d6602a6995085d7592c152bc9a007a2eef6df1f854734390dff36e058fe232cae8904d1a2e6f84a72057c872ba7bd2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "cd-messenger@2.7.24"
+      ]
+    },
+    {
+      "ref": "ansi-regex@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "ansi-styles@2.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "cd-messenger@2.7.24",
+      "dependsOn": [
+        "chalk@1.1.3",
+        "chalkline@0.0.5",
+        "cli-table@0.3.1",
+        "dateformat@2.0.0",
+        "pretty-web-logger@1.0.7"
+      ]
+    },
+    {
+      "ref": "chalk@1.1.3",
+      "dependsOn": [
+        "ansi-styles@2.2.1",
+        "escape-string-regexp@1.0.5",
+        "has-ansi@2.0.0",
+        "strip-ansi@3.0.1",
+        "supports-color@2.0.0"
+      ]
+    },
+    {
+      "ref": "chalkline@0.0.5",
+      "dependsOn": [
+        "ansi-styles@2.2.1",
+        "chalk@1.1.3",
+        "escape-string-regexp@1.0.5"
+      ]
+    },
+    {
+      "ref": "cli-table@0.3.1",
+      "dependsOn": [
+        "colors@1.0.3"
+      ]
+    },
+    {
+      "ref": "colors@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "dateformat@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "escape-string-regexp@1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "has-ansi@2.0.0",
+      "dependsOn": [
+        "ansi-regex@2.1.1"
+      ]
+    },
+    {
+      "ref": "pretty-web-logger@1.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "strip-ansi@3.0.1",
+      "dependsOn": [
+        "ansi-regex@2.1.1"
+      ]
+    },
+    {
+      "ref": "supports-color@2.0.0",
+      "dependsOn": []
+    }
+  ]
+}

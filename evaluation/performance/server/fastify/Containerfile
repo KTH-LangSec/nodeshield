@@ -1,0 +1,17 @@
+FROM docker.io/node:20.15.1-alpine3.20
+
+WORKDIR /home/server
+
+COPY package*.json .
+RUN npm clean-install
+
+COPY .cli/ .cli/
+RUN cd .cli && npm clean-install
+
+COPY . .
+RUN ./_build.sh
+
+ENV HOST=0.0.0.0
+ENV PORT=3000
+
+ENTRYPOINT ["/bin/sh"]

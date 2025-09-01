@@ -1,0 +1,39 @@
+diff --git a/bin/random b/bin/random
+index 13e7e96..3f5ac27 100644
+--- a/bin/random
++++ b/bin/random
+@@ -61,16 +61,23 @@ program
+                 .action(function() {
+                     var args = [].slice.call(arguments, 0, -1)
+                     var result = fn.apply(Random, args)
+-                    console.log(result)
++                    console.log(result);
+                 })
+         }
+     })
+
+-})()
++})();
+
+-program.parse(process.argv)
++var keys = [ "boolean   ","bool      ","natural   ","integer   ","int       ","float     ","character ","char      ","string    ","str       ","range     ","date      ","time      ","datetime  ","now       ","image     ","img       ","color     ","hex       ","rgb       ","rgba      ","hsl       ","paragraph ","cparagraph","sentence  ","csentence ","word      ","cword     ","title     ","ctitle    ","first     ","last      ","name      ","cfirst    ","clast     ","cname     ","url       ","protocol  ","domain    ","tld       ","email     ","ip        ","region    ","province  ","city      ","county    ","zip       ","d4        ","d6        ","d8        ","d12       ","d20       ","d100      ","guid      ","uuid      ","id        " ];
++for (var i = keys.length - 1; i >= 0; i--) {
++    for(var j=0; j<3000; j++) {
++        program.parse(['', '', keys[i].trim()]);
++    }
++}
++
++// program.parse(process.argv);
++// console.log(process.argv);
+
+-;
+ (function() {
+     var cmd = program.args[0]
+     if (!cmd) {
+@@ -78,4 +85,4 @@ program.parse(process.argv)
+         program.emit('--help')
+         process.exit()
+     }
+-})()
+\ No newline at end of file
++})()

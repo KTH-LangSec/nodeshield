@@ -1,0 +1,40 @@
+{
+  "docco@0.7.0": [
+    "system",
+    "file-system"
+  ],
+  "commander@0.5.2": [
+    "system"
+  ],
+  "marked@0.2.10": [
+    "file-system",
+    "command",
+    "system"
+  ],
+  "fs-extra@0.6.4": [
+    "file-system"
+  ],
+  "ncp@0.4.2": [
+    "system",
+    "file-system"
+  ],
+  "mkdirp@0.3.5": [
+    "file-system",
+    "system"
+  ],
+  "jsonfile@1.0.1": [
+    "file-system"
+  ],
+  "rimraf@2.2.8": [
+    "system",
+    "file-system"
+  ],
+  "underscore@1.13.7": [
+    "system"
+  ],
+  "highlight.js@8.9.1": [
+    "system",
+    "code",
+    "network"
+  ]
+}

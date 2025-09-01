@@ -1,0 +1,132 @@
+{
+  "server@0.0.0": [
+    "system",
+    "file-system",
+    "network",
+    "code",
+    "crypto",
+    "command"
+  ],
+  "fastify@5.2.1": [
+    "file-system",
+    "network",
+    "system",
+    "crypto"
+  ],
+  "@fastify/ajv-compiler@4.0.2": [
+    "file-system"
+  ],
+  "ajv@8.17.1": [
+    "system",
+    "network"
+  ],
+  "fast-deep-equal@3.1.3": [],
+  "fast-uri@3.0.6": [
+    "system"
+  ],
+  "json-schema-traverse@1.0.0": [],
+  "require-from-string@2.0.2": [],
+  "ajv-formats@3.0.1": [],
+  "@fastify/error@4.0.0": [],
+  "@fastify/fast-json-stringify-compiler@5.0.2": [
+    "file-system"
+  ],
+  "fast-json-stringify@6.0.1": [
+    "command",
+    "system",
+    "file-system",
+    "network"
+  ],
+  "@fastify/merge-json-schemas@0.2.1": [],
+  "dequal@2.0.3": [],
+  "json-schema-ref-resolver@2.0.1": [],
+  "rfdc@1.4.1": [],
+  "@fastify/proxy-addr@5.0.0": [
+    "file-system",
+    "command",
+    "system"
+  ],
+  "@fastify/forwarded@3.0.0": [],
+  "ipaddr.js@2.2.0": [
+    "system"
+  ],
+  "abstract-logging@2.0.1": [],
+  "avvio@9.1.0": [
+    "system",
+    "network",
+    "file-system"
+  ],
+  "fastq@1.19.1": [
+    "system"
+  ],
+  "reusify@1.1.0": [],
+  "find-my-way@9.2.0": [
+    "command",
+    "system",
+    "network",
+    "addon"
+  ],
+  "fast-querystring@1.1.2": [],
+  "fast-decode-uri-component@1.0.1": [],
+  "safe-regex2@4.0.1": [
+    "system"
+  ],
+  "ret@0.5.0": [],
+  "light-my-request@6.6.0": [
+    "network",
+    "file-system",
+    "system",
+    "crypto",
+    "addon"
+  ],
+  "cookie@1.0.2": [],
+  "process-warning@4.0.1": [
+    "system",
+    "command"
+  ],
+  "set-cookie-parser@2.7.1": [
+    "network"
+  ],
+  "pino@9.6.0": [
+    "file-system",
+    "system",
+    "crypto",
+    "command",
+    "code",
+    "network"
+  ],
+  "atomic-sleep@1.0.0": [],
+  "fast-redact@3.5.0": [],
+  "on-exit-leak-free@2.1.2": [
+    "system",
+    "command"
+  ],
+  "pino-abstract-transport@2.0.0": [
+    "command",
+    "system"
+  ],
+  "split2@4.2.0": [
+    "file-system"
+  ],
+  "pino-std-serializers@7.0.0": [
+    "network"
+  ],
+  "quick-format-unescaped@4.0.4": [],
+  "real-require@0.2.0": [],
+  "safe-stable-stringify@2.5.0": [],
+  "sonic-boom@4.2.0": [
+    "file-system",
+    "system",
+    "command"
+  ],
+  "thread-stream@3.1.0": [
+    "file-system",
+    "system",
+    "command"
+  ],
+  "secure-json-parse@3.0.2": [],
+  "semver@7.7.1": [
+    "system"
+  ],
+  "toad-cache@3.7.0": []
+}

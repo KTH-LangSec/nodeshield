@@ -1,0 +1,384 @@
+{
+  "traceur@0.0.112": [
+    "file-system",
+    "system",
+    "network",
+    "command",
+    "code"
+  ],
+  "commander@2.9.0": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "graceful-readlink@1.0.1": [
+    "file-system"
+  ],
+  "glob@5.0.15": [
+    "system",
+    "file-system"
+  ],
+  "inflight@1.0.6": [
+    "system"
+  ],
+  "once@1.4.0": [],
+  "wrappy@1.0.2": [],
+  "inherits@2.0.4": [],
+  "minimatch@3.1.2": [],
+  "brace-expansion@1.1.11": [],
+  "balanced-match@1.0.2": [],
+  "concat-map@0.0.1": [],
+  "path-is-absolute@1.0.1": [
+    "system"
+  ],
+  "rsvp@3.6.2": [
+    "file-system",
+    "network",
+    "system"
+  ],
+  "semver@4.3.6": [
+    "system",
+    "file-system",
+    "code"
+  ],
+  "source-map-support@0.2.10": [
+    "system",
+    "code",
+    "network",
+    "file-system",
+    "command"
+  ],
+  "source-map@0.1.32": [
+    "file-system",
+    "addon",
+    "system"
+  ],
+  "amdefine@1.0.1": [
+    "system",
+    "file-system"
+  ],
+  "source-map@0.1.43": [
+    "file-system",
+    "addon",
+    "system"
+  ],
+  "express@4.21.2": [
+    "network",
+    "system",
+    "file-system"
+  ],
+  "accepts@1.3.8": [],
+  "mime-types@2.1.35": [],
+  "mime-db@1.52.0": [
+    "network"
+  ],
+  "negotiator@0.6.3": [],
+  "array-flatten@1.1.1": [],
+  "body-parser@1.20.3": [],
+  "bytes@3.1.2": [],
+  "content-type@1.0.5": [],
+  "debug@2.6.9": [
+    "addon",
+    "system",
+    "file-system",
+    "network"
+  ],
+  "ms@2.0.0": [],
+  "depd@2.0.0": [
+    "system"
+  ],
+  "destroy@1.2.0": [
+    "file-system"
+  ],
+  "http-errors@2.0.0": [],
+  "setprototypeof@1.2.0": [],
+  "statuses@2.0.1": [
+    "network"
+  ],
+  "toidentifier@1.0.1": [],
+  "iconv-lite@0.4.24": [
+    "system",
+    "addon"
+  ],
+  "safer-buffer@2.1.2": [
+    "system"
+  ],
+  "on-finished@2.4.1": [
+    "system"
+  ],
+  "ee-first@1.1.1": [],
+  "qs@6.13.0": [
+    "code"
+  ],
+  "side-channel@1.1.0": [],
+  "es-errors@1.3.0": [
+    "code"
+  ],
+  "object-inspect@1.13.4": [
+    "system"
+  ],
+  "side-channel-list@1.0.0": [],
+  "side-channel-map@1.0.1": [],
+  "call-bound@1.0.3": [],
+  "call-bind-apply-helpers@1.0.1": [],
+  "function-bind@1.1.2": [],
+  "get-intrinsic@1.2.7": [
+    "code"
+  ],
+  "es-define-property@1.0.1": [],
+  "es-object-atoms@1.1.1": [],
+  "get-proto@1.0.1": [],
+  "dunder-proto@1.0.1": [],
+  "gopd@1.2.0": [],
+  "has-symbols@1.1.0": [],
+  "hasown@2.0.2": [],
+  "math-intrinsics@1.1.0": [],
+  "side-channel-weakmap@1.0.2": [],
+  "raw-body@2.5.2": [
+    "system"
+  ],
+  "unpipe@1.0.0": [],
+  "type-is@1.6.18": [],
+  "media-typer@0.3.0": [],
+  "content-disposition@0.5.4": [],
+  "safe-buffer@5.2.1": [],
+  "cookie@0.7.1": [],
+  "cookie-signature@1.0.6": [
+    "crypto"
+  ],
+  "encodeurl@2.0.0": [],
+  "escape-html@1.0.3": [],
+  "etag@1.8.1": [
+    "crypto",
+    "file-system"
+  ],
+  "finalhandler@1.3.1": [
+    "system"
+  ],
+  "parseurl@1.3.3": [],
+  "fresh@0.5.2": [],
+  "merge-descriptors@1.0.3": [],
+  "methods@1.1.2": [
+    "network"
+  ],
+  "path-to-regexp@0.1.12": [],
+  "proxy-addr@2.0.7": [],
+  "forwarded@0.2.0": [],
+  "ipaddr.js@1.9.1": [
+    "system"
+  ],
+  "range-parser@1.2.1": [],
+  "send@0.19.0": [
+    "file-system"
+  ],
+  "encodeurl@1.0.2": [],
+  "ms@2.1.3": [],
+  "mime@1.6.0": [
+    "system",
+    "file-system"
+  ],
+  "serve-static@1.16.2": [],
+  "utils-merge@1.0.1": [],
+  "vary@1.1.2": [],
+  "serve-index@1.9.1": [
+    "file-system",
+    "network"
+  ],
+  "http-errors@1.6.3": [],
+  "depd@1.1.2": [
+    "system",
+    "code"
+  ],
+  "inherits@2.0.3": [],
+  "setprototypeof@1.1.0": [],
+  "statuses@1.5.0": [
+    "network"
+  ],
+  "batch@0.6.1": [
+    "system"
+  ],
+  "mocha@2.2.5": [
+    "file-system",
+    "system",
+    "command"
+  ],
+  "commander@2.3.0": [
+    "command",
+    "system"
+  ],
+  "debug@2.0.0": [
+    "system"
+  ],
+  "ms@0.6.2": [],
+  "glob@3.2.3": [
+    "system",
+    "file-system",
+    "command",
+    "code"
+  ],
+  "minimatch@0.2.14": [
+    "system"
+  ],
+  "diff@1.4.0": [],
+  "escape-string-regexp@1.0.2": [],
+  "lru-cache@2.7.3": [
+    "system"
+  ],
+  "sigmund@1.0.1": [
+    "network"
+  ],
+  "graceful-fs@2.0.3": [
+    "file-system",
+    "system"
+  ],
+  "growl@1.8.1": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "jade@0.26.3": [
+    "file-system",
+    "system",
+    "code",
+    "addon",
+    "network"
+  ],
+  "commander@0.6.1": [
+    "system"
+  ],
+  "mkdirp@0.3.0": [
+    "file-system",
+    "system"
+  ],
+  "mkdirp@0.5.0": [
+    "file-system",
+    "system"
+  ],
+  "minimist@0.0.8": [
+    "system"
+  ],
+  "supports-color@1.2.1": [
+    "system"
+  ],
+  "chai@2.2.0": [
+    "system"
+  ],
+  "assertion-error@1.0.0": [],
+  "deep-eql@0.1.3": [],
+  "type-detect@0.1.1": [],
+  "node-uuid@1.4.8": [
+    "system",
+    "command",
+    "crypto"
+  ],
+  "regexpu@1.1.0": [
+    "file-system",
+    "system"
+  ],
+  "recast@0.9.18": [
+    "file-system",
+    "system"
+  ],
+  "esprima-fb@10001.1.0-dev-harmony-fb": [
+    "file-system",
+    "system",
+    "code",
+    "command"
+  ],
+  "private@0.1.8": [],
+  "ast-types@0.6.16": [],
+  "regenerate@1.2.1": [],
+  "regjsgen@0.2.0": [],
+  "regjsparser@0.1.5": [
+    "file-system",
+    "system"
+  ],
+  "jsesc@0.5.0": [
+    "file-system",
+    "system"
+  ],
+  "requirejs@2.3.7": [
+    "file-system",
+    "code",
+    "network",
+    "system"
+  ],
+  "traceur@0.0.111": [
+    "code",
+    "file-system",
+    "network",
+    "system"
+  ],
+  "promises-aplus-tests@2.1.2": [
+    "system",
+    "file-system"
+  ],
+  "mocha@2.5.3": [
+    "system",
+    "file-system",
+    "command"
+  ],
+  "debug@2.2.0": [
+    "file-system",
+    "network",
+    "system"
+  ],
+  "ms@0.7.1": [],
+  "glob@3.2.11": [
+    "file-system",
+    "system",
+    "command",
+    "code"
+  ],
+  "minimatch@0.3.0": [
+    "system"
+  ],
+  "growl@1.9.2": [
+    "command",
+    "file-system",
+    "system"
+  ],
+  "mkdirp@0.5.1": [
+    "file-system",
+    "system"
+  ],
+  "supports-color@1.2.0": [
+    "system"
+  ],
+  "to-iso-string@0.0.2": [],
+  "sinon@1.17.7": [
+    "system",
+    "code"
+  ],
+  "formatio@1.1.1": [],
+  "samsam@1.1.2": [],
+  "util@0.12.5": [
+    "system"
+  ],
+  "is-arguments@1.2.0": [],
+  "has-tostringtag@1.0.2": [],
+  "is-generator-function@1.1.0": [],
+  "safe-regex-test@1.1.0": [],
+  "is-regex@1.2.1": [],
+  "is-typed-array@1.1.15": [],
+  "which-typed-array@1.1.18": [],
+  "available-typed-arrays@1.0.7": [],
+  "possible-typed-array-names@1.1.0": [],
+  "call-bind@1.0.8": [],
+  "set-function-length@1.2.2": [],
+  "define-data-property@1.1.4": [],
+  "has-property-descriptors@1.0.2": [],
+  "for-each@0.3.5": [],
+  "is-callable@1.2.7": [],
+  "lolex@1.3.2": [
+    "code"
+  ],
+  "underscore@1.8.3": [],
+  "webcomponents.js@0.5.5": [
+    "command",
+    "file-system",
+    "system",
+    "network",
+    "code"
+  ]
+}

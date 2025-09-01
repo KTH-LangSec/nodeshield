@@ -1,0 +1,56 @@
+{
+  "server@0.0.0": [
+    "system",
+    "file-system",
+    "network",
+    "code",
+    "crypto",
+    "command"
+  ],
+  "st@3.0.1": [
+    "network",
+    "system",
+    "file-system",
+    "command",
+    "crypto"
+  ],
+  "async-cache@1.1.0": [
+    "system",
+    "network"
+  ],
+  "lru-cache@4.1.5": [
+    "system"
+  ],
+  "pseudomap@1.0.2": [
+    "system"
+  ],
+  "yallist@2.1.2": [],
+  "bl@5.1.0": [
+    "system",
+    "crypto",
+    "file-system"
+  ],
+  "buffer@6.0.3": [],
+  "base64-js@1.5.1": [],
+  "ieee754@1.2.1": [],
+  "inherits@2.0.4": [],
+  "readable-stream@3.6.2": [
+    "system"
+  ],
+  "string_decoder@1.3.0": [],
+  "safe-buffer@5.2.1": [],
+  "util-deprecate@1.0.2": [],
+  "fd@0.0.3": [
+    "network",
+    "file-system",
+    "system"
+  ],
+  "mime@2.6.0": [
+    "system"
+  ],
+  "negotiator@0.6.4": [],
+  "graceful-fs@4.2.11": [
+    "file-system",
+    "system"
+  ]
+}

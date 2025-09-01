@@ -1,0 +1,21 @@
+{
+  "demo@1.0.0": [
+    "file-system",
+    "system",
+    "code"
+  ],
+  "mathjs@3.10.3": [
+    "file-system",
+    "system",
+    "code",
+    "addon"
+  ],
+  "seed-random@2.2.0": [],
+  "tiny-emitter@1.0.2": [
+    "system"
+  ],
+  "decimal.js@7.1.1": [],
+  "fraction.js@4.0.0": [],
+  "complex.js@2.0.1": [],
+  "typed-function@0.10.5": []
+}

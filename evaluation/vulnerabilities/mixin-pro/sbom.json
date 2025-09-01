@@ -1,0 +1,96 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "mixin-pro",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "mixin-pro@0.6.0",
+      "type": "library",
+      "name": "mixin-pro",
+      "version": "0.6.0",
+      "scope": "required",
+      "author": "Raymond Xie",
+      "description": "Javascript multi-inheritance with mixin for code reuse",
+      "purl": "pkg:npm/mixin-pro@0.6.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/mixin-pro"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mixin-pro/-/mixin-pro-0.6.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/floatinghotpot/mixin-pro.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/floatinghotpot/mixin-pro#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/floatinghotpot/mixin-pro/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cc965d437189d769e8fb5e14b6c7bb1be9e7d42ab85ccf98504595e15622261eeaf9bcbf1cf13e49dedbb63451fc2c3e0eabab5021fc6b8515f7618f20cf7dd0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "mixin-pro@0.6.0"
+      ]
+    },
+    {
+      "ref": "mixin-pro@0.6.0",
+      "dependsOn": []
+    }
+  ]
+}

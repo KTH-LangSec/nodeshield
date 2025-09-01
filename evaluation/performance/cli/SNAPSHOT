@@ -1,0 +1,149 @@
+=== TESTING (cli) ===
+> d3-dsv <
+Baseline  (measurements=10, cumulative=1146191357ns):  114619135ns (average)
+Benchmark (measurements=10, cumulative=2121612052ns):  212161205ns (average)
+
+> docco <
+Baseline  (measurements=10, cumulative=8988618372ns):  898861837ns (average)
+Benchmark (measurements=10, cumulative=12018533843ns):  1201853384ns (average)
+
+> dot-object <
+Baseline  (measurements=10, cumulative=398961260ns):  39896126ns (average)
+Benchmark (measurements=10, cumulative=1201853792ns):  120185379ns (average)
+
+> dox <
+Baseline  (measurements=10, cumulative=524996262ns):  52499626ns (average)
+Benchmark (measurements=10, cumulative=2354490340ns):  235449034ns (average)
+
+> findup <
+Baseline  (measurements=10, cumulative=370918494ns):  37091849ns (average)
+Benchmark (measurements=10, cumulative=888314525ns):  88831452ns (average)
+
+> html-minifier <
+Baseline  (measurements=10, cumulative=1055134377ns):  105513437ns (average)
+Benchmark (measurements=10, cumulative=4464541838ns):  446454183ns (average)
+
+> js-cfb <
+Baseline  (measurements=10, cumulative=735505735ns):  73550573ns (average)
+Benchmark (measurements=10, cumulative=1301559776ns):  130155977ns (average)
+
+> json-refs <
+Baseline  (measurements=10, cumulative=2021503823ns):  202150382ns (average)
+Benchmark (measurements=10, cumulative=9819444453ns):  981944445ns (average)
+
+> json2csv <
+Baseline  (measurements=10, cumulative=513557403ns):  51355740ns (average)
+Benchmark (measurements=10, cumulative=1239233824ns):  123923382ns (average)
+
+> juice <
+Baseline  (measurements=10, cumulative=3814282177ns):  381428217ns (average)
+Benchmark (measurements=10, cumulative=8759880594ns):  875988059ns (average)
+
+> metalsmith <
+Baseline  (measurements=10, cumulative=1443101225ns):  144310122ns (average)
+Benchmark (measurements=10, cumulative=1936457823ns):  193645782ns (average)
+
+> mocha <
+Baseline  (measurements=10, cumulative=1404221583ns):  140422158ns (average)
+Benchmark (measurements=10, cumulative=1937818449ns):  193781844ns (average)
+
+> mockjs <
+Baseline  (measurements=10, cumulative=479583907ns):  47958390ns (average)
+Benchmark (measurements=10, cumulative=1008613412ns):  100861341ns (average)
+
+> sails <
+Baseline  (measurements=10, cumulative=2558534357ns):  255853435ns (average)
+Benchmark (measurements=10, cumulative=13665279077ns):  1366527907ns (average)
+
+> svgicons2svgfont <
+Baseline  (measurements=10, cumulative=1585597654ns):  158559765ns (average)
+Benchmark (measurements=10, cumulative=2801921363ns):  280192136ns (average)
+
+> traceur <
+
+> uglify-js <
+Baseline  (measurements=10, cumulative=34062238383ns):  3406223838ns (average)
+Benchmark (measurements=10, cumulative=45001603702ns):  4500160370ns (average)
+
+> xss <
+Baseline  (measurements=10, cumulative=558343319ns):  55834331ns (average)
+Benchmark (measurements=10, cumulative=1277135062ns):  127713506ns (average)
+
+> yaml-front-matter <
+Baseline  (measurements=10, cumulative=595565246ns):  59556524ns (average)
+Benchmark (measurements=10, cumulative=1675263518ns):  167526351ns (average)
+
+=== TESTING (compare) ===
+> d3-dsv <
+Baseline  (measurements=10, cumulative=50522213041ns):  5052221304ns (average)
+Benchmark (measurements=10, cumulative=51263467068ns):  5126346706ns (average)
+
+> docco <
+Baseline  (measurements=10, cumulative=50431205420ns):  5043120542ns (average)
+Benchmark (measurements=10, cumulative=50976976991ns):  5097697699ns (average)
+
+> dot-object <
+Baseline  (measurements=10, cumulative=50470746798ns):  5047074679ns (average)
+Benchmark (measurements=10, cumulative=51260937493ns):  5126093749ns (average)
+
+> dox <
+Baseline  (measurements=10, cumulative=50608456293ns):  5060845629ns (average)
+Benchmark (measurements=10, cumulative=52393744236ns):  5239374423ns (average)
+
+> findup <
+Baseline  (measurements=10, cumulative=50411200924ns):  5041120092ns (average)
+Benchmark (measurements=10, cumulative=50934333424ns):  5093433342ns (average)
+
+> html-minifier <
+Baseline  (measurements=10, cumulative=51004153945ns):  5100415394ns (average)
+Benchmark (measurements=10, cumulative=54431178572ns):  5443117857ns (average)
+
+> js-cfb <
+Baseline  (measurements=10, cumulative=50860814349ns):  5086081434ns (average)
+Benchmark (measurements=10, cumulative=51368105982ns):  5136810598ns (average)
+
+> json-refs <
+Baseline  (measurements=10, cumulative=51215749590ns):  5121574959ns (average)
+Benchmark (measurements=10, cumulative=59055092518ns):  5905509251ns (average)
+
+> json2csv <
+Baseline  (measurements=10, cumulative=50422426110ns):  5042242611ns (average)
+Benchmark (measurements=10, cumulative=51192462324ns):  5119246232ns (average)
+
+> juice <
+Baseline  (measurements=10, cumulative=51462081639ns):  5146208163ns (average)
+Benchmark (measurements=10, cumulative=56677237398ns):  5667723739ns (average)
+
+> metalsmith <
+Baseline  (measurements=10, cumulative=51145471180ns):  5114547118ns (average)
+Benchmark (measurements=10, cumulative=51636821968ns):  5163682196ns (average)
+
+> mocha <
+Baseline  (measurements=10, cumulative=50385334801ns):  5038533480ns (average)
+Benchmark (measurements=10, cumulative=50853085510ns):  5085308551ns (average)
+
+> mockjs <
+Baseline  (measurements=10, cumulative=10157282776ns):  1015728277ns (average)
+Benchmark (measurements=10, cumulative=31010481192ns):  3101048119ns (average)
+
+> sails <
+Baseline  (measurements=10, cumulative=52347508932ns):  5234750893ns (average)
+Benchmark (measurements=10, cumulative=63022006753ns):  6302200675ns (average)
+
+> svgicons2svgfont <
+Baseline  (measurements=10, cumulative=50558232319ns):  5055823231ns (average)
+Benchmark (measurements=10, cumulative=51615364283ns):  5161536428ns (average)
+
+> traceur <
+
+> uglify-js <
+Baseline  (measurements=10, cumulative=51534088379ns):  5153408837ns (average)
+Benchmark (measurements=10, cumulative=52221555041ns):  5222155504ns (average)
+
+> xss <
+Baseline  (measurements=10, cumulative=50433963676ns):  5043396367ns (average)
+Benchmark (measurements=10, cumulative=51138165232ns):  5113816523ns (average)
+
+> yaml-front-matter <
+Baseline  (measurements=10, cumulative=50388492607ns):  5038849260ns (average)
+Benchmark (measurements=10, cumulative=50917397817ns):  5091739781ns (average)

@@ -1,0 +1,16 @@
+diff --git a/bin/xss b/bin/xss
+index 35e902f..052b3b2 100755
+--- a/bin/xss
++++ b/bin/xss
+@@ -58,6 +58,11 @@ if (program['strip-ignore-tag-body']) {
+   config.stripIgnoreTagBody = true;
+ }
+ 
++var millisecondsToWait = 5000;
++setTimeout(function() {
++// Whatever you want to do after the wait
++}, millisecondsToWait);
++
+ var output = xss(input, config);
+ 
+ if (program.output) {

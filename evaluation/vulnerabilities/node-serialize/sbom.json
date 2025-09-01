@@ -1,0 +1,89 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "node-serialize",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "node-serialize@0.0.3",
+      "type": "library",
+      "name": "node-serialize",
+      "version": "0.0.3",
+      "scope": "required",
+      "author": "Zihua Li",
+      "description": "Serialize a object including it's function into a JSON.",
+      "purl": "pkg:npm/node-serialize@0.0.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/node-serialize"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/node-serialize/-/node-serialize-0.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/luin/serialize.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/luin/serialize"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/luin/serialize/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5fcc2852f7b533cc6dcdf921dd98b23d12712e135eb0813cd913e55865d8081397485a86713942bc233458c30df69cb8db8b1c768d3e8885b6113212169ea8e5"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "node-serialize@0.0.3"
+      ]
+    },
+    {
+      "ref": "node-serialize@0.0.3",
+      "dependsOn": []
+    }
+  ]
+}

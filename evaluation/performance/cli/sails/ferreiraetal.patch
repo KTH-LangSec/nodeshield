@@ -1,0 +1,16 @@
+diff --git a/bin/sails.js b/bin/sails.js
+index 70cd2a47..65de6c18 100755
+--- a/bin/sails.js
++++ b/bin/sails.js
+@@ -207,6 +207,11 @@ program.unknownOption = NOOP;
+ 
+ // $ sails
+ //
++var millisecondsToWait = 5000;
++setTimeout(function () {
++  // Whatever you want to do after the wait
++}, millisecondsToWait);
++
+ program.parse(process.argv);
+ var NO_COMMAND_SPECIFIED = program.args.length === 0;
+ if (NO_COMMAND_SPECIFIED) {

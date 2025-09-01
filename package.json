@@ -1,0 +1,16 @@
+{
+  "name": "nodeshield",
+  "version": "1.0.0",
+  "description": "Shield Node.js apps from supply chain attacks",
+  "license": "BSD-2-Clause-Patent",
+  "type": "module",
+  "bin": "src/cli.js",
+  "dependencies": {
+    "acorn": "8.14.0",
+    "estraverse": "5.3.0"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "strip-ansi": "7.1.0"
+  }
+}

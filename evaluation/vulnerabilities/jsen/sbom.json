@@ -1,0 +1,96 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "demo@1.0.0",
+      "type": "library",
+      "name": "jsen",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/demo@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "jsen@0.6.6",
+      "type": "library",
+      "name": "jsen",
+      "version": "0.6.6",
+      "scope": "required",
+      "author": "Veli Pehlivanov",
+      "description": "JSON-Schema validator built for speed",
+      "purl": "pkg:npm/jsen@0.6.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/jsen"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/jsen/-/jsen-0.6.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/bugventure/jsen.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/bugventure/jsen"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/bugventure/jsen/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2aaf7ec19b1d19dfd5ac2c3aeef4b7f0790115583aa62900b4bf6503c490bcace56b157f776a2df3b05a6d0e9bf901f512c8c2095e25ffed781aafb59307640a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "demo@1.0.0",
+      "dependsOn": [
+        "jsen@0.6.6"
+      ]
+    },
+    {
+      "ref": "jsen@0.6.6",
+      "dependsOn": []
+    }
+  ]
+}

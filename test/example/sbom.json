@@ -1,0 +1,102 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5acf83bd-38f5-41e3-ab34-e821b8cde029",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-14T11:45:25.321Z",
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "10.7.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "example@1.0.0",
+      "type": "library",
+      "name": "example",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/example@1.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        },
+        {
+          "name": "cdx:npm:package:private",
+          "value": "true"
+        }
+      ],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "lodash@4.17.21",
+      "type": "library",
+      "name": "lodash",
+      "version": "4.17.21",
+      "scope": "required",
+      "author": "John-David Dalton",
+      "description": "Lodash modular utilities.",
+      "purl": "pkg:npm/lodash@4.17.21",
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/lodash/lodash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://lodash.com/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/lodash/lodash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bf690311ee7b95e713ba568322e3533f2dd1cb880b189e99d4edef13592b81764daec43e2c54c61d5c558dc5cfb35ecb85b65519e74026ff17675b6f8f916f4a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "example@1.0.0",
+      "dependsOn": [
+        "lodash@4.17.21"
+      ]
+    },
+    {
+      "ref": "lodash@4.17.21",
+      "dependsOn": []
+    }
+  ]
+}
